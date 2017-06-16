@@ -1,5 +1,5 @@
 # Licenciamiento para ArcGIS Developers
-Este repositorio ha sido creado con el objetivo de poder reunir el máximo número de preguntas y respuestas relativas a cómo funcionan las [licencias para desarrollar aplicaciones](https://developers.arcgis.com/pricing/) usando ArcGIS.
+Este repositorio ha sido creado con el objetivo de poder reunir el máximo número de preguntas y respuestas relativas a cómo funcionan las [licencias para desarrollar y poner en producción aplicaciones](https://developers.arcgis.com/pricing/) usando ArcGIS.
 
 Antes de [hacer una pregunta](https://github.com/esri-es/licenciamiento-developers/issues/new) te sugerimos que revises esta documentación y que busques entre las [preguntas ya realizadas](https://github.com/ArcGIS/developer-licensing/issues) a ver si puedes encontrar información que te pueda ser de ayuda.
 
