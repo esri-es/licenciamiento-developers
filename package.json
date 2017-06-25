@@ -1,0 +1,23 @@
+{
+  "name": "licenciamiento-developers",
+  "version": "1.0.0",
+  "description": "Este repositorio ha sido creado con el objetivo de poder reunir el máximo número de preguntas y respuestas relativas a cómo funcionan las [licencias para desarrollar y poner en producción aplicaciones](https://developers.arcgis.com/pricing/) usando ArcGIS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esri-es/licenciamiento-developers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esri-es/licenciamiento-developers/issues"
+  },
+  "homepage": "https://github.com/esri-es/licenciamiento-developers#readme",
+  "dependencies": {
+    "doctoc": "^1.3.0"
+  }
+}

@@ -1,4 +1,20 @@
 # Licenciamiento para ArcGIS Developers
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Tabla de contenidos**
+
+- [Licencias para entornos de desarrollo](#licencias-para-entornos-de-desarrollo)
+  - [Plan: Essentials](#plan-essentials)
+  - [Plan: Builder](#plan-builder)
+  - [Plan: Proffesional](#plan-proffesional)
+  - [Plan: Premium](#plan-premium)
+  - [Plan: Enterprise](#plan-enterprise)
+  - [FAQ:](#faq)
+- [Licencias para entornos de producción](#licencias-para-entornos-de-producci%C3%B3n)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Este repositorio ha sido creado con el objetivo de poder reunir el máximo número de preguntas y respuestas relativas a cómo funcionan las [licencias para desarrollar y poner en producción aplicaciones](https://developers.arcgis.com/pricing/) usando ArcGIS.
 
 Antes de [hacer una pregunta](https://github.com/esri-es/licenciamiento-developers/issues/new) te sugerimos que revises esta documentación y que busques entre las [preguntas ya realizadas](https://github.com/ArcGIS/developer-licensing/issues) a ver si puedes encontrar información que te pueda ser de ayuda.
@@ -78,10 +94,7 @@ Este plan es como el Plan Proffessional pero en este caso incluye licencias de:
 * ArcGIS Server roles: GeoEvent Server, GeoAnalytics and Image Server
 * Entrada para cualquier de los siguientes Developer Summits: Palm Springs, Europa (Berlin) o Washington DC
 
-## Licencias para entornos de producción
-*TODO*
-
-## FAQ:
+### FAQ:
 ¿Qué licencia necesito para poder desarrollar con...?:
 * [ArcPy](http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm): sólo se pueden crear scripts con ArcPy si dispones de licencias de [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) o [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/).
 * [ArcGIS Engine](http://www.esri.com/software/arcgis/arcgisengine) (deprecated): Plan Professional. Para los desarrollos que se hacían antes con ArcGIS Engine recomendamos usar las nuevas Runtime SDKs.
@@ -94,3 +107,6 @@ Este plan es como el Plan Proffessional pero en este caso incluye licencias de:
 * [GeoEvent Server](http://server.arcgis.com/en/geoevent/latest/administer/extending-geoevent-server.htm): las propias licencias de ArcGIS Enterprise y las de GeoEvent Server. En desarrollo requiere del paquete Enterprise, pero si dispones de licencias de producción puedes usar esas mismas.
 
 * [ArcGIS Pro](https://pro.arcgis.com/en/pro-app/sdk/): sólo las licencias de ArcGIS Pro. Para desarrollo te vale con el paquete de desarrollo Proffesional o si dispones de ellas, las propias licencias de ArcGIS Pro de producción.
+
+## Licencias para entornos de producción
+*TODO*
