@@ -78,7 +78,7 @@ Existen dos formas de licenciar una aplicación nativa:
 
 ### Nivel: Lite
 
-**Opciones para licenciar**: *license key* | usuarios nominales nivel 1 ó 2 | **Coste de la *license key***: 0€
+**Opciones para licenciar**: *license key* o usuarios nominales (nivel 1 ó 2) | **Coste de la *license key***: 0€
 
 Esta licencia es válida para aplicación que sólo requieren visualizar contenidos (read-only) ya que permite:
 * Visualizar mapas, escenas, capas y paquetes de la plataforma (mobile map packages, etc.)
@@ -91,7 +91,7 @@ En caso de que se necesite acceder a información publicada en ArcGIS con acceso
 
 ### Nivel: Basic
 
-**Opciones para licenciar**: *license key* | usuarios nominales nivel 2 | **Coste de la *license key***: dependiendo del tamaño del paquete
+**Opciones para licenciar**: *license key* o usuarios nominales (nivel 2) | **Coste de la *license key***: dependiendo del tamaño del paquete
 
 Esta licencia nos permitirá no sólo visualizar si no también editar contenidos y hacer análisis:
 * Todos la funcionalidad incluida en *Lite*
@@ -143,7 +143,7 @@ Para aquellas aplicaciones creadas con las Runtimes de .Net, Java o Qt y que est
 
 A: Esta marca de agua sale porque no ha licenciado correctamente tu app o la has licenciado con una cuenta que tiene el *ArcGIS Online Deployment Plan* de 50 créditos (gratuito) <- en este caso necesitas uno de pago (al menos el de $20/mes).
 
-**Q: *ArcGIS Runtime Local Server* está disponible para todas las Runtime SDKs?**
+**Q: ¿*ArcGIS Runtime Local Server* está disponible para todas las Runtime SDKs?**
 
 A: No, *ArcGIS Runtime Local Server* sólo está disponible para las SDK de escritorio: .NET (WPF), Java y Qt. Y está disponible como un instalador independiente que complementa la funcionad de las SDKs soportadas en escritorios Windows y Linux.
 
