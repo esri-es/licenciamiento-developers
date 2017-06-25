@@ -16,7 +16,7 @@
 
 ## Planes
 
-Gran parte de la información de esta página ha sido extraída y enriquecida a partir de la tabla disponible en [developers.arcgis.com/pricing](https://developers.arcgis.com/pricing/).
+Gran parte de la información de esta página ha sido extraída y **posteriormente enriquecida** a partir de la tabla disponible en [developers.arcgis.com/pricing](https://developers.arcgis.com/pricing/).
 
 ### Plan: Essentials
 

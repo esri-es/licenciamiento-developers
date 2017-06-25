@@ -78,8 +78,7 @@ Existen dos formas de licenciar una aplicación nativa:
 
 ### Nivel: Lite
 
-**Opciones para licenciar**: *license key* | usuarios nominales nivel 1 ó 2
-**Coste de la **license key**: 0€
+**Opciones para licenciar**: *license key* | usuarios nominales nivel 1 ó 2 | **Coste de la *license key***: 0€
 
 Esta licencia es válida para aplicación que sólo requieren visualizar contenidos (read-only) ya que permite:
 * Visualizar mapas, escenas, capas y paquetes de la plataforma (mobile map packages, etc.)
@@ -92,8 +91,7 @@ En caso de que se necesite acceder a información publicada en ArcGIS con acceso
 
 ### Nivel: Basic
 
-**Opciones para licenciar**: *license key* | usuarios nominales nivel 2
-**Coste de la **license key**: dependiendo del tamaño del paquete
+**Opciones para licenciar**: *license key* | usuarios nominales nivel 2 | **Coste de la *license key***: dependiendo del tamaño del paquete
 
 Esta licencia nos permitirá no sólo visualizar si no también editar contenidos y hacer análisis:
 * Todos la funcionalidad incluida en *Lite*
@@ -105,8 +103,7 @@ Esta licencia nos permitirá no sólo visualizar si no también editar contenido
 
 ### Nivel: Standard
 
-**Opciones para licenciar**: *license key*
-**Coste de la **license key**: dependiendo del tamaño del paquete
+**Opciones para licenciar**: *license key* | **Coste de la *license key***: dependiendo del tamaño del paquete
 
 Esta licencia nos incluye:
 * Todos la funcionalidad incluida en *Basic*
@@ -120,8 +117,7 @@ Esta licencia nos incluye:
 
 ### Nivel: Advanced
 
-**Opciones para licenciar**: *license key*
-**Coste de la **license key**: dependiendo del tamaño del paquete
+**Opciones para licenciar**: *license key* | **Coste de la *license key***: dependiendo del tamaño del paquete
 
 Esta licencia nos incluye:
 * Todos la funcionalidad incluida en *Standard*
@@ -133,8 +129,7 @@ Esta licencia nos incluye:
 
 ### Extensión de análisis
 
-**Opciones para licenciar**: *license key*
-**Coste de la **license key**: dependiendo del tamaño del paquete
+**Opciones para licenciar**: *license key* | **Coste de la *license key***: dependiendo del tamaño del paquete
 
 Para aquellas aplicaciones creadas con las Runtimes de .Net, Java o Qt y que estén licenciadas a nivel Standard o Advanced, opcionalmente podrán adquirir la extensión de análisis que incluye capacidades adicionales, herramientas de análisis y datos:
 
@@ -145,10 +140,13 @@ Para aquellas aplicaciones creadas con las Runtimes de .Net, Java o Qt y que est
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
 **Q: Me aperece una marca de agua en mi aplicación nativa, ¿cómo la quito?**
+
 A: Esta marca de agua sale porque no ha licenciado correctamente tu app o la has licenciado con una cuenta que tiene el *ArcGIS Online Deployment Plan* de 50 créditos (gratuito) <- en este caso necesitas uno de pago (al menos el de $20/mes).
 
 **Q: *ArcGIS Runtime Local Server* está disponible para todas las Runtime SDKs?**
+
 A: No, *ArcGIS Runtime Local Server* sólo está disponible para las SDK de escritorio: .NET (WPF), Java y Qt. Y está disponible como un instalador independiente que complementa la funcionad de las SDKs soportadas en escritorios Windows y Linux.
 
 **Q: Mi aplicación nativa requiere hacer consultas a un geoproceso de ArcGIS Server a través de la API REST, ¿qué licencia necesito?**
+
 A: Con la licencia Lite es suficiente.
