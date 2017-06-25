@@ -2,12 +2,12 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contenidos**
+
 
 - [Planes](#planes)
   - [Plan: Essentials](#plan-essentials)
   - [Plan: Builder](#plan-builder)
-  - [Plan: Proffesional](#plan-proffesional)
+  - [Plan: Professional](#plan-professional)
   - [Plan: Premium](#plan-premium)
   - [Plan: Enterprise](#plan-enterprise)
 - [FAQ:](#faq)
@@ -19,6 +19,9 @@
 Gran parte de la información de esta página ha sido extraída y enriquecida a partir de la tabla disponible en [developers.arcgis.com/pricing](https://developers.arcgis.com/pricing/).
 
 ### Plan: Essentials
+
+**Precio:** 0€
+
 Este paquete **no tiene ningún coste** e incluye licencias para poder usar 11 utilidades de desarrollo (SDKs y APIs),  3 generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones y extender o personalizar las 40 aplicaciones web creadas por Esri (*licenciadas con [Apache v2.0](https://github.com/Esri/Viewer/blob/master/license.txt)*). Por tanto usar las SDKs, APIs y generadores de aplicaciones en entornos de desarrollo es totalmente gratuito. Concretamente nos referimos a:
 
 * **SDKs que funcionan en el lado del cliente**: [ArcGIS API for JS](https://developers.arcgis.com/javascript/), [ArcGIS API for Python](https://developers.arcgis.com/python), junto a las SDKs nativas: [Runtime SDK for Android](https://developers.arcgis.com/android/), [Runtime SDK for iOS](https://developers.arcgis.com/ios/), [Runtime SDK for Java](https://developers.arcgis.com/java/) ,[Runtime SDK for macOS](https://developers.arcgis.com/macos/), [Runtime SDK for .NET](https://developers.arcgis.com/net/), [Runtime SDK for WPF](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/) (deprecated) y [Runtime SDK for Qt](https://developers.arcgis.com/qt/).
@@ -42,9 +45,13 @@ Este paquete **no tiene ningún coste** e incluye licencias para poder usar 11 u
 |Web AppBuilder Developer Edition|[Descargar](https://developers.arcgis.com/downloads/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/web-appbuilder/developer-edition/)|
 |Runtime SDK for WPF (retired)|[Descargar](https://developers.arcgis.com/downloads/)|[Documentación](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/)|
 
+> **Nota**: Para descargar algunas Runtimes SDKs puedes usar los repositorios de paquetes, por ej: NuGet, Gradle, CocoaPods.
+
 ---
 
 ### Plan: Builder
+
+**Precio:** 1.875€/año  + I.V.A.
 
 Especialmente pensado para equipos/proyectos que:
 * Entre sus requisitos no funcionales se requiere crear una aplicación que funcione en múltiples sistemas operativos y plataformas.
@@ -59,7 +66,9 @@ Por ello además de lo que incluye el Plan Essentials, este plan incluye:
 
 ---
 
-### Plan: Proffesional
+### Plan: Professional
+
+**Precio:** 2.400€/año + I.V.A.
 
 Para aquellos que:
 * Requieren de ArcGIS Enterprise para sus desarrollos, ya sea porque quieren extenderlo mediante los SOIs/SOEs o porque sus aplicaciones requieren de geoprocesos.
@@ -84,24 +93,49 @@ Este plan además de lo descrito en el Plan Builder incluye:
 
 ### Plan: Premium
 
+**Precio:** 3.960€/año + I.V.A.
+
 Este plan es como el Plan Proffessional pero para proyectos que requieran de ArcGIS Desktop Standard (gestión avanzada de datos)
 
+---
+
 ### Plan: Enterprise
+
+**Precio:** 5.375€/año + I.V.A.
+
 Este plan es como el Plan Proffessional pero en este caso incluye licencias de:
 * ArcGIS Desktop Advanced 
 * ArcGIS Server roles: GeoEvent Server, GeoAnalytics and Image Server
 * Entrada para cualquier de los siguientes Developer Summits: Palm Springs, Europa (Berlin) o Washington DC
 
 ## FAQ:
-¿Qué licencia necesito para poder desarrollar con...?:
+
+> **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
+
+**Q: ¿Qué licencia necesito para poder desarrollar con...?:**
 * [ArcPy](http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm): sólo se pueden crear scripts con ArcPy si dispones de licencias de [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) o [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/).
 * [ArcGIS Engine](http://www.esri.com/software/arcgis/arcgisengine) (deprecated): Plan Professional. Para los desarrollos que se hacían antes con ArcGIS Engine recomendamos usar las nuevas Runtime SDKs.
 
-¿Qué licencia necesito para poder extender ...?:
-* [Operations Dashboard](http://doc.arcgis.com/en/operations-dashboard/windows-desktop/author/custom-addins.htm) (Widgets): sólo las licencias de Operations Dashboard.
+**Q: ¿Qué licencia necesito para poder extender ...?:**
+* [Operations Dashboard](http://doc.arcgis.com/en/operations-dashboard/windows-desktop/author/custom-addins.htm) (crear widgets): sólo las licencias de Operations Dashboard.
 
-* [ArcGIS Enterprise](http://doc.arcgis.com/en/operations-dashboard/windows-desktop/author/custom-addins.htm) (SOIs o SOEs): En desarrollo requiere al menos del paquete Proffesional, pero si dispones de licencias de producción puedes usar esas mismas.
+* [ArcGIS Enterprise](http://doc.arcgis.com/en/operations-dashboard/windows-desktop/author/custom-addins.htm) (crear SOIs o SOEs): En desarrollo requiere al menos del paquete Proffesional, pero si dispones de licencias de producción puedes usar esas mismas.
 
-* [GeoEvent Server](http://server.arcgis.com/en/geoevent/latest/administer/extending-geoevent-server.htm): las propias licencias de ArcGIS Enterprise y las de GeoEvent Server. En desarrollo requiere del paquete Enterprise, pero si dispones de licencias de producción puedes usar esas mismas.
+* [GeoEvent Server](http://server.arcgis.com/en/geoevent/latest/administer/extending-geoevent-server.htm) (mediante crear conectores o procesadores): las propias licencias de ArcGIS Enterprise y las de GeoEvent Server. En desarrollo requiere del paquete Enterprise, pero si dispones de licencias de producción puedes usar esas mismas.
 
 * [ArcGIS Pro](https://pro.arcgis.com/en/pro-app/sdk/): sólo las licencias de ArcGIS Pro. Para desarrollo te vale con el paquete de desarrollo Proffesional o si dispones de ellas, las propias licencias de ArcGIS Pro de producción.
+
+**Q: ¿A qué equivale mi EDN respecto a los nuevos planes?**
+A: En la siguiente tabla puedes ver las correspondencias:
+
+|EDN/Developer Subscription|Equivalencia con el nuevo plan|
+|---|---|
+|EDN + Desktop Adv. Add-On|Enterprise Plan|
+|EDN + Desktop Std. Add-On|Premium Plan|
+|EDN sólo <br>O EDN + AppStudio Add-on y/o Desktop Basic Add-On|Profressional Plan|
+|AppStudio for ArcGIS|Builder Plan|
+|Plan gratuito o de pago|Essentials Plan|
+
+**Q: Ya tengo licenciado mi software con EDN, tengo que relicenciar algo?**
+
+A: No, software licenciado con EDN no se ve afectado, se aplican los mismo términos, se te ofrecerá más software y herramientas simplemente activando la nueva suscripción (contaca con suministros).
