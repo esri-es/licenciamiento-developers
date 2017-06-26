@@ -19,6 +19,13 @@
   - [Extensión de análisis](#extensi%C3%B3n-de-an%C3%A1lisis)
   - [FAQ](#faq-1)
 
+## Introducción
+Una vez nuestra aplicación esté lista para salir a producción tenemos que verificar si necesitamos adquirir:
+
+* *ArcGIS Online Deployment Plans*, si nuestra aplicación usa ArcGIS Online
+* Licencias de Runtime, si nuestra aplicación es nativa
+* Usuarios nominales, veremos los casos en detalle a continuación
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Aplicaciones que usan ArcGIS Online
@@ -155,6 +162,7 @@ Esta licencia nos incluye:
 Para aquellas aplicaciones creadas con las Runtimes de .Net, Java o Qt y que estén licenciadas a nivel Standard o Advanced, opcionalmente podrán adquirir la extensión de análisis que incluye capacidades adicionales, herramientas de análisis y datos:
 
 * Ejecutar geoprocesos en el dispositivo que soporten un subconjunto de las siguientes *toolboxes*: Network Analyst, Spatial Analyst y 3D Analyst.
+
 
 ### FAQ
 

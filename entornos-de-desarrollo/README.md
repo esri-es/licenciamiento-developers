@@ -17,6 +17,11 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Introducción
+Los ADPs (ArcGIS Developer Plans) hacen referencia a los cinco "paquetes" que se han creado para agrupar las licencias que pueden ser necesarias a la hora de **desarrollar una aplicación**.
+
+>**Nota**: en algunos casos cuando la aplicación esté lista para salir a producción, además de las licencias que veremos en este apartado puede que haya que adquirir alguna licencia/plan adicional como se puede ver en [Licencias para entornos de producción](../entornos-de-desarrollo/README.md).
+
 ## Planes
 
 Gran parte de la información de esta página ha sido extraída y **posteriormente enriquecida** a partir de la tabla disponible en [developers.arcgis.com/pricing](https://developers.arcgis.com/pricing/).
@@ -25,25 +30,25 @@ Gran parte de la información de esta página ha sido extraída y **posteriormen
 
 **Precio:** 0€
 
-Este paquete **no tiene ningún coste** e incluye licencias para poder usar 11 utilidades de desarrollo (SDKs y APIs),  3 generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones y extender o personalizar las 40 aplicaciones web creadas por Esri (*licenciadas con [Apache v2.0](https://github.com/Esri/Viewer/blob/master/license.txt)*). Por tanto usar las SDKs, APIs y generadores de aplicaciones en entornos de desarrollo es totalmente gratuito. Concretamente nos referimos a:
+Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencias para poder usar 11 utilidades de desarrollo (SDKs y APIs), 3 generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones y extender o personalizar las 40 aplicaciones web creadas por Esri (que están *licenciadas con [Apache v2.0](https://choosealicense.com/licenses/apache-2.0/)*). Por tanto usar las SDKs, APIs y generadores de aplicaciones que veremos en este plan en entornos de desarrollo es totalmente gratuito. Concretamente nos referimos a:
 
-* **SDKs que funcionan en el lado del cliente**: [ArcGIS API for JS](https://developers.arcgis.com/javascript/), [ArcGIS API for Python](https://developers.arcgis.com/python), junto a las SDKs nativas: [Runtime SDK for Android](https://developers.arcgis.com/android/), [Runtime SDK for iOS](https://developers.arcgis.com/ios/), [Runtime SDK for Java](https://developers.arcgis.com/java/) ,[Runtime SDK for macOS](https://developers.arcgis.com/macos/), [Runtime SDK for .NET](https://developers.arcgis.com/net/), [Runtime SDK for WPF](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/) (deprecated) y [Runtime SDK for Qt](https://developers.arcgis.com/qt/).
+* [ArcGIS API for JS](https://developers.arcgis.com/javascript/), [ArcGIS API for Python](https://developers.arcgis.com/python), junto a las Runtime SDKs para: [Android](https://developers.arcgis.com/android/), [iOS](https://developers.arcgis.com/ios/), [Java](https://developers.arcgis.com/java/) ,[macOS](https://developers.arcgis.com/macos/), [.NET](https://developers.arcgis.com/net/), [WPF](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/) (deprecated) y [Qt](https://developers.arcgis.com/qt/).
 
-* **Constructores**: [Web AppBuilder Developer Edition](https://developers.arcgis.com/web-appbuilder/), [AppStudio Basic](http://appstudio.arcgis.com/) (online version), [Survey123](http://survey123.arcgis.com/) (online).
+* **Constructores**: [Web AppBuilder **Developer Edition**](https://developers.arcgis.com/web-appbuilder/), [AppStudio Basic](http://appstudio.arcgis.com/) (online version) y [Survey123](http://survey123.arcgis.com/) (online).
 
-* **Aplicaciones configurables**: las más de [40 aplicaciones web configurables](https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/) creadas por Esri y alojadas en Github.
+* **Aplicaciones configurables**: las [+40 aplicaciones web configurables](https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/) creadas por Esri y alojadas en Github.
 
-¿Dónde se puede acceder/descargar cada una?:
+**¿Dónde se puede acceder/descargar cada una?:**
 
 |Tecnología|Acceder y/o descargar|Documentación|
 |---|---|---|
 |ArcGIS API for JS|[CDN](https://developers.arcgis.com/javascript/latest/guide/get-api/#cdn), [custom builds](https://github.com/Esri/jsapi-resources/tree/master/4.x/bower) y [descargar](https://developers.arcgis.com/downloads/)|[v3.x](https://developers.arcgis.com/javascript/3/) ó [v4.x](https://developers.arcgis.com/javascript/)|
 |ArcGIS API for Python|[Descargar vía Conda o Docker](https://developers.arcgis.com/python/guide/install-and-set-up/)|[Documentación](https://developers.arcgis.com/python/)|
 |Runtime SDK for Android|[Descargar](https://developers.arcgis.com/downloads/) o [Gradle](https://developers.arcgis.com/android/10-2/guide/install-and-set-up.htm#ESRI_SECTION1_C9913E8160D74241977115BEA470E1C3)|[v100](https://developers.arcgis.com/android/) ó [v10.2.x](https://developers.arcgis.com/android/10-2/)|
-|Runtime SDK for iOS|[Descargar](https://developers.arcgis.com/downloads/) o [CocoaPods](https://developers.arcgis.com/ios/latest/swift/guide/install.htm#ESRI_SECTION1_9448ADD25F414BA3BA0319E77C1E8FF8)|
-|Runtime SDK for Java|[Descargar](https://developers.arcgis.com/downloads/)|[v100](https://developers.arcgis.com/java/) ó [v10.2.x](https://developers.arcgis.com/java/10-2/)|
+|Runtime SDK for iOS|[Descargar](https://developers.arcgis.com/downloads/) o [CocoaPods](https://developers.arcgis.com/ios/latest/swift/guide/install.htm#ESRI_SECTION1_9448ADD25F414BA3BA0319E77C1E8FF8)|[v100](https://developers.arcgis.com/ios/) ó [v10.2.x](https://developers.arcgis.com/ios/10-2/)
+|Runtime SDK for .NET|[Descargar](https://developers.arcgis.com/downloads/) o [NuGet](https://developers.arcgis.com/net/latest/wpf/guide/install-the-sdk.htm#ESRI_SECTION1_BA40EF70B43B4F789B33C2CAA2053873)|[v100](https://developers.arcgis.com/net/) ó [v10.2.x](https://developers.arcgis.com/net/10-2/)|
 |Runtime SDK for macOS|[Descargar](https://developers.arcgis.com/downloads/) o [CocoaPods](https://developers.arcgis.com/macos/latest/swift/guide/install-and-setup.htm#ESRI_SECTION1_9448ADD25F414BA3BA0319E77C1E8FF8)|[v100](https://developers.arcgis.com/macos/) ó [v10.2.x](https://developers.arcgis.com/macos/10-2/)|
-|Runtime SDK for .NET|[Descargar](https://developers.arcgis.com/downloads/) o [NuGet](https://developers.arcgis.com/net/latest/wpf/guide/install-the-sdk.htm#ESRI_SECTION1_BA40EF70B43B4F789B33C2CAA2053873)|[v100](https://developers.arcgis.com/ios/) ó [v10.2.x](https://developers.arcgis.com/ios/10-2/)|[v100](https://developers.arcgis.com/net/) ó [v10.2.x](https://developers.arcgis.com/net/10-2/)|
+|Runtime SDK for Java|[Descargar](https://developers.arcgis.com/downloads/)|[v100](https://developers.arcgis.com/java/) ó [v10.2.x](https://developers.arcgis.com/java/10-2/)|
 |Runtime SDK for Qt|[Descargar](https://developers.arcgis.com/downloads/)|[v100](https://developers.arcgis.com/qt/) ó [v10.2.x](https://developers.arcgis.com/qt/10-2/)|
 |Web AppBuilder Developer Edition|[Descargar](https://developers.arcgis.com/downloads/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/web-appbuilder/developer-edition/)|
 |Runtime SDK for WPF (retired)|[Descargar](https://developers.arcgis.com/downloads/)|[Documentación](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/)|
@@ -54,14 +59,14 @@ Este paquete **no tiene ningún coste** e incluye licencias para poder usar 11 u
 
 **Precio:** 1.875€/año  + I.V.A.
 
-Especialmente pensado para equipos/proyectos que:
-* Entre sus requisitos no funcionales se requiere crear una aplicación que funcione en múltiples sistemas operativos y plataformas.
-* Y con un equipo de desarrollo limitado por tiempo, tamaño o experiencia en algunos de esos SOs o plataformas.
+Especialmente pensado para equipos/proyectos que entre sus requisitos no funcionales están:
+* Crear una aplicación que funcione en múltiples sistemas operativos y plataformas.
+* Ajustarse a un equipo de desarrollo muy limitado por tiempo, tamaño o experiencia (en el desarrollo en algunos de esos SOs o plataformas).
 
-Por ello además de lo que incluye el Plan Essentials, este plan incluye:
+Por ello además de lo que incluye el *Plan Essentials*, este plan incluye:
 
-* Licencia de [AppStudio for ArcGIS](https://esri-es.github.io/awesome-arcgis/arcgis/products/appstudio/) (Standard) con más de xx proyectos semilla para crear apps multiplataforma
-* Acceso a las aplicaciones *ready to use*: Collector, Workforce, Explorer y Survey123 que pueden ser integradas/extendidas con estos [cuatro repositorios](https://github.com/Esri?utf8=%E2%9C%93&q=collector%20OR%20explorer-integration%20OR%20workforce&type=&language=)
+* Licencia de [AppStudio for ArcGIS](https://esri-es.github.io/awesome-arcgis/arcgis/products/appstudio/) (Standard) con más de [60 ejemplos de código](https://github.com/Esri/arcgis-appstudio-samples) para acelerar la creación de aplicaciones multiplataforma
+* Acceso a las aplicaciones *ready to use* como: Collector, Workforce, Explorer y Survey123 que pueden ser integradas/extendidas usando [algunos de los repositorios](https://github.com/Esri?utf8=%E2%9C%93&q=collector%20OR%20explorer-integration%20OR%20workforce) de Github.
 * Una organización de [ArcGIS Online](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/) con 5 usuarios (dos usuarios de nivel 2 y tres de nivel 1) + XXX créditos para desarrollo y pruebas
 * ArcGIS Desktop Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/))
 
@@ -87,8 +92,8 @@ Este plan además de lo descrito en el Plan Builder incluye:
 |Tecnología|Acceder y/o descargar|Documentación|
 |---|---|---|
 |ArcGIS Pro SDK for .NET|[Descargar](https://github.com/Esri/arcgis-pro-sdk#installing-arcgis-pro-sdk-for-net)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/)|
-|ArcObjects SDK for .NET|n.a.|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm)|
-|ArcObjects SDK for Java|n.a.|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm)|
+|ArcObjects SDK for .NET|[my.esri.com](https://my.esri.com/#/downloads)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm)|
+|ArcObjects SDK for Java|[my.esri.com](https://my.esri.com/#/downloads)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm)|
 
 ---
 
