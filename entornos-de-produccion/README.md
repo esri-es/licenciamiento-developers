@@ -27,9 +27,9 @@ Si tu aplicación (web o nativa) usa algún servicio de ArcGIS Online como: base
 * Tener una cuenta de organización (que no sea de un plan de desarrollo)
 * O adquirir un *ArcGIS Deployment Plan* (pago mensual)
 
-> **Aviso**: Si estás desarrollando la aplicación para un tercero y este ya tiene una cuenta de organización (las licencias de Desktop incluyen una cuenta de organiación)
+> **Aviso**: Si estás desarrollando la aplicación para un tercero y este ya tiene una cuenta de organización (las licencias de Desktop incluyen una cuenta de organización), no hace falta adquirir ningún plan adicional.
 
-> **Nota**: si tu aplicación no tiene ánimo de lucro y no necesitas más de 50 créditos al mes puedes usar el plan gratuito de 50 créditos al mes.
+> **Nota**: si tu aplicación no tiene ánimo de lucro y no necesitas más de 50 créditos al mes puedes usar el plan gratuito de 50 créditos al mes para sacar tu app a producción.
 
 ### ArcGIS Online Deployment Plans
 
