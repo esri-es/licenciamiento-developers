@@ -94,8 +94,8 @@ Este plan además de lo descrito en el *Plan Builder* incluye:
 |Tecnología|Acceder y/o descargar|Documentación|
 |---|---|---|
 |ArcGIS Pro SDK for .NET|[Descargar](https://github.com/Esri/arcgis-pro-sdk#installing-arcgis-pro-sdk-for-net)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/)|
-|ArcObjects SDK for .NET|[my.esri.com](https://my.esri.com/#/downloads)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm)|
-|ArcObjects SDK for Java|[my.esri.com](https://my.esri.com/#/downloads)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm)|
+|ArcObjects SDK for .NET|[my.esri.com](https://my.esri.com/#/downloads/Developer%20Tools)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm)|
+|ArcObjects SDK for Java|[my.esri.com](https://my.esri.com/#/downloads/Developer%20Tools)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm)|
 
 ---
 
