@@ -111,7 +111,7 @@ Existen dos formas de licenciar una aplicación nativa:
 **Opciones para licenciar**: *license key* o usuarios nominales (nivel 1 ó 2) | **Coste de la *license key***: 0€
 
 Esta licencia es válida para una aplicación que sólo requiere visualizar contenidos públicos (read-only) ya que permite:
-* Visualizar mapas, escenas, capas y paquetes de la plataforma (mobile map packages, etc.)
+* Visualizar mapas, escenas, capas y paquetes de la plataforma (mobile map packages, tile package, vector tile package, layer package, locator package, etc.)
 * Hacer cálculo de rutas (mediante el servicio de cálculo de rutas)
 * Búsqueda de localizaciones (mediante el servicio de geocodificación)
 
@@ -127,7 +127,6 @@ Esta licencia nos permitirá crear aplicaciones que no sólo visualicen informac
 * Todo lo que permite el nivel *Lite*.
 * Editar entidades tanto en geodatabases móviles como en servicios de entidades vía API REST
 * Añadir, actualizar o borrar contenido de ArcGIS Online o Portal for ArcGIS
-* Usar los servicios de análisis de ArcGIS Online
 
 ---
 
@@ -183,3 +182,11 @@ A: No, *ArcGIS Runtime Local Server* sólo está disponible para las SDK de escr
 **Q: Mi aplicación nativa requiere hacer consultas a un geoproceso de ArcGIS Server a través de la API REST, ¿qué nivel de licencia necesito?**
 
 A: Con el nivel *Lite* es suficiente.
+
+**Q: Si quiero que mis usuarios puedan utilizar servicios de análisis, ¿tienen que tener un usuario nominal?**
+
+A: No, como desarrollador hacer que los créditos consumidos por los análisis realizados por tus usuarios se carguen a tu cuenta, y tú si quieres puede cobrar a su vez un sobre-cargo y quedarte con un margen. Esto es igual de válido tanto para las aplicaciones nativas como para las web.
+
+**Q: ¿Puedo usar Runtime Lite + Cuentas Públicas?**
+
+A: Sí, puedes licenciar una app usando una **license key** de [developers.arcgis.com](http://developers.arcgis.com) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
