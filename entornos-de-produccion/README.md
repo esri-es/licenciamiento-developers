@@ -6,6 +6,9 @@
 
 - [Aplicaciones que usan ArcGIS Online](#aplicaciones-que-usan-arcgis-online)
   - [ArcGIS Online Deployment Plans](#arcgis-online-deployment-plans)
+    - [Soporte](#soporte)
+      - [Servicio de Soporte Técnico de Esri España](#servicio-de-soporte-t%C3%A9cnico-de-esri-espa%C3%B1a)
+      - [Comunidad](#comunidad)
   - [FAQ](#faq)
 - [Cuándo se requieren usuarios nominales](#cu%C3%A1ndo-se-requieren-usuarios-nominales)
 - [Licenciar apps creadas usando una Runtime](#licenciar-apps-creadas-usando-una-runtime)
@@ -32,17 +35,35 @@ Si tu aplicación (web o nativa) usa algún servicio de ArcGIS Online como: base
 
 En caso de que necesites adquirir un "ArcGIS Online Deployment Plan" existen siete disponibles:
 
-|Créditos|Coste/mes|Incluye soporte|
+|Créditos|Coste/mes|Tipo de soporte|
 |---|---|---|
-|200|$20|No
-|900|$90|No|
-|2.000|$200|Sí|
-|5.000|$500|Sí|
-|10.000|$1.000|Sí|
-|20.000|$2.000|Sí|
-|40.000|$4.000|Sí|
+|200|$20|Comunidad|
+|900|$90|Comunidad|
+|2.000|$200|Servicio de Soporte Técnico de Esri España|
+|5.000|$500|Servicio de Soporte Técnico de Esri España|
+|10.000|$1.000|Servicio de Soporte Técnico de Esri España|
+|20.000|$2.000|Servicio de Soporte Técnico de Esri España|
+|40.000|$4.000|Servicio de Soporte Técnico de Esri España|
 
 Si necesitas más información en cuanto al funcionamiento de los créditos puede leer: [Understand credits](http://doc.arcgis.com/en/arcgis-online/reference/credits.htm)
+
+#### Soporte
+
+##### Servicio de Soporte Técnico de Esri España
+
+Todos los planes a partir $200/mes incluyen el servicio de soporte técnico de Esri España. Este está especialmente diseñado para ayudarte en los errores que te surjan en el uso de los productos de la Plataforma ArcGIS.
+
+El acceso al servicio se hace a través del Portal de Soporte: [https://soporte.esri.es](https://soporte.esri.es).
+
+Más información en la [web de Esri España](http://bit.ly/1ZLDU1b).
+
+##### Comunidad
+
+En cualquier caso, cualquier persona que lo desee puede recurrir a la comunidad en busca de ayuda sobre errores o con cualquier otro tipo de dudas (arquitectura, buenas prácticas, etc).
+
+* [Comunidad en español](https://github.com/esri-es/devsummits-esri-spain/blob/gh-pages/2017/ppts/iniciativas-para-desarrolladores/presentation.md#comunidad)
+* [Comunidad en inglés](https://esri-es.github.io/awesome-arcgis/esri/community/)
+
 
 ### FAQ
 

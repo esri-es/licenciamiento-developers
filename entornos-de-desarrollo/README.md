@@ -10,6 +10,9 @@
   - [Plan: Professional](#plan-professional)
   - [Plan: Premium](#plan-premium)
   - [Plan: Enterprise](#plan-enterprise)
+- [Soporte](#soporte)
+  - [Servicio de Soporte Técnico de Esri España](#servicio-de-soporte-t%C3%A9cnico-de-esri-espa%C3%B1a)
+  - [Comunidad](#comunidad)
 - [FAQ:](#faq)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -105,6 +108,23 @@ Este plan es como el Plan Proffessional pero en este caso incluye licencias de:
 * ArcGIS Desktop Advanced 
 * ArcGIS Server roles: GeoEvent Server, GeoAnalytics and Image Server
 * Entrada para cualquier de los siguientes Developer Summits: Palm Springs, Europa (Berlin) o Washington DC
+
+## Soporte
+
+### Servicio de Soporte Técnico de Esri España
+
+Todos los planes salvo el Essentials incluyen el servicio de soporte técnico de Esri España. Este está especialmente diseñado para ayudarte en los errores que te surjan en el uso de los productos de la Plataforma ArcGIS.
+
+El acceso al servicio se hace a través del Portal de Soporte: [https://soporte.esri.es](https://soporte.esri.es).
+
+Más información en la [web de Esri España](http://bit.ly/1ZLDU1b).
+
+### Comunidad
+
+En cualquier caso, cualquier persona que lo desee (incluído los miembros del plan Essentials) puede recurrir a la comunidad en busca de ayuda sobre errores o con cualquier otro tipo de dudas (arquitectura, buenas prácticas, etc).
+
+* [Comunidad en español](https://github.com/esri-es/devsummits-esri-spain/blob/gh-pages/2017/ppts/iniciativas-para-desarrolladores/presentation.md#comunidad)
+* [Comunidad en inglés](https://esri-es.github.io/awesome-arcgis/esri/community/)
 
 ## FAQ:
 
