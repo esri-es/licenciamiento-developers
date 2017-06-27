@@ -170,7 +170,7 @@ A: En la siguiente tabla puedes ver las correspondencias:
 
 A: Deberás enviar la invitación de los dos usuarios nominales a los miembros
 de tu equipo que se vayan a encargar de crear los servicios, generar los App IDs, etc.
-Una vez el AppID y el AppSecret el resto del equipo puede construir las spps
+Una vez creados el AppID y el AppSecret el resto del equipo puede construir las apps.
 
 **Q: Ya tengo licenciado mi software con EDN, tengo que volver a licenciar algo?**
 
