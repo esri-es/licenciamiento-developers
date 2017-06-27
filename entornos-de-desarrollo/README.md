@@ -168,10 +168,10 @@ A: En la siguiente tabla puedes ver las correspondencias:
 
 ***Q: ¿Y si compro un Plan y somos cinco miembros en el equipo de desarrollo?**
 
-A: Deberás asignar enviar la invitación de los dos usuarios nominales a los miembros
+A: Deberás enviar la invitación de los dos usuarios nominales a los miembros
 de tu equipo que se vayan a encargar de crear los servicios, generar los App IDs, etc.
 Una vez el AppID y el AppSecret el resto del equipo puede construir las spps
 
 **Q: Ya tengo licenciado mi software con EDN, tengo que volver a licenciar algo?**
 
-A: No, el software licenciado mediante el EDN no se ve afectado, se aplican los mismo términos y se ofrecerá más software y herramientas simplemente activando la nueva suscripción <- Contacta con suministros: cgi@esri.es.
+A: No, el software licenciado mediante el EDN no se ve afectado, se aplican los mismo términos y se ofrecerá más software y herramientas simplemente activando la nueva suscripción <- Contacta con suministros: cgi@esri.es
