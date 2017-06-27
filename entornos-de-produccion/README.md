@@ -171,6 +171,8 @@ La extensión incluye capacidades adicionales, herramientas de análisis y datos
 
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
+#### Runtimes
+
 **Q: Me aperece una marca de agua en mi aplicación nativa, ¿cómo la quito?**
 
 A: Esta marca de agua sale porque no has licenciado correctamente tu app o la has licenciado con una cuenta que tiene el *ArcGIS Online Deployment Plan* de 50 créditos (gratuito) <- en este caso necesitas uno de pago (al menos el de $20/mes).
@@ -183,10 +185,35 @@ A: No, *ArcGIS Runtime Local Server* sólo está disponible para las SDK de escr
 
 A: Con el nivel *Lite* es suficiente.
 
+**Q: ¿Puedo usar Runtime Lite + Cuentas Públicas?**
+
+A: Sí, puedes licenciar una app usando una **license key** de [developers.arcgis.com](http://developers.arcgis.com) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
+
+#### ArcGIS Online
+
 **Q: Si quiero que mis usuarios puedan utilizar servicios de análisis, ¿tienen que tener un usuario nominal?**
 
 A: No, como desarrollador puedes hacer que los créditos consumidos por los análisis realizados por tus usuarios se carguen a tu cuenta, y tú si quieres puede cobrar a su vez un sobre-cargo y quedarte con un margen. Esto es igual de válido tanto para las aplicaciones nativas como para las web.
 
-**Q: ¿Puedo usar Runtime Lite + Cuentas Públicas?**
+**Q: ¿Qué pasa si me quedo sin créditos?**
 
-A: Sí, puedes licenciar una app usando una **license key** de [developers.arcgis.com](http://developers.arcgis.com) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
+A: Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o actualizar a una cuenta de pago. Si estás usando un plan de pago puedes elegir cómo quieres que se comporte tu cuenta en cuanto al consumo de créditos:
+
+Puedes configurar tu suscripción para permitir "excesos"
+
+Cuando tu suscripción mensual se queda sin créditos se te cargará un poco más por crédito ($.13/credito vs $.10/credito).
+Se te facturará cuando hayas gastado $520 en créditos (4000 créditos) o al siguiente periodo de facturación (lo que llegue antes).
+Puedes actualizar tu plan en cualquier momento.
+
+O puedes configurar tu suscripción para que no permita "excesos"
+
+Cuando tu cuenta supera los créditos se suspende la cuenta. Aún podrás identificarte pero tus applicaciones no podrán acceder a los servicios que consumen créditos (como direcciones, geocodificación en lotes, geo-enriquecimiento o mapas demográficos).
+En el siguiente ciclo de facturación, recibirás un lote nuevo de créditos mensuales.
+
+Además, en cualquiera los dos escenarios descritos anteriormente podrás configurar tu suscripción para notificar por ejemplo cuando se hayan usado el 75%, 90% o 100% de tus créditos
+
+Sin embargo, también puede actualizar tu plan en cualquier momento para evitar excesos
+
+**Q: Cómo puedo hacer un downgrade de mi ArcGIS Online Deployment Plan**
+
+A: Debes contactar directamente con suministros de Esri España (cgi@esri.es) y/o a accounts@esri.com (en inglés) indicándoles que quieres cancelar tu suscripción.
