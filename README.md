@@ -17,7 +17,7 @@ Uniéndote al "Programa para Desarrolladores ArcGIS" podrás:
 * Acceder a software en fase Beta
 * ...
 
-Cualqiuer persona puede unirse al programa gratuitamente, para ello tan solo hay que [darse de alta aquí](https://developers.arcgis.com/sign-up). 
+Cualquier persona puede unirse al programa gratuitamente, para ello tan solo hay que [darse de alta aquí](https://developers.arcgis.com/sign-up). 
 
 Inmediatamente tras darnos de alta en el programa, nuestra cuenta estará suscrita al *Plan Essentials* que veremos en detalle a continuación en el apartado de [Licencias para entornos de desarrollo](entornos-de-desarrollo/README.md).
 
