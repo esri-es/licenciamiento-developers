@@ -115,6 +115,8 @@ Esta licencia es válida para una aplicación que sólo requiere visualizar cont
 * Hacer cálculo de rutas (mediante el servicio de cálculo de rutas)
 * Búsqueda de localizaciones (mediante el servicio de geocodificación)
 
+> **Nota:** incluye la capacidad de cargar mapas base y feature services en la aplicación en modo offline
+
 En caso de que se necesite disponer de un control de acceso para asegurar que sólo algunos usuarios puedan acceder a cierta información publicada en ArcGIS, será necesario licenciar usando usuarios nominales.
 
 ---
