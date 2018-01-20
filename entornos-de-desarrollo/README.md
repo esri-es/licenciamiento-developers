@@ -30,13 +30,15 @@ Gran parte de la información de esta página ha sido extraída y **posteriormen
 
 **Precio:** 0€
 
-Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencias para poder usar 11 utilidades de desarrollo (SDKs y APIs) y 3 generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones. Por tanto usar las SDKs, APIs y generadores de aplicaciones que veremos en este plan en entornos de desarrollo es totalmente gratuito. Concretamente nos referimos a:
+Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencias para poder usar 11 utilidades de desarrollo (SDKs y APIs) y 3 generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones. Por tanto usar las SDKs, APIs y generadores de aplicaciones que veremos en este plan *en entornos de desarrollo y pruebas* es totalmente gratuito. Concretamente nos referimos a:
 
 * **SDKs y APIs**: [ArcGIS API for JS](https://developers.arcgis.com/javascript/), [ArcGIS API for Python](https://developers.arcgis.com/python), [REST APIs](https://esri-es.github.io/awesome-arcgis/esri/open-vision/open-specifications/arcgis-rest-api/) (ArcGIS Online, ArcGIS Open Data, ...) y las Runtime SDKs para: [Android](https://developers.arcgis.com/android/), [iOS](https://developers.arcgis.com/ios/), [Java](https://developers.arcgis.com/java/), [macOS](https://developers.arcgis.com/macos/), [.NET](https://developers.arcgis.com/net/), [Qt](https://developers.arcgis.com/qt/) y [WPF](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/) (deprecated).
 
 * **Constructores**: [Web AppBuilder **Developer Edition**](https://developers.arcgis.com/web-appbuilder/), [AppStudio Basic](http://appstudio.arcgis.com/) (online version) y [Survey123](http://survey123.arcgis.com/) (online).
 
 * **ArcGIS Online**: esta cuenta incluye también un *ArcGIS Online Deployment Plan* de 50 créditos mensuales (gratuito) para desarrollo y pruebas.
+
+* **Github projects**: aunque quizás sobra decirlo, pero también se puede reutilizar o extender cualquiera de los [proyectos publicados por Esri en Github](http://github.com/esri).
 
 **¿Dónde se puede acceder/descargar cada una?:**
 
@@ -54,7 +56,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 |Web AppBuilder Developer Edition|[Descargar](https://developers.arcgis.com/downloads/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/web-appbuilder/developer-edition/)|
 |Runtime SDK for WPF (retired)|[Descargar](https://developers.arcgis.com/downloads/)|[Documentación](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/)|
 
-> **Nota**: también se pueden extender o personalizar cualquiera de las [40 aplicaciones web creadas por Esri](https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/) licenciadas con [Apache v2.0](https://choosealicense.com/licenses/apache-2.0/) y publicadas en Github.
+> **Nota**: también se pueden extender o personalizar cualquiera de las [40 aplicaciones web configurables creadas por Esri](https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/) licenciadas con [Apache v2.0](https://choosealicense.com/licenses/apache-2.0/) y publicadas en Github.
 
 ---
 
@@ -62,9 +64,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 
 **Precio:** 1.875€/año  + I.V.A.
 
-Especialmente pensado para equipos/proyectos que con requisitos no funcionales como:
-* Crear una aplicación que funcione en múltiples sistemas operativos y plataformas.
-* Ajustarse a un equipo de desarrollo muy limitado por tiempo, tamaño o experiencia (en el desarrollo en algunos de esos SOs o plataformas).
+Especialmente pensado para proyectos que requieran crear una aplicación que funcione en **múltiples sistemas operativos y plataformas (móvil y desktop)**. Y/o en los que se cuenta con un equipo de desarrollo limitado (por: tiempo, tamaño o experiencia) para poder hacerlo.
 
 Por ello además de lo que incluye el *Plan Essentials*, este plan incluye:
 
@@ -80,12 +80,12 @@ Por ello además de lo que incluye el *Plan Essentials*, este plan incluye:
 **Precio:** 2.400€/año + I.V.A.
 
 Este plan está pensando para aquellos que necesitan:
-* ArcGIS Enterprise para sus desarrollos, ya sea porque quieren extenderlo mediante los SOIs/SOEs o porque sus aplicaciones requieren de geoprocesos.
-* O bien extender ArcGIS Pro.
+* [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) para sus desarrollos, ya sea porque quieren extenderlo mediante los SOIs/SOEs, porque necesiten usar [GeoDatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/geodatabase/) o porque sus aplicaciones requieren de geoprocesos.
+* O bien extender [ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/).
 
 Este plan además de lo descrito en el *Plan Builder* incluye:
 * [ArcGIS Enterprise (Advanced)](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/)
-* [ArcGIS Pro SDK for .NET](https://pro.arcgis.com/en/pro-app/sdk/), [ArcObjects SDK for .NET](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm) y [ArcObjects SDK for Java](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm) para extender [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) y [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) con herramientas personalizadas
+* [ArcGIS Pro SDK for .NET](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/), [ArcObjects SDK for .NET](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm) y [ArcObjects SDK for Java](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm) para extender [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) y [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) con herramientas personalizadas
 * [ArcGIS Engine](http://www.esri.com/software/arcgis/arcgisengine)
 * [Navigator for ArcGIS](http://www.esri.com/products/navigator), puedes usarlo para calcular rutas gracias a [su esquema de URLs](https://github.com/Esri/navigator-integration)
 * Capabilities for [ArcGIS Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/): 3D Analyst for Server, Network Analyst for Server, Spatial Analyst for Server, etc.
