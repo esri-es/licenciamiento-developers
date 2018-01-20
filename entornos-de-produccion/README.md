@@ -115,7 +115,11 @@ Esta licencia es válida para una aplicación que sólo requiere visualizar cont
 * Hacer cálculo de rutas (mediante el servicio de cálculo de rutas)
 * Búsqueda de localizaciones (mediante el servicio de geocodificación)
 
+> **Nota:** incluye la capacidad de cargar mapas base y feature services en la aplicación en modo offline
+
 En caso de que se necesite disponer de un control de acceso para asegurar que sólo algunos usuarios puedan acceder a cierta información publicada en ArcGIS, será necesario licenciar usando usuarios nominales.
+
+[Más info](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
 ---
 
@@ -127,6 +131,8 @@ Esta licencia nos permitirá crear aplicaciones que no sólo visualicen informac
 * Todo lo que permite el nivel *Lite*.
 * Editar entidades tanto en geodatabases móviles como en servicios de entidades vía API REST
 * Añadir, actualizar o borrar contenido de ArcGIS Online o Portal for ArcGIS
+
+[Más info](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
 ---
 
@@ -142,6 +148,8 @@ Esta licencia permite:
   * Editar servicios de entidades en *file geodatabases*
   * Cargar servicios de mapa locales
 
+[Más info](https://developers.arcgis.com/arcgis-runtime/licensing/)
+
 ---
 
 ### Nivel: Advanced
@@ -153,6 +161,8 @@ Esta licencia permite:
 * Usar *ArcGIS Runtime Local Server* para:
   * Ejecutar geoprocesos en el dispositivo (se puede incluir en el *geoprocessing package* un subconjunto de herramientas estándar y avanzadas de ArcGIS Desktop)
   * Editar servicios de entidades en *enterprise geodatabases*
+
+[Más info](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
 ---
 

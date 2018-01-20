@@ -127,9 +127,7 @@ Este plan es como el *Plan Proffessional* pero en este caso incluye licencias de
 
 Todos los planes salvo el *Essentials* incluyen soporte técnico de Esri España. Este está especialmente diseñado para ayudar en los errores que surjan en el uso de los productos de la Plataforma ArcGIS.
 
-El acceso al servicio se hace a través del Portal de Soporte: [https://soporte.esri.es](https://soporte.esri.es).
-
-Más información en la [web de Esri España](http://bit.ly/1ZLDU1b).
+Más información en la [web de Esri España](http://www.esri.es/sobre-esri/soporte/).
 
 ### Comunidad
 
