@@ -30,3 +30,9 @@ Las licencias se agrupan función el contexto. Hay paquetes de licencias para en
 * **[Detalles de los planes para **entornos de desarrollo**](entornos-de-desarrollo/README.md)**
 
 * **[Detalles de los planes para **entornos de producción**](entornos-de-produccion/README.md)**
+
+# Webinars
+
+# Licenciamiento para partners
+
+* [Licenciamiento de ArcGIS 10.5 para partners](https://www.youtube.com/watch?v=WglgAsC4Wow)
