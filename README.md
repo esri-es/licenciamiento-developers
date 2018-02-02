@@ -2,8 +2,9 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contenidos**
+**Tabla de contenidos**
 
+- [Sobre este repositorio](#sobre-este-repositorio)
 - [ArcGIS Developer Program](#arcgis-developer-program)
   - [Tipos de licencias](#tipos-de-licencias)
   - [Activación de licencias](#activaci%C3%B3n-de-licencias)
@@ -11,6 +12,10 @@
   - [Licenciamiento para partners](#licenciamiento-para-partners)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+---
+
+## Sobre este repositorio
 
 Este repositorio se ha creado para ser usado como:
 * Recurso adicional para entender mejor el licenciamiento de ArcGIS
