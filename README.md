@@ -31,6 +31,10 @@ Las licencias se agrupan función el contexto. Hay paquetes de licencias para en
 
 * **[Detalles de los planes para **entornos de producción**](entornos-de-produccion/README.md)**
 
+## Activación de licencias
+
+Consulta esta página: [www.esri.es/activacion-licencias](http://www.esri.es/activacion-licencias/)
+
 # Webinars
 
 # Licenciamiento para partners
