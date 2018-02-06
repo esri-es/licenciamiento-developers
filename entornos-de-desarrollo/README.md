@@ -36,7 +36,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 
 * **Constructores**: [Web AppBuilder **Developer Edition**](https://developers.arcgis.com/web-appbuilder/), [AppStudio Basic](http://appstudio.arcgis.com/) (online version) y [Survey123](http://survey123.arcgis.com/) (online).
 
-* **ArcGIS Online**: esta cuenta incluye también un *ArcGIS Online Deployment Plan* de 50 créditos mensuales (gratuito) para desarrollo y pruebas.
+* **ArcGIS Online** (1 usuario de nivel 2): una cuenta de organización pero mono-usuario que incluye también un *ArcGIS Online Deployment Plan* de 50 créditos mensuales (gratuito) para desarrollo y pruebas (*sin posibilidad de adquirir más usuarios*).
 
 * **Github projects**: aunque quizás sobra decirlo, pero también se puede reutilizar o extender cualquiera de los [proyectos publicados por Esri en Github](http://github.com/esri).
 
@@ -66,12 +66,17 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 
 Especialmente pensado para proyectos que requieran crear una aplicación que funcione en **múltiples sistemas operativos y plataformas (móvil y desktop)**. Y/o en los que se cuenta con un equipo de desarrollo limitado (por: tiempo, tamaño o experiencia) para poder hacerlo.
 
-Por ello además de lo que incluye el *Plan Essentials*, este plan incluye:
+Por ello **además de lo que incluye el Plan Essentials**, este plan incluye:
 
-* Licencia de [AppStudio for ArcGIS](https://esri-es.github.io/awesome-arcgis/arcgis/products/appstudio/) (Standard) con más de [60 ejemplos de código](https://github.com/Esri/arcgis-appstudio-samples) para acelerar la creación de aplicaciones multiplataforma.
-* Acceso a las aplicaciones *ready to use* como: [Collector](http://www.esri.com/products/collector-for-arcgis), [Workforce](https://esri-es.github.io/awesome-arcgis/arcgis/products/workforce/?h=workforce), [Explorer](http://www.esri.com/software/explorer-for-arcgis) y [Survey123](http://www.esri.com/products/survey123) que pueden ser integradas o extendidas usando [algunos de los repositorios](https://github.com/Esri?utf8=%E2%9C%93&q=collector%20OR%20explorer-integration%20OR%20workforce) de Github.
-* Una organización de [ArcGIS Online](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/) con dos usuarios de nivel 2 y 500 créditos por cada uno (1000 créditos en total).
-* [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/)).
+|Tecnología|Acceder y/o descargar|Documentación|Detalles|
+|---|---|---|---|
+|AppStudio for ArcGIS (Standard)|[Descargar](https://doc.arcgis.com/en/appstudio/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/appstudio/)|Con más de [60 ejemplos de código](https://github.com/Esri/arcgis-appstudio-samples) para acelerar la creación de aplicaciones multiplataforma.|
+|Collector for ArcGIS|[Descargar](http://doc.arcgis.com/en/collector/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/collector-for-arcgis/)|Integrable o automatizable a través de [collector-tools](https://github.com/Esri/collector-tools) y [collector-integration](https://github.com/Esri/collector-integration).|
+|Workforce for ArcGIS|[Descargar](https://workforce.arcgis.com/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/workforce/)|Automatizable: [workforce-scripts](https://github.com/Esri/workforce-scripts).|
+|Explorer for ArcGIS|[Descargar](http://doc.arcgis.com/en/explorer/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/explorer-for-arcgis/)|Integrable usando [explorer-integration](https://github.com/Esri/explorer-integration).|
+|Survey123 for ArcGIS|[Descargar](https://doc.arcgis.com/en/survey123/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/survey123/)|n.a.|
+|Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos usuarios de nivel 2 y 500 créditos por cada uno (1000 créditos en total)|
+|ArcGIS Desktop Basic (ArcGIS Pro & ArcMap)|[Download ArcGIS Pro](http://links.esri.com/pro/download/current) & [ArcMap](http://desktop.arcgis.com/en/arcmap/latest/get-started/main/get-started-with-arcmap.htm#ESRI_SECTION1_1920CFA5E30C477B9BD943844531DE11)|[ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/))|Para preparar y trabajar tus datos, realizar análisis, etc|
 
 ---
 
@@ -83,7 +88,7 @@ Este plan está pensando para aquellos que necesitan:
 * [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) para sus desarrollos, ya sea porque quieren extenderlo mediante los SOIs/SOEs, porque necesiten usar [GeoDatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/geodatabase/) o porque sus aplicaciones requieren de geoprocesos.
 * O bien extender [ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/).
 
-Este plan además de lo descrito en el *Plan Builder* incluye:
+Este plan **además de lo descrito en el Plan Builder** incluye:
 * [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) (Advanced).
 * [ArcGIS Pro SDK for .NET](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/), [ArcObjects SDK for .NET](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm) y [ArcObjects SDK for Java](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm) para extender [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) y [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) con herramientas personalizadas.
 * [ArcGIS Engine](http://www.esri.com/software/arcgis/arcgisengine).
