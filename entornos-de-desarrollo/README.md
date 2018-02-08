@@ -94,7 +94,9 @@ Este plan **además de lo descrito en el Plan Builder** incluye:
 * [ArcGIS Engine](http://www.esri.com/software/arcgis/arcgisengine).
 * [Navigator for ArcGIS](http://www.esri.com/products/navigator), puedes usarlo para calcular rutas gracias a [su esquema de URLs](https://github.com/Esri/navigator-integration).
 * Capabilities for [ArcGIS Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/): 3D Analyst for Server, [Network Analyst](https://esri-es.github.io/awesome-arcgis/arcgis/products/extensions/network-analyst/) for Server, Spatial Analyst for Server, etc.
+* [ArcGIS Utility Network Management](https://www.esri.com/en-us/arcgis/products/arcgis-utility-network-management/overview) extension para ArcGIS Enterprise
 * ArcGIS Desktop Extensions: Advanced 3D, [Network Analyst](https://esri-es.github.io/awesome-arcgis/arcgis/products/extensions/network-analyst/) y Spatial Analysis
+* [Image Analyst](https://www.esri.com/en-us/arcgis/products/arcgis-image-analyst/overview) extension para ArcGIS Pro
 * etc.
 
 |Tecnología|Acceder y/o descargar|Documentación|
