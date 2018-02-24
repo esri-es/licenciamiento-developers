@@ -183,3 +183,7 @@ Una vez creados el AppID y el AppSecret el resto del equipo puede construir las 
 **Q: Ya tengo licenciado mi software con EDN, ¿tengo que volver a licenciar algo?**
 
 A: No, el software licenciado mediante el EDN no se ve afectado, se aplican los mismo términos y se ofrecerá más software y herramientas simplemente activando la nueva suscripción - Contacta con suministros: cgi@esri.es
+
+**Q: ¿Cuántos usuarios nominales de ArcGIS Enterprise se incluyen con una suscripción?**
+
+A: (3) nivel 1 y (2) nivel 2
