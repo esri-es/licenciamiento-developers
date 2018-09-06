@@ -28,7 +28,7 @@ Gran parte de la información de esta página ha sido extraída y **posteriormen
 
 **Precio:** 0€
 
-Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencias para poder usar 11 utilidades de desarrollo (SDKs y APIs) y 3 generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones. Por tanto usar las SDKs, APIs y generadores de aplicaciones que veremos en este plan (*en entornos de desarrollo y pruebas*) es totalmente gratuito. Concretamente nos referimos a:
+Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencias para poder usar 11 utilidades de desarrollo (SDKs y APIs) y los múltiples generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones. Por tanto usar las SDKs, APIs y generadores de aplicaciones que veremos en este plan (*en entornos de desarrollo y pruebas*) es totalmente gratuito. Concretamente nos referimos a:
 
 * **SDKs y APIs**: [ArcGIS API for JS](https://developers.arcgis.com/javascript/), [ArcGIS API for Python](https://developers.arcgis.com/python), [REST APIs](https://esri-es.github.io/awesome-arcgis/esri/open-vision/open-specifications/arcgis-rest-api/) (ArcGIS Online, ArcGIS Open Data, ...) y las Runtime SDKs para: [Android](https://developers.arcgis.com/android/), [iOS](https://developers.arcgis.com/ios/), [Java](https://developers.arcgis.com/java/), [macOS](https://developers.arcgis.com/macos/), [.NET](https://developers.arcgis.com/net/), [Qt](https://developers.arcgis.com/qt/) y [WPF](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/) (deprecated).
 
