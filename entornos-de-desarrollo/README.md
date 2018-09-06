@@ -40,7 +40,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 
 * **Apps listas para usar** (se pueden probar, pero está limitado a un sólo usuario): [Collector](http://doc.arcgis.com/en/collector/), [Workforce](https://workforce.arcgis.com/), [Explorer](http://doc.arcgis.com/en/explorer/), [ArcGIS Earth](https://www.esri.com/en-us/arcgis/products/arcgis-earth), [ArcGIS Companion](https://www.esri.com/arcgis-blog/products/apps/announcements/introducing-arcgis-companion/), [AuGEO](https://www.esri.com/arcgis-blog/products/apps/3d-gis/ar-for-your-gis/), y cualquier otra [aplicación gratuita](https://marketplace.arcgis.com/?start=1&view=grid&sortOrder=desc&sortField=uploaded&q=esri&type=esri&transaction=free) o [aplicación de labs.esri.com](http://labs.esri.com/). Algunas de estas apps [se pueden integrar](https://github.com/esri?utf8=%E2%9C%93&q=-integration&type=&language=) en flujos de trabajo con desarrollos propios
 
-**¿Dónde se puede acceder/descargar cada una?:**
+**¿Dónde se puede acceder/descargar cada SDK/API?:**
 
 |Tecnología|Acceder y/o descargar|Documentación|
 |---|---|---|
