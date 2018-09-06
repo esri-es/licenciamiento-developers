@@ -64,7 +64,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 |AppStudio Basic (online version)|[Acceder](http://appstudio.arcgis.com/)|[Documentación](http://appstudio.arcgis.com/help.html)
 |Survey123 (online version)|[Acceder](http://survey123.arcgis.com/)|[Documentación](http://survey123.arcgis.com/help)
 |Operations Dashboard|[Acceder](https://www.arcgis.com/apps/opsdashboard/index.html)|[Documetación](https://doc.arcgis.com/en/operations-dashboard/)
-|Aplicaciones configurables|[Acceder](https://geogeeks.maps.arcgis.com/home/content.html) (Pulsar "Create > App > Using a template". ) & [Storymaps](http://storymaps.arcgis.com/en/app-list/)|[Documentación de los storymaps](http://storymaps.arcgis.com/en/resources/)
+|Aplicaciones configurables|[Acceder](https://www.arcgis.com/home/content.html) ("Create > Using a template") & [Storymaps](http://storymaps.arcgis.com/en/app-list/)|[Documentación de los storymaps](http://storymaps.arcgis.com/en/resources/)
 
 > **Nota**: las aplicaciones configurables también se pueden descargar y extender o personalizar. Cualquiera de las [40 aplicaciones web configurables creadas por Esri](https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/) ya que están licenciadas con [Apache v2.0](https://choosealicense.com/licenses/apache-2.0/) y publicadas en Github.
 
