@@ -26,7 +26,7 @@ Gran parte de la información de esta página ha sido extraída y **posteriormen
 
 ### Plan: Essentials
 
-**Precio:** 0€
+**Precio:** 0€ y por tiempo ilimitado
 
 Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencias para poder usar 11 utilidades de desarrollo (SDKs y APIs) y los múltiples generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones. Por tanto usar las SDKs, APIs y generadores de aplicaciones que veremos en este plan (*en entornos de desarrollo y pruebas*) es totalmente gratuito. Concretamente nos referimos a:
 
@@ -34,7 +34,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 
 * **Constructores**: [Web AppBuilder **Developer Edition**](https://developers.arcgis.com/web-appbuilder/), [AppStudio Basic](http://appstudio.arcgis.com/) (online version), [Survey123](http://survey123.arcgis.com/) (online), [Operations Dashboard](https://esri-es.github.io/awesome-arcgis/arcgis/products/operations-dashboard/) (online) y [aplicaciones configurables](https://www.arcgis.com/home/search.html?q=tags%3AArcGIS%20web%20application%20template%20owner%3Aesri_en&t=content&sortField=modified&sortOrder=desc&start=1) (incluidos los [storymaps](http://storymaps.esri.com/))
 
-* **ArcGIS Online** (un usuario de nivel 2): una cuenta de organización pero mono-usuario que incluye también un *ArcGIS Online Deployment Plan* de 50 créditos mensuales (gratuito) (*sin posibilidad de adquirir más usuarios*).
+* **ArcGIS Online** (un usuario de nivel 2): una cuenta de organización pero mono-usuario (*sin posibilidad de adquirir más usuarios*) que incluye también un *ArcGIS Online Deployment Plan* con 50 créditos mensuales gratis. Los créditos se pueden usar para alojar datos en la nube, realizar análisis, cálculos de rutas, geocodificaciones, acceder a APIs con datos "premium", etc ([aprende más sobre los créditos](https://doc.arcgis.com/en/arcgis-online/reference/credits.htm))
 
 * **Github projects**: aunque quizás sobra decirlo, pero también se puede reutilizar o extender cualquiera de los [proyectos publicados por Esri en Github](http://github.com/esri).
 
