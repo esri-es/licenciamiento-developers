@@ -80,7 +80,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 
 ### Plan: Builder
 
-**Precio:** 1.875€/año  + I.V.A.
+**Precio:** 1.650€/año  + I.V.A.
 
 Especialmente pensado para proyectos que requieran crear una aplicación que funcione en **múltiples sistemas operativos y plataformas (móvil y desktop)**. Y/o en los que se cuenta con un equipo de desarrollo limitado (por: tiempo, tamaño o experiencia) para poder hacerlo.
 
@@ -97,7 +97,7 @@ Por ello **además de lo que incluye el Plan Essentials**, este plan incluye:
 
 ### Plan: Professional
 
-**Precio:** 2.400€/año + I.V.A.
+**Precio:** 2.700€/año + I.V.A.
 
 Este plan está pensando para aquellos que necesitan:
 * [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) para sus desarrollos, ya sea porque quieren extenderlo mediante los SOIs/SOEs, porque necesiten usar [GeoDatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/geodatabase/) o porque sus aplicaciones requieren de geoprocesos.
@@ -124,7 +124,7 @@ Este plan **además de lo descrito en el Plan Builder** incluye:
 
 ### Plan: Premium
 
-**Precio:** 3.960€/año + I.V.A.
+**Precio:** 4.950€/año + I.V.A.
 
 Este plan es como el *Plan Proffessional* pero para proyectos que requieran una gestión avanzada de datos a través de [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Standard.
 
@@ -134,7 +134,7 @@ Este plan es como el *Plan Proffessional* pero para proyectos que requieran una 
 
 ### Plan: Enterprise
 
-**Precio:** 5.375€/año + I.V.A.
+**Precio:** 6.450€/año + I.V.A.
 
 Este plan es como el *Plan Proffessional* pero en este caso incluye licencias de:
 * [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Advanced.
