@@ -1,7 +1,7 @@
 ---
 name: Duda de licenciamiento
 about: Dudas sobre lo que necesitas
-title: Desarrollo de un(a) ....
+title: "[DUDA] Desarrollo de un(a) ...."
 labels: licenciamiento
 assignees: ''
 
