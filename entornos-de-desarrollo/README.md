@@ -1,32 +1,30 @@
-# Planes para entornos de desarrollo
+# Tecnología ArcGIS y licenciamiento para entornos de desarrollo
 
-Los ADPs (ArcGIS Developer Plans) hacen referencia a los cinco "paquetes" que se han creado para agrupar las licencias que pueden ser necesarias a la hora de **desarrollar una aplicación**, por tanto sólo se pueden usar para entornos de desarrollo y pruebas.
-
->**Nota**: en algunos casos cuando la aplicación esté lista para salir a producción, además de las licencias que veremos en este apartado puede que haya que adquirir alguna licencia/plan adicional como se puede ver en [Licencias para entornos de producción](../entornos-de-desarrollo/README.md).
+Si tienes dudas sobre cómo acceder a la tecnología necesaria **para desarrollar productos con ArcGIS**, limitaciones, por donde empezar para calcular **el coste del desarrollo**, quién te puede ayudar... has llegado al sitio adecuado.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
 - [Introducción](#introducci%C3%B3n)
-- [Tipos de desarrolladores](#tipos-de-desarrolladores)
+- [Cómo acceder al software (por tipo de desarrollador)](#c%C3%B3mo-acceder-al-software-por-tipo-de-desarrollador)
   - [Clientes Esri](#clientes-esri)
   - [Compañías de producto](#compa%C3%B1%C3%ADas-de-producto)
   - [Consultoras de servicios / Integradores](#consultoras-de-servicios--integradores)
 - [Formas de adquirir la tecnología](#formas-de-adquirir-la-tecnolog%C3%ADa)
-  - [ArcGIS Developer Plans](#arcgis-developer-plans)
+  - [ArcGIS Developer Plans (ADP)](#arcgis-developer-plans-adp)
     - [Plan: Essentials](#plan-essentials)
     - [Plan: Builder](#plan-builder)
     - [Plan: Professional](#plan-professional)
     - [Plan: Premium](#plan-premium)
     - [Plan: Enterprise](#plan-enterprise)
-  - [Programa de partners](#programa-de-partners)
-  - [Programa de startups](#programa-de-startups)
-  - [Programa de Intercambio de Tecnologías Complementarias](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias)
+  - [Programa de Partners (EPN)](#programa-de-partners-epn)
+  - [Programa de Startups (EBP)](#programa-de-startups-ebp)
+  - [Programa de Intercambio de Tecnologías Complementarias (CTE)](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias-cte)
 - [Soporte](#soporte)
   - [Servicio de Soporte Técnico de Esri España](#servicio-de-soporte-t%C3%A9cnico-de-esri-espa%C3%B1a)
   - [Comunidad](#comunidad)
-- [FAQ:](#faq)
+- [Dudas / FAQ](#dudas--faq)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -46,7 +44,7 @@ Además, ten en cuenta que cuando queramos **poner la aplicación en un entorno 
 
 > **Nota**: El precio de las licencias para entornos de desarrollo son mucho más económicas pero dependiendo del tiempo estimado de desarrollo y de puesta en producción puede tener sentido adquirirlas o no.
 
-## Alternativas de acceso al software por tipo de desarrollador
+## Cómo acceder al software (por tipo de desarrollador)
 
 A continuación vamos a explicar las diferentes alternativas para acceder al ecosistema de ArcGIS dependiendo del tipo de organización.
 
@@ -67,9 +65,9 @@ En este caso nos referimos a organizaciones que **tengan al menos un contrato de
 * **Si ya se disponen de las licencias**: no se necesita adquirir nada adicional, independientemente que sea porque:
     * Dispongan licencias previamente contratadas sin usar
     * Están incluídas en el [Plan Essentials](#plan-essentials)
-    * Porque se disponga de un [ArcGIS Developer Plan](#arcgis-developer-plans)
+    * Porque se disponga de un [ADP](#arcgis-developer-plans-adp)
 * **Si no disponen de las licencias**: pueden adquirir las licencias:
-    * Para entornos de desarrollo (a través de un [ArcGIS Developer Plan](#arcgis-developer-plans)
+    * Para entornos de desarrollo (a través de un [ADP](#arcgis-developer-plans-adp)
     * O directamente para entornos de producción de manera individual o vía ELA.
 
 ### Compañías de producto
@@ -79,15 +77,15 @@ Cuando hablamos de compañías de producto nos referimos a **empresas que quiere
 * **Si ya se disponen de las licencias**: no se necesita adquirir nada adicional, independientemente que sea porque:
     1. Están incluídas en el [Plan Essentials](#plan-essentials)
     2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias
-    3. Por que tengan contratando un [ArcGIS Developer Plan](#arcgis-developer-plans) de algún proyecto anterior.
+    3. Por que tengan contratado un [ADP](#arcgis-developer-plans-adp) de algún proyecto anterior.
 * **No se disponen de las licencias**: En este caso existen cuatro formas:
-    1. Adquirir las licencias a través de un [ArcGIS Developer Plan](#arcgis-developer-plans). Para empresas que sólo necesitan acceso a las tecnologías de desarrollo.
-    2. Unirse a algún [programa de partners de Esri](#programa-de-partners). Esta opción es la más adecuada para:
+    1. Adquirir las licencias a través de un [ADP](#arcgis-developer-plans-adp). Para empresas que sólo necesitan acceso a las tecnologías de desarrollo.
+    2. Unirse a algún [programa de partners de Esri](#programa-de-partners-epn). Esta opción es la más adecuada para:
         * Empresas que producto(s) o solucion(es) (sofware + servicios de personalización) basados en ArcGIS
         * Empresas de producto maduras que quieran explorar la posibilidad de explorar la integración con usuarios de ArcGIS.
         * Empresas líderes en su sector que quieran crear una alianza
-    3. Unirse al [Programa de Intercambio de Tecnologías Complementarias](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias): empresas de software líderes interesadas en crear estrategias de intercambio conocimiento y tecnología con el objetivo de hacer desarrollo de negocio.
-    4. Unirse al [Programa de Startups](#programa-de-startups). Para empresas de producto de menos de tres años que hayan recibido alguna ronda de inversión y que ven valor en integrarse con la tecnología ArcGIS.
+    3. Unirse al [Programa de Intercambio de Tecnologías Complementarias](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias-cte): empresas de software líderes interesadas en crear estrategias de intercambio conocimiento y tecnología con el objetivo de hacer desarrollo de negocio.
+    4. Unirse al [Programa de Startups](#programa-de-startups-ebp). Para empresas de producto de menos de tres años que hayan recibido alguna ronda de inversión y que ven valor en integrarse con la tecnología ArcGIS.
     5. Unirse al Programa de Intercambio de Tecnologías Complementarias. Para grandes empresas de producto que quieren integrar su tecnología con la de Esri.
 
 Algunos ejemplos de las compañías de este tipo más conocidas y que trabajan con nosotros son: Autodesk, Microsoft, Waze (Google), Mapillary (Facebook), Garmin, Tableau, Oracle, IBM, VMWare, SAP, Trimble, ... Puedes consultar más compañías en: [Awesome ArcGIS - Third party integrations](https://esri-es.github.io/awesome-arcgis/arcgis/integrations/), [Partners Directory](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?solution-type=Data&solution-type=Hardware&solution-type=Software), [ArcGIS Marketplace](https://marketplace.arcgis.com/?start=1&view=grid&sortOrder=desc&sortField=uploaded&type=apps), etc.
@@ -102,19 +100,19 @@ Al igual que en los casos anteriores se pueden dar dos escenarios dependiendo de
 * **Si la consultora dispone de las licencias**: no necesitan adquirir nada adicional, independientemente de que sea porque:
     1. Las licencias estén incluidas en el [Plan Essentials](#plan-essentials)
     2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias
-    3.Por que tengan contratando un [ArcGIS Developer Plan](#arcgis-developer-plans) de algún proyecto anterior.
+    3.Por que tengan contratando un [ADP](#arcgis-developer-plans-adp) de algún proyecto anterior.
 * **Si la consultora NO disponen de las licencias pero su cliente SÍ**: osea que disponen de todas las licencias del software sobre el que van a desarrollar, podrían hablar con ellos para ver si les pudiesen ceder temporalmente las licencias que no estuviesen en uso necesarias para hacer el desarrollo
 * **Ninguno dispone de todas las licencias**. En este caso existen dos formas:
-   1. Adquirir las licencias a través de un [ArcGIS Developer Plan](#arcgis-developer-plans).
-   2. Unirse al [Programa de partners de Esri](#programa-de-partners). Esta opción es la más adecuada cuando se quiere definir una estrategia de negocio a largo plazo conjunta. Para más información escriba a: informacion@esri.es.
+   1. Adquirir las licencias a través de un [ADP](#arcgis-developer-plans-adp).
+   2. Unirse al [Programa de partners de Esri](#programa-de-partners-epn). Esta opción es la más adecuada cuando se quiere definir una estrategia de negocio a largo plazo conjunta. Para más información escriba a: informacion@esri.es.
 
 Algunos ejemplos de las compañías de este tipo más conocidas y que trabajan con nosotros son: Telefónica, Indra, Everis, Ferrovial, EPTISA TI, Tracasa, etc. Puedes consultar más compañías en: [Directorio Partners de Servicio de Esri España](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?location=Spain&services=Application+Development&services=Business+Case+Development&services=Data+Conversion+Migration&services=Data+Model+Database+Design&services=GIS+Strategy+and+Planning&services=Hosting+Services&services=Implementation&services=Needs+and+Requirements&services=System+Architecture+and+Design&services=System+Integration&services=Training+Services)
 
 ## Formas de adquirir la tecnología
 
-### ArcGIS Developer Plans
+### ArcGIS Developer Plans (ADP)
 
-Los ADPs (ArcGIS Developer Plans): hacen referencia a los cinco "paquetes" que se han creado para agrupar las licencias que pueden ser necesarias a la hora de **desarrollar una aplicación**.
+Los ArcGIS Developer Plans: hacen referencia a los cinco "paquetes" que se han creado para agrupar las licencias que pueden ser necesarias a la hora de **desarrollar una aplicación**.
 
 > **Nota**: Gran parte de la información de esta página ha sido extraída y **posteriormente enriquecida** a partir de la tabla disponible en [developers.arcgis.com/pricing](https://developers.arcgis.com/pricing/).
 
@@ -202,7 +200,7 @@ Por ello **además de lo que incluye el Plan Essentials**, este plan incluye:
 |---|---|---|---|
 |AppStudio for ArcGIS Developer Edition|[Descargar](https://doc.arcgis.com/en/appstudio/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/appstudio/)|Con más de [60 ejemplos de código](https://github.com/Esri/arcgis-appstudio-samples) para acelerar la creación de aplicaciones multiplataforma.|
 |Survey123 for ArcGIS source code|[Descargar](https://doc.arcgis.com/en/survey123/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/survey123/)|n.a.|
-|Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos usuarios de Nivel 2 y tres usuarios de Nivel 1 + [ArcGIS Online Deployment plan](https://developers.arcgis.com/pricing/credits/) por defecto: 50 créditos/mes|
+|Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos usuarios creator y tres usuarios viewer + [ArcGIS Online Deployment plan](https://developers.arcgis.com/pricing/credits/) por defecto: 50 créditos/mes|
 |ArcGIS Desktop Basic (ArcGIS Pro & ArcMap)|[Download ArcGIS Pro](http://links.esri.com/pro/download/current) & [ArcMap](http://desktop.arcgis.com/en/arcmap/latest/get-started/main/get-started-with-arcmap.htm#ESRI_SECTION1_1920CFA5E30C477B9BD943844531DE11)|[ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/))|Para preparar y trabajar tus datos, realizar análisis, etc|
 
 ---
@@ -255,14 +253,14 @@ Este plan es como el *Plan Proffessional* pero en este caso incluye licencias de
 
 > **Nota** sólo se incluye una licencia de Desktop y es Advanced en lugar de Standard.
 
-### Programa de partners
+### Programa de Partners (EPN)
 
-El [programa de partners de Esri](https://www.esri.es/es-es/acerca-de/partners-colaboradores/partners-y-colaboradores) está pensado para empresas interesadas en alinear estrategias de negocio. Estos programas incluyen paquetes con la dotación de software personalizados para cada caso.
+El [programa de partners de Esri](https://www.esri.es/es-es/acerca-de/partners-colaboradores/partners-y-colaboradores) o "Esri Partner Network" (EPN) está pensado para empresas interesadas en alinear estrategias de negocio. Estos programas incluyen paquetes con la dotación de software personalizados para cada caso.
 
 Se estructura en niveles que están pensados para:
 
 * **Partners GIS** que construyen su negocio entorno a la plataforma ArcGIS. Estos socios crean servicios, soluciones, contenidos, integración de sistemas, consultoría de gestión y ofertas de hardware. Con ellos se trabaja en un plan estratégico de negocio conjunto a corto, medio y largo plazo.
-* **Compañías de producto** que tienen contratado un [ArcGIS Developer Plan](#arcgis-developer-plans) y quieren explorar la posibilidad de incluir los usuarios nominales en sus desarrollos.
+* **Compañías de producto** que tienen contratado un [ADP](#arcgis-developer-plans-adp) y quieren explorar la posibilidad de incluir los usuarios nominales en sus desarrollos.
 * **Alianzas**: para empresas líderes con interés en alinearse con Esri para alcanzar objetivos compartidos y proporcionar programas especializados.
 
 Para más información:
@@ -271,25 +269,25 @@ Para más información:
     * [Esri Partner Network Policies (EPN) Silver Policies](https://www.esri.com/~/media/Files/Pdfs/partners/partner-network/docs/epn-silver-policies)
 * Contacto: información@esri.es
 
-### Programa de startups
+### Programa de Startups (EBP)
 
-Este es un programa pensado para startups:
+El Programa de Startups o "Emerging Business Partners" (EBP) es un programa pensado para empresas:
 
-* Para empresas con menos de tres años
+* Con menos de tres años desde su fundación
 * Con un fuerte equipo de desarrollo con foco en desarrollo de producto y/o contenidos
 * Cuyo modelo de negocio se basa en la venta de software como servicio (SaaS)/licencias/hardware pero no servicios
 * Cuyo modelo de negocio está centrado en la venta de producto(s) y/o contenidos
 * Invertidas pero generando menos de $1M de dólares anualmente en el momento de entrar al programa
-* Que no formen parte de un conglomerado de empresas
+* Que no formen parte de un "holding" o conglomerado participado por medianas o grandes empresas
 
 > **Aclaración**: Cuando hablamos de desarrollo de producto excluimos las soluciones basadas ArcGIS + servicios ya que en este caso, existe un nivel del programa de partners diseñado para ellas.
 
 Para más información: developersstartups@esri.es
 
 
-### Programa de Intercambio de Tecnologías Complementarias
+### Programa de Intercambio de Tecnologías Complementarias (CTE)
 
-Este es un programa para proveedores de software que no tienen foco en la geolocalización, pero referentes a nivel nacional o internacional e interesados en hacer un intercambio de tecnología.
+El Programa de Intercambio de Tecnologías Complementarias o "Complementary Technology Exchange Partner"(CTE) es un programa para proveedores de software que no tienen foco en la geolocalización, pero referentes a nivel nacional o internacional e interesados en hacer un intercambio de tecnología.
 
 El programa incluye:
 * Acceso al software para: desarrollo, fines demostrativos o marketing
@@ -320,8 +318,11 @@ En cualquier caso, cualquier persona que lo desee (incluído los miembros del *p
 
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
-**Q: Qué indican los niveles de usuario**
-El nivel de usuario indica los privilegios que puede tener. De manera muy simplificada un usuario de nivel 1 se podra decir que es de "sólo lectura" y uno de nivel 2 de "lectura y escritura", ([más info](https://blogs.esri.com/esri/arcgis/2016/12/20/your-guide-to-named-user-levels/)).
+**Q: ¿Qué limitaciones tiene el software proporcionado en un ADP, programa de Qué indican los tipos de usuarios?**
+
+**Q: ¿Qué indican los tipos de usuarios?**
+
+Los tipos de usuario limitan las capacidades que pueden tener. [Más info](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/)).
 
 **Q: ¿Qué licencia necesito para poder desarrollar con... ?:**
 * [ArcPy](http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm): sólo se pueden crear scripts con ArcPy si dispones de licencias de [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) o [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/).
@@ -360,4 +361,4 @@ A: No, el software licenciado mediante el EDN no se ve afectado, se aplican los 
 
 **Q: ¿Cuántos usuarios nominales de ArcGIS Enterprise se incluyen con una suscripción?**
 
-A: (3) nivel 1 y (2) nivel 2
+A: (3) viewers y (2) nivel creators
