@@ -11,7 +11,7 @@ Si tienes dudas sobre cómo acceder a la tecnología necesaria **para desarrolla
   - [Clientes Esri](#clientes-esri)
   - [Compañías de producto](#compa%C3%B1%C3%ADas-de-producto)
   - [Consultoras de servicios / Integradores](#consultoras-de-servicios--integradores)
-- [Formas de adquirir la tecnología](#formas-de-adquirir-la-tecnolog%C3%ADa)
+- [Programas y planes disponibles](#programas-y-planes-disponibles)
   - [ArcGIS Developer Plans (ADP)](#arcgis-developer-plans-adp)
     - [Plan: Essentials](#plan-essentials)
     - [Plan: Builder](#plan-builder)
@@ -32,9 +32,9 @@ Si tienes dudas sobre cómo acceder a la tecnología necesaria **para desarrolla
 
 El ecosistema de aplicaciones creadas por Esri está compuesto por **más de 100 tecnologías**: productos extensibles, API y SDKs, constructores de aplicaciones, ... Dependiendo del tipo de desarrollador y las necesidades **se pueden adquirir y licenciar de diferentes formas**, por eso en esta página se explican:
 
-* **Tipos de desarrolladores**: para entender las diferentes formas de adquirir la tecnología por cada tipo de desarrollador. También encontraremos enlaces a diferentes casos de uso.
+* **Cómo acceder al software (por tipo de desarrollador)**: para entender todas las posibilidades para acceder a la tecnología necesaria para hacer un desarrollo (por cada tipo de desarrollador). También encontraremos enlaces a diferentes casos de uso y a **los issues, donde podrás hacer preguntas**.
 
-* **Formas de adquirir la tecnología**: que contiene una descripción detallada de los planes para desarrolladores y una reseña a los diferentes programas disponibles.
+* **Programas y planes disponibles**: que contiene una descripción detallada de los planes para desarrolladores e información de otros programas que también incluyen paquetes de software.
 
 * **Soporte**: los diferentes canales donde podrás encontrar soporte a desarrolladores.
 
@@ -56,29 +56,35 @@ Como decíamos anteriormente, recuerda que para la puesta en producción puede q
 
 Por último, recuerda que **si no encuentras resuelta tu duda aquí y necesitas ayuda o alguna aclaración sobre licenciamiento, puedes [crear un nuevo issue](https://github.com/esri-es/licenciamiento-developers/issues) con tu consulta**.
 
-### Clientes Esri
+### Organizaciones GISeras
 
-En este caso nos referimos a organizaciones que **tengan al menos un contrato de mantenimiento de algún producto de la plataforma y quieren desarrollar internamente alguna aplicación para la propia organización**. Normalmente organizaciones que tienen analistas GIS en plantilla que trabajan con ArcGIS en su día a día.
+En este caso nos referimos a organizaciones (normalmente públicas o de servicios) que **tienen o planean crear departamentos con analistas GIS en plantilla que trabajan con GIS o ArcGIS en su día a día y que quieren desarrollar internamente alguna aplicación para la propia organización**.
 
 **Se pueden dar dos escenarios** dependiendo de si la organización dispone de todas las licencias del software sobre el que van a desarrollar o no:
 
 * **Si ya se disponen de las licencias**: no se necesita adquirir nada adicional, independientemente que sea porque:
-    * Dispongan licencias previamente contratadas sin usar
     * Están incluídas en el [Plan Essentials](#plan-essentials)
-    * Porque se disponga de un [ADP](#arcgis-developer-plans-adp)
-* **Si no disponen de las licencias**: pueden adquirir las licencias:
-    * Para entornos de desarrollo (a través de un [ADP](#arcgis-developer-plans-adp)
-    * O directamente para entornos de producción de manera individual o vía ELA.
+    * Dispongan licencias previamente contratadas: [ADP](#arcgis-developer-plans-adp), licencias para entornos de producción o acuerdo empresarial (EA).
+* **Si no disponen de las licencias**: se pueden adquirir las licencias:
+    * A través de un [ADP](#arcgis-developer-plans-adp)
+    * De productos individualmente (para entornos de producción)
+    * A través de un [acuerdo empresarial (EA)](https://www.esri.com/en-us/industries/enterprise-agreement/overview) disponible para pequeñas, medianas y grandes administraciones, empresas de "Utilities", etc. (para entornos de producción)
+
+A continuación listamos agrupadas por sector algunas de las organizaciones más conocidas de este tipo que trabajan con nosotros: ayuntamientos (Madrid, Sevilla, Rivas VaciaMadrid, ...), ministerios (Fomento, INE, IGN, Agricultura y Pesca, Defensa ...), ingenierías (Ferrovial, FCC, Acciona, Valoriza, ...), universidades (facultades de geografía, topografía, ...), electricidad y GAS (Naturgy, Unión Fenosa, ...), seguros (Mapfre, Allianz, ...), infraestructuras y transportes (AENA, ADIF, Puertos del Estado, Puerto de Algeciras, EMT, aeropuertos, ...), aguas (canal de Isabel II, aguas de BCN, aguas de Málaga, ...), inmobiliarias (Idealista, CBRE, JLL, ...), Retail (Alcampo, Carrefour, Covira, Nivea, Nielsen, ...), emergencias y seguridad (Guardia Civil, bomberos, UME, DGT, ...), telcos (Telefónica, Vodaphone, ...), etc.
+
+Más información: informacion@esri.es
 
 ### Compañías de producto
 
 Cuando hablamos de compañías de producto nos referimos a **empresas que quieren usar las APIs, SDKs, etc para crear, extender o integrar un producto propio que comercializan a terceros**. Independientemente de que sean contenidos, software o hardware.
 
+Como el en caso anterior se pueden dar dos escenarios dependiendo de si la organización dispone de todas las licencias del software sobre el que van a desarrollar o no:
+
 * **Si ya se disponen de las licencias**: no se necesita adquirir nada adicional, independientemente que sea porque:
     1. Están incluídas en el [Plan Essentials](#plan-essentials)
-    2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias
-    3. Por que tengan contratado un [ADP](#arcgis-developer-plans-adp) de algún proyecto anterior.
-* **No se disponen de las licencias**: En este caso existen cuatro formas:
+    2. La organización forme parte de algún programa de Esri (EPN, CTE o EBP) que tenga incluidas las licencias
+    3. Por que tengan contratado un [ADP](#arcgis-developer-plans-adp) de algún desarrollo previo.
+* **No se disponen de las licencias**: se pueden adquirir las licencias:
     1. Adquirir las licencias a través de un [ADP](#arcgis-developer-plans-adp). Para empresas que sólo necesitan acceso a las tecnologías de desarrollo.
     2. Unirse a algún [programa de partners de Esri](#programa-de-partners-epn). Esta opción es la más adecuada para:
         * Empresas que producto(s) o solucion(es) (sofware + servicios de personalización) basados en ArcGIS
@@ -87,8 +93,9 @@ Cuando hablamos de compañías de producto nos referimos a **empresas que quiere
     3. Unirse al [Programa de Intercambio de Tecnologías Complementarias](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias-cte): empresas de software líderes interesadas en crear estrategias de intercambio conocimiento y tecnología con el objetivo de hacer desarrollo de negocio.
     4. Unirse al [Programa de Startups](#programa-de-startups-ebp). Para empresas de producto de menos de tres años que hayan recibido alguna ronda de inversión y que ven valor en integrarse con la tecnología ArcGIS.
     5. Unirse al Programa de Intercambio de Tecnologías Complementarias. Para grandes empresas de producto que quieren integrar su tecnología con la de Esri.
+    6. De productos individualmente (para entornos de producción)
 
-Algunos ejemplos de las compañías de este tipo más conocidas y que trabajan con nosotros son: Autodesk, Microsoft, Waze (Google), Mapillary (Facebook), Garmin, Tableau, Oracle, IBM, VMWare, SAP, Trimble, ... Puedes consultar más compañías en: [Awesome ArcGIS - Third party integrations](https://esri-es.github.io/awesome-arcgis/arcgis/integrations/), [Partners Directory](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?solution-type=Data&solution-type=Hardware&solution-type=Software), [ArcGIS Marketplace](https://marketplace.arcgis.com/?start=1&view=grid&sortOrder=desc&sortField=uploaded&type=apps), etc.
+Algunos ejemplos de las compañías de este tipo que trabajan con nosotros son: Autodesk, Microsoft, Waze (Google), Mapillary (Facebook), Garmin, Tableau, Oracle, IBM, VMWare, SAP, Trimble, Telefónica, Technosylva, Tragsa, Idom, Bilbomática, SyK, EPTISA TI, Datacentric, ... Puedes consultar más compañías en: [Awesome ArcGIS - Third party integrations](https://esri-es.github.io/awesome-arcgis/arcgis/integrations/), [Partners Directory](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?solution-type=Data&solution-type=Hardware&solution-type=Software), [ArcGIS Marketplace](https://marketplace.arcgis.com/?start=1&view=grid&sortOrder=desc&sortField=uploaded&type=apps), etc.
 
 
 ### Consultoras de servicios / Integradores
@@ -98,17 +105,17 @@ En este caso nos referimos a **organizaciones que hacen proyectos llave en mano 
 Al igual que en los casos anteriores se pueden dar dos escenarios dependiendo de si la organización dispone de todas las licencias del software sobre el que van a desarrollar o no:
 
 * **Si la consultora dispone de las licencias**: no necesitan adquirir nada adicional, independientemente de que sea porque:
-    1. Las licencias estén incluidas en el [Plan Essentials](#plan-essentials)
-    2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias
+    1. Las licencias estén incluidas en el [Plan Essentials](#plan-essentials).
+    2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias.
     3.Por que tengan contratando un [ADP](#arcgis-developer-plans-adp) de algún proyecto anterior.
-* **Si la consultora NO disponen de las licencias pero su cliente SÍ**: osea que disponen de todas las licencias del software sobre el que van a desarrollar, podrían hablar con ellos para ver si les pudiesen ceder temporalmente las licencias que no estuviesen en uso necesarias para hacer el desarrollo
+* **Si la consultora NO dispone de las licencias pero su cliente SÍ**: osea que el cliente ya dispone de todas las licencias del software sobre el que van a desarrollar la solución/integración. Podrían hablar con ellos para ver si les pudiesen ceder las licencias que no estuviesen en uso (temporalmente) para hacer el desarrollo.
 * **Ninguno dispone de todas las licencias**. En este caso existen dos formas:
    1. Adquirir las licencias a través de un [ADP](#arcgis-developer-plans-adp).
-   2. Unirse al [Programa de partners de Esri](#programa-de-partners-epn). Esta opción es la más adecuada cuando se quiere definir una estrategia de negocio a largo plazo conjunta. Para más información escriba a: informacion@esri.es.
+   2. Unirse al [Programa de Partners de Esri](#programa-de-partners-epn). Esta opción es la más adecuada cuando se quiere definir una estrategia de negocio a largo plazo conjunta. Para más información escriba a: informacion@esri.es.
 
-Algunos ejemplos de las compañías de este tipo más conocidas y que trabajan con nosotros son: Telefónica, Indra, Everis, Ferrovial, EPTISA TI, Tracasa, etc. Puedes consultar más compañías en: [Directorio Partners de Servicio de Esri España](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?location=Spain&services=Application+Development&services=Business+Case+Development&services=Data+Conversion+Migration&services=Data+Model+Database+Design&services=GIS+Strategy+and+Planning&services=Hosting+Services&services=Implementation&services=Needs+and+Requirements&services=System+Architecture+and+Design&services=System+Integration&services=Training+Services)
+Algunos ejemplos de las compañías de este tipo que trabajan con nosotros son: Telefónica, Indra, Everis, Ferrovial, EPTISA TI, Tracasa, Ayesa, Geograma, Nexus Gegrafics, Solusoft, Rossmiman, Idom,  etc. Puedes consultar más compañías en: [Directorio Partners de Servicio de Esri España](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?location=Spain&services=Application+Development&services=Business+Case+Development&services=Data+Conversion+Migration&services=Data+Model+Database+Design&services=GIS+Strategy+and+Planning&services=Hosting+Services&services=Implementation&services=Needs+and+Requirements&services=System+Architecture+and+Design&services=System+Integration&services=Training+Services)
 
-## Formas de adquirir la tecnología
+## Programas y planes disponibles
 
 ### ArcGIS Developer Plans (ADP)
 
@@ -318,7 +325,9 @@ En cualquier caso, cualquier persona que lo desee (incluído los miembros del *p
 
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
-**Q: ¿Qué limitaciones tiene el software proporcionado en un ADP, programa de Qué indican los tipos de usuarios?**
+**Q: ¿Qué limitaciones tiene el software proporcionado en un ADP, EPN o un CTE?**
+
+Las licencias proporcionadas no se pueden usar para vender servicios o poner en producción un producto, salvo que se traten de proyectos sin ánimo de lucro.
 
 **Q: ¿Qué indican los tipos de usuarios?**
 
