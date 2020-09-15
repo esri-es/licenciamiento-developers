@@ -138,13 +138,9 @@ Existen dos formas de licenciar una aplicación nativa:
 
 ### Nivel: Lite
 
-**Opciones para licenciar**: *license key* o login con un usuario nominal (tipo >= viewer o nivel 1)  | **Coste de la *license key***: 0€
+Está incluida en el [Plan Essentials](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#plan-essentials) (gratuito), se encuentra el [cuadro de mando para desarrolladores](https://developers.arcgis.com/dashboard) y se puede usar para poner en aplicaciones en producción sin ningún coste. Lo que habrá que valorar es, en caso de usar  ArcGIS Online / Enterprise, si tiene algún coste licenciarlo
 
-Este nivel está pensado para la mayoría de las aplicaciones que muestran mapas que necesitan capacidades de búsqueda y rutas.
-
-Está incluida en el [Essentials](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#plan-essentials) (gratuito), se encuentra el [cuadro de mando para desarrolladores](https://developers.arcgis.com/dashboard) y se usar para poner en producción aplicaciones sin ningún coste.
-
-> **Nota**: en todo caso habrá que valorar el posible coste de licenciar ArcGIS Online / Enterprise (si es que lo tuviese).
+> **Relacionado**: [licenciar apps que usan ArcGIS Online](#licenciar-apps-que-usan-arcgis-online) / [licenciar apps que usan ArcGIS Enterprise](#licenciar-apps-que-usan-arcgis-enterprise).
 
 **CAPACIDADES QUE INCLUYE**
 
@@ -158,21 +154,33 @@ Está incluida en el [Essentials](https://github.com/esri-es/licenciamiento-deve
 * Descargar y actualizar datos de servicios de entidades habilitados funcionar en modo offline
 * Búsqueda de localizaciones (mediante el servicio de geocodificación)
 
+**OPCIONES DE LICENCIAMIENTO Y PRECIO**
+
+|**Opción**|**Coste**|
+|---|---|
+|*License key*|0€|
+|*Usuario tipo *viewer*|120€/año + IVA|
+
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
 ---
 
 ### Nivel: Basic
 
-**Opciones para licenciar**: *license key* o usuarios nominales (tipo >= editor o nivel 2) | **Coste de la *license key***: depende del tamaño del paquete
-
-Esta licencia nos permitirá crear aplicaciones que no sólo visualicen información si no que también puedan editar contenidos y hacer análisis. Permite:
+Este nivel está pensado para aplicaciones que además de visualizar información **también puedan editar contenidos**. No podrán hacer análisis, crear o compartir *[items](https://developers.arcgis.com/rest/users-groups-and-items/items-and-item-types.htm)* o datos.
 
 **CAPACIDADES QUE INCLUYE**
 
-* Todo lo que permite el nivel *Lite*.
-* Editar entidades tanto en geodatabases móviles como en servicios de entidades vía API REST
+* Todo lo que permite el [Nivel Lite](#nivel-lite)
+* Editar entidades tanto en [geodatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/databases/#introduction-to-esri-geodatabases) móviles como en servicios de entidades vía API REST
 * Añadir, actualizar o borrar contenido de ArcGIS Online o Portal for ArcGIS
+
+**OPCIONES DE LICENCIAMIENTO Y PRECIO**
+
+|**Opción**|**Coste**|
+|---|---|
+|*License key*|A partir de 170€/año + IVA|
+|Usuario tipo *editor*|265€/año + IVA|
 
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
@@ -180,16 +188,22 @@ Esta licencia nos permitirá crear aplicaciones que no sólo visualicen informac
 
 ### Nivel: Standard
 
-**Opciones para licenciar**: *license key* o usuario nominal con licencia de "ArcGIS Runtime Standard" asignada | **Coste de la *license key***: depende del tamaño del paquete
+Este nivel está pensado para aplicaciones que utilizan archivos de datos en local o *[file geodatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/file-formats/gdb/)*.
+
 
 **CAPACIDADES QUE INCLUYE**
 
-* Todo la que permite el nivel *Basic*
+* Todo la que permite el [Nivel Basic](#nivel-basic)
 * Cargar y acceder a datos locales: capas raster y fuentes de elevación raster.
-* Usar *ArcGIS Runtime Local Server* para:
-  * Ejecutar geoprocesos en el dispositivo (se puede incluir en el *geoprocessing package* un subconjunto de herramientas básicas de ArcGIS Desktop)
-  * Editar servicios de entidades en *file geodatabases*
-  * Cargar servicios de mapa locales
+* Ver, crear, editar y guardar datos en KML almacenado en un fichero en local
+* Hacer análisis visual, incluyendo líneas de visión y cuencas visuales.
+
+**OPCIONES DE LICENCIAMIENTO Y PRECIO**
+
+|**Opción**|**Coste**|
+|---|---|
+|*License key*|A partir de ~500€/año + IVA|
+|Usuario con licencia de "ArcGIS Runtime Standard" asignada|n.a.|
 
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
@@ -197,20 +211,29 @@ Esta licencia nos permitirá crear aplicaciones que no sólo visualicen informac
 
 ### Nivel: Advanced
 
-**Opciones para licenciar**: *license key* o usuario nominal con licencia de "ArcGIS Runtime Standard" asignada | **Coste de la *license key***: dependiendo del tamaño del paquete
+Este nivel está pensado para aplicaciones que trabajan directamente con ArcGIS Enterprise Geodatabases.
 
 **CAPACIDADES QUE INCLUYE**
 
-* Todo la que permite el nivel *Standard*
-* Usar *ArcGIS Runtime Local Server* para:
+* Todo la que permite el [Nivel Standard](#nivel-standard)
+* Usar *ArcGIS Runtime Local Server* para: (soportando sólo en Java, .Net y Qt)
   * Ejecutar geoprocesos en el dispositivo (se puede incluir en el *geoprocessing package* un subconjunto de herramientas estándar y avanzadas de ArcGIS Desktop)
   * Editar servicios de entidades en *enterprise geodatabases*
+
+**OPCIONES DE LICENCIAMIENTO Y PRECIO**
+
+|**Opción**|**Coste**|
+|---|---|
+|*License key*|A partir de ~1000€/año|
+|Usuario con licencia de "ArcGIS Runtime Advanced" asignada|n.a.|
 
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
 ---
 
 ### Licenciar apps con extensiones
+
+> **IMPORTANTE**: Este apartado no está actualizado, dirígete a [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/) para encontrar la última información
 
 **Opciones para licenciar**: *license key* | **Coste de la *license key***: dependiendo del tamaño del paquete
 
