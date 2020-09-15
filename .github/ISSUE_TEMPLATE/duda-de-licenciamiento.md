@@ -1,6 +1,6 @@
 ---
 name: Duda de licenciamiento
-about: Dudas cómo o qué tecnologías necesitas para un desarrollo
+about: Dudas cómo o qué tecnologías necesitas para entorno de desarrollo y/o puesta en producción
 title: "[DUDA] Desarrollo de un(a) ...."
 labels: licenciamiento
 assignees: ''
