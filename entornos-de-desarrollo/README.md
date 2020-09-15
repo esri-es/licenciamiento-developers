@@ -1,4 +1,5 @@
 # Planes para entornos de desarrollo
+
 Los ADPs (ArcGIS Developer Plans) hacen referencia a los cinco "paquetes" que se han creado para agrupar las licencias que pueden ser necesarias a la hora de **desarrollar una aplicación**, por tanto sólo se pueden usar para entornos de desarrollo y pruebas.
 
 >**Nota**: en algunos casos cuando la aplicación esté lista para salir a producción, además de las licencias que veremos en este apartado puede que haya que adquirir alguna licencia/plan adicional como se puede ver en [Licencias para entornos de producción](../entornos-de-desarrollo/README.md).
@@ -39,52 +40,57 @@ El ecosistema de aplicaciones creadas por Esri está compuesto por **más de 100
 
 * **Soporte**: los diferentes canales donde podrás encontrar soporte a desarrolladores.
 
-* **FAQ**: otras preguntas frecuentes relacionada con el licenciamento para entornos de producción
-
+* **Dudas / FAQ**: envía tu pregunta o revisa otras preguntas frecuentes relacionadas con el licenciamento para entornos de producción
 
 Además, ten en cuenta que cuando queramos **poner la aplicación en un entorno de producción puede que tengamos que adquirir alguna licencia/plan adicional**. Dependerá de factores como: el tipo de desarrollador que seamos, la(s) tecnología(s) que necesitemos y/o el el propósito de la aplicación que queramos crear.
 
-## Tipos de desarrolladores
+> **Nota**: El precio de las licencias para entornos de desarrollo son mucho más económicas pero dependiendo del tiempo estimado de desarrollo y de puesta en producción puede tener sentido adquirirlas o no.
 
-**IMPORTANTE**: antes de empezar ten en cuenta que todos pueden acceder gratuitamente a las herramientas incluidas en el "[Plan Essentials](#plan-essentials)": APIs, SDKs, License Keys, ArcGIS Online, constructores, etc.
+## Alternativas de acceso al software por tipo de desarrollador
+
+A continuación vamos a explicar las diferentes alternativas para acceder al ecosistema de ArcGIS dependiendo del tipo de organización.
+
+> **Aclaración**: Hay compañías que pueden tener varios roles. Por ejemplo: Telefónica juega el rol de Compañía de producto cuando se trata de su producto [SÉNECA](https://www.esri.com/partners/telefonica-solucione-a2T70000000TRDtEAO/s-neca-a2d70000000hrKmAAI), de Cliente Esri ya que tiene en plantilla analistas que usan ArcGIS a diario y de partners cuando oferta servicios de desarrollo con ArcGIS y/o se presenta a concursos públicos con nuestra tecnología.
+
+Una cosa importante a tener en cuenta es que cualquier desarrollador particular u organización puede acceder gratuitamente a las herramientas incluidas en el "[Plan Essentials](#plan-essentials)": APIs, SDKs, License Keys, ArcGIS Online, constructores, etc.
+
+Como decíamos anteriormente, recuerda que para la puesta en producción puede que haya que adquirir alguna licencia adicional de software (o usuarios nominales), pero eso se explica en: **[Licenciamiento para Entornos de Producción](../entornos-de-produccion/README.md)**.
+
+Por último, recuerda que **si no encuentras resuelta tu duda aquí y necesitas ayuda o alguna aclaración sobre licenciamiento, puedes [crear un nuevo issue](https://github.com/esri-es/licenciamiento-developers/issues) con tu consulta**.
 
 ### Clientes Esri
 
-En este caso nos referimos a organizaciones que **tengan al menos un contrato de mantenimiento de algún producto de la plataforma y quieren desarrollar internamente alguna aplicación para la propia organización**.
+En este caso nos referimos a organizaciones que **tengan al menos un contrato de mantenimiento de algún producto de la plataforma y quieren desarrollar internamente alguna aplicación para la propia organización**. Normalmente organizaciones que tienen analistas GIS en plantilla que trabajan con ArcGIS en su día a día.
 
 **Se pueden dar dos escenarios** dependiendo de si la organización dispone de todas las licencias del software sobre el que van a desarrollar o no:
 
 * **Si ya se disponen de las licencias**: no se necesita adquirir nada adicional, independientemente que sea porque:
     * Dispongan licencias previamente contratadas sin usar
-    * Están incluídas en el Plan Essentials
-    * Porque se disponga de un ArcGIS Developer Plan
-* **Si no disponen de las licencias**: pueden adquirir las licencias para entornos de desarrollo (a través de un [ArcGIS Developer Plan](#arcgis-developer-plans) o directamente para entornos de producción. El precio de las licencias para entornos de desarrollo son mucho más económicas pero dependiendo del tiempo estimado de desarrollo y de puesta en producción puede tener sentido adquirirlas o no. Si necesitas ayuda, [crea un nuevo issue](https://github.com/esri-es/licenciamiento-developers/issues) con tu consulta.
-
-En los issues puedes encontrar [**dudas sobre licenciamiento de clientes Esri para entornos de desarrollo**](https://github.com/esri-es/licenciamiento-developers/issues?q=is%3Aissue+label%3Aentorno-desarrollo+label%3Acliente-esri+label%3Alicenciamiento). Si tu duda no está resuelta allí no dudes en, [crear un nuevo issue](https://github.com/esri-es/licenciamiento-developers/issues) y así podremos ir enriqueciendo/mejorando este listado de ejemplos.
-
-Recuerda que como decíamos anteriormente, para la puesta en producción puede que haya que adquirir alguna licencia adicional de software (o usuarios nominales), pero eso se explica en: **[Licenciamiento para Entornos de Producción](../entornos-de-produccion/README.md)**.
+    * Están incluídas en el [Plan Essentials](#plan-essentials)
+    * Porque se disponga de un [ArcGIS Developer Plan](#arcgis-developer-plans)
+* **Si no disponen de las licencias**: pueden adquirir las licencias:
+    * Para entornos de desarrollo (a través de un [ArcGIS Developer Plan](#arcgis-developer-plans)
+    * O directamente para entornos de producción de manera individual o vía ELA.
 
 ### Compañías de producto
 
 Cuando hablamos de compañías de producto nos referimos a **empresas que quieren usar las APIs, SDKs, etc para crear, extender o integrar un producto propio que comercializan a terceros**. Independientemente de que sean contenidos, software o hardware.
 
-> Puedes ver algunos ejemplos de estas empresas en Third party integrations, partners directory, etc.
-
 * **Si ya se disponen de las licencias**: no se necesita adquirir nada adicional, independientemente que sea porque:
-    1. Están incluídas en el Plan Essentials
+    1. Están incluídas en el [Plan Essentials](#plan-essentials)
     2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias
-    3. Por que tengan contratando un ArcGIS Developer Plan de algún proyecto anterior.
+    3. Por que tengan contratando un [ArcGIS Developer Plan](#arcgis-developer-plans) de algún proyecto anterior.
 * **No se disponen de las licencias**: En este caso existen cuatro formas:
-    1. Adquirir las licencias a través de un ArcGIS Developer Plan. Para empresas que sólo necesitan acceso a las tecnologías de desarrollo.
-    2. Unirse a la red de partners de Esri. Esta opción es la más adecuada para:
+    1. Adquirir las licencias a través de un [ArcGIS Developer Plan](#arcgis-developer-plans). Para empresas que sólo necesitan acceso a las tecnologías de desarrollo.
+    2. Unirse a algún [programa de partners de Esri](#programa-de-partners). Esta opción es la más adecuada para:
         * Empresas que producto(s) o solucion(es) (sofware + servicios de personalización) basados en ArcGIS
         * Empresas de producto maduras que quieran explorar la posibilidad de explorar la integración con usuarios de ArcGIS.
-    3. Unirse al Programa de Startups. Para empresas de producto de menos de tres años que hayan recibido alguna ronda de inversión y que ven valor en integrarse con la tecnología ArcGIS.
-    4. Unirse al Programa de Intercambio de Tecnologías Complementarias. Para grandes empresas de producto que quieren integrar su tecnología con la de Esri.
+        * Empresas líderes en su sector que quieran crear una alianza
+    3. Unirse al [Programa de Intercambio de Tecnologías Complementarias](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias): empresas de software líderes interesadas en crear estrategias de intercambio conocimiento y tecnología con el objetivo de hacer desarrollo de negocio.
+    4. Unirse al [Programa de Startups](#programa-de-startups). Para empresas de producto de menos de tres años que hayan recibido alguna ronda de inversión y que ven valor en integrarse con la tecnología ArcGIS.
+    5. Unirse al Programa de Intercambio de Tecnologías Complementarias. Para grandes empresas de producto que quieren integrar su tecnología con la de Esri.
 
-En los issues puedes encontrar [**dudas sobre licenciamiento de compañías de producto para entornos de desarrollo**](https://github.com/esri-es/licenciamiento-developers/issues?q=is%3Aissue+label%3Aentorno-desarrollo+label%3Aconsultora-integrador+label%3Alicenciamiento+). Si tu duda no está resuelta allí no dudes en, [crear un nuevo issue](https://github.com/esri-es/licenciamiento-developers/issues) y así podremos ir enriqueciendo/mejorando este listado de ejemplos.
-
-Recuerda que como decíamos anteriormente, para la puesta en producción puede que haya que adquirir alguna licencia adicional de software (o usuarios nominales), pero eso se explica en: **[Licenciamiento para Entornos de Producción](../entornos-de-produccion/README.md)**.
+Algunos ejemplos de las compañías de este tipo más conocidas y que trabajan con nosotros son: Autodesk, Microsoft, Waze (Google), Mapillary (Facebook), Garmin, Tableau, Oracle, IBM, VMWare, SAP, Trimble, ... Puedes consultar más compañías en: [Awesome ArcGIS - Third party integrations](https://esri-es.github.io/awesome-arcgis/arcgis/integrations/), [Partners Directory](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?solution-type=Data&solution-type=Hardware&solution-type=Software), [ArcGIS Marketplace](https://marketplace.arcgis.com/?start=1&view=grid&sortOrder=desc&sortField=uploaded&type=apps), etc.
 
 
 ### Consultoras de servicios / Integradores
@@ -94,17 +100,15 @@ En este caso nos referimos a **organizaciones que hacen proyectos llave en mano 
 Al igual que en los casos anteriores se pueden dar dos escenarios dependiendo de si la organización dispone de todas las licencias del software sobre el que van a desarrollar o no:
 
 * **Si la consultora dispone de las licencias**: no necesitan adquirir nada adicional, independientemente de que sea porque:
-    1. Las licencias estén incluidas en el Plan Essentials
+    1. Las licencias estén incluidas en el [Plan Essentials](#plan-essentials)
     2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias
-    3.Por que tengan contratando un ArcGIS Developer Plan de algún proyecto anterior.
+    3.Por que tengan contratando un [ArcGIS Developer Plan](#arcgis-developer-plans) de algún proyecto anterior.
 * **Si la consultora NO disponen de las licencias pero su cliente SÍ**: osea que disponen de todas las licencias del software sobre el que van a desarrollar, podrían hablar con ellos para ver si les pudiesen ceder temporalmente las licencias que no estuviesen en uso necesarias para hacer el desarrollo
 * **Ninguno dispone de todas las licencias**. En este caso existen dos formas:
    1. Adquirir las licencias a través de un [ArcGIS Developer Plan](#arcgis-developer-plans).
-   2. Unirse a la red de partners de Esri. Esta opción es la más adecuada cuando se quiere definir una estrategia de negocio a largo plazo conjunta. Para más información escriba a: informacion@esri.es.
+   2. Unirse al [Programa de partners de Esri](#programa-de-partners). Esta opción es la más adecuada cuando se quiere definir una estrategia de negocio a largo plazo conjunta. Para más información escriba a: informacion@esri.es.
 
-En los issues puedes encontrar [**dudas sobre licenciamiento de consultoras/integradores para entornos de desarrollo**](https://github.com/esri-es/licenciamiento-developers/issues?q=is%3Aissue+label%3Aentorno-desarrollo+label%3Aconsultora-integrador+label%3Alicenciamiento+). Si tu duda no está resuelta allí no dudes en, [crear un nuevo issue](https://github.com/esri-es/licenciamiento-developers/issues) y así podremos ir enriqueciendo/mejorando este listado de ejemplos.
-
-Recuerda que como decíamos anteriormente, para la puesta en producción puede que haya que adquirir alguna licencia adicional de software (o usuarios nominales), pero eso se explica en: **[Licenciamiento para Entornos de Producción](../entornos-de-produccion/README.md)**.
+Algunos ejemplos de las compañías de este tipo más conocidas y que trabajan con nosotros son: Telefónica, Indra, Everis, Ferrovial, EPTISA TI, Tracasa, etc. Puedes consultar más compañías en: [Directorio Partners de Servicio de Esri España](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?location=Spain&services=Application+Development&services=Business+Case+Development&services=Data+Conversion+Migration&services=Data+Model+Database+Design&services=GIS+Strategy+and+Planning&services=Hosting+Services&services=Implementation&services=Needs+and+Requirements&services=System+Architecture+and+Design&services=System+Integration&services=Training+Services)
 
 ## Formas de adquirir la tecnología
 
@@ -118,9 +122,14 @@ Los ADPs (ArcGIS Developer Plans): hacen referencia a los cinco "paquetes" que s
 
 **Precio:** 0€ y por tiempo ilimitado
 
-Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencias para poder usar 11 utilidades de desarrollo (SDKs y APIs) y 4 generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones. Por tanto usar las SDKs, APIs y generadores de aplicaciones que veremos en este plan *en entornos de desarrollo y pruebas* es totalmente gratuito. Concretamente nos referimos a:
+Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencias para poder usar utilidades de desarrollo (SDKs y APIs) y generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones. Por tanto **usar las SDKs, APIs y generadores de aplicaciones que veremos en este plan en entornos de desarrollo y pruebas es totalmente gratuito**. Concretamente nos referimos a:
 
-* **SDKs y APIs**: [ArcGIS API for JS](https://developers.arcgis.com/javascript/), [ArcGIS API for Python](https://developers.arcgis.com/python), [REST APIs](https://esri-es.github.io/awesome-arcgis/esri/open-vision/open-specifications/arcgis-rest-api/) (ArcGIS Online, ArcGIS Open Data, ...) y las Runtime SDKs para: [Android](https://developers.arcgis.com/android/), [iOS](https://developers.arcgis.com/ios/), [Java](https://developers.arcgis.com/java/), [macOS](https://developers.arcgis.com/macos/), [.NET](https://developers.arcgis.com/net/), [Qt](https://developers.arcgis.com/qt/) y [WPF](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/) (deprecated).
+* **SDKs y APIs**:
+    * [ArcGIS API for JS](https://developers.arcgis.com/javascript/)
+
+    * [ArcGIS API for Python](https://developers.arcgis.com/python)
+    * [REST APIs](https://esri-es.github.io/awesome-arcgis/esri/open-vision/open-specifications/arcgis-rest-api/) (ArcGIS Online, ArcGIS Open Data, ...)
+    * Runtime SDKs para: [Android](https://developers.arcgis.com/android/), [iOS](https://developers.arcgis.com/ios/), [Java](https://developers.arcgis.com/java/), [macOS](https://developers.arcgis.com/macos/), [.NET](https://developers.arcgis.com/net/), [Qt](https://developers.arcgis.com/qt/) y [WPF](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/) (deprecated).
 
 * **ArcGIS Online**: una cuenta de organización mono-usuario (*sin posibilidad de adquirir más usuarios*) que incluye también un *ArcGIS Online Deployment Plan* con 50 créditos mensuales (gratuitos) para desarrollo y pruebas que incluye:
 
@@ -130,7 +139,15 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 
     * Todo el contenido gratuito del Living Atlas
 
-* **Constructores**: [Web AppBuilder **Developer Edition**](https://developers.arcgis.com/web-appbuilder/), Experience Builder **Developer Edition**, [AppStudio Basic](http://appstudio.arcgis.com/) (online version), [Survey123](http://survey123.arcgis.com/) (online), [AppStudio Basic](http://appstudio.arcgis.com/) (online version), [Operations Dashboard](https://esri-es.github.io/awesome-arcgis/arcgis/products/operations-dashboard/) (online) y [aplicaciones configurables](https://www.arcgis.com/home/search.html?q=tags%3AArcGIS%20web%20application%20template%20owner%3Aesri_en&t=content&sortField=modified&sortOrder=desc&start=1) (incluidos los [storymaps](http://storymaps.esri.com/)).
+* **Constructores** (generadores WYSIWYG de aplicaciones):
+    * [Web AppBuilder Developer Edition](https://developers.arcgis.com/web-appbuilder/)
+
+    * Experience Builder Developer Edition
+    * [AppStudio Basic](http://appstudio.arcgis.com/) (online version)
+    * [Survey123](http://survey123.arcgis.com/) (online)
+    * [AppStudio Basic](http://appstudio.arcgis.com/) (online version)
+    * [Operations Dashboard](https://esri-es.github.io/awesome-arcgis/arcgis/products/operations-dashboard/)
+    * [Aplicaciones configurables](https://www.arcgis.com/home/search.html?q=tags%3AArcGIS%20web%20application%20template%20owner%3Aesri_en&t=content&sortField=modified&sortOrder=desc&start=1) (incluidos los [storymaps](http://storymaps.esri.com/)).
 
 * **Github projects**: aunque quizás sobra decirlo, pero también se puede reutilizar o extender cualquiera de los [proyectos publicados por Esri en Github](http://github.com/esri). Por ejemplo: [Koop](https://esri-es.github.io/awesome-arcgis/arcgis/developers/profiles/devops/technologies/koop/), [Esri-Leaflet](https://esri-es.github.io/awesome-arcgis/arcgis/developers/profiles/front-end/technologies/leaflet/), [gis-tools-for-hadoop](https://github.com/Esri/gis-tools-for-hadoop), [terraformer](https://github.com/Esri/terraformer), etc.
 
@@ -148,6 +165,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 |Runtime SDK for Java|[Descargar](https://developers.arcgis.com/downloads/)|[v100](https://developers.arcgis.com/java/) ó [v10.2.x](https://developers.arcgis.com/java/10-2/)|
 |Runtime SDK for Qt|[Descargar](https://developers.arcgis.com/downloads/)|[v100](https://developers.arcgis.com/qt/) ó [v10.2.x](https://developers.arcgis.com/qt/10-2/)|
 |Web AppBuilder Developer Edition|[Descargar](https://developers.arcgis.com/downloads/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/web-appbuilder/developer-edition/)|
+|Experience Builder Developer Edition|[Descargar](https://developers.arcgis.com/downloads/)|[Documentación](https://developers.arcgis.com/experience-builder/)|
 |Runtime SDK for WPF (retired)|[Descargar](https://developers.arcgis.com/downloads/)|[Documentación](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/)|
 
 **¿Dónde se puede acceder o descargar cada constructor?**
@@ -157,7 +175,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 |Web AppBuilder|[Acceder](https://www.arcgis.com/apps/webappbuilder/index.html) & [Descargar Developer Edition](https://developers.arcgis.com/downloads/apis-and-sdks)|[Documentación](https://developers.arcgis.com/web-appbuilder/)
 |AppStudio Basic (online version)|[Acceder](http://appstudio.arcgis.com/)|[Documentación](http://appstudio.arcgis.com/help.html)
 |Survey123 (online version)|[Acceder](http://survey123.arcgis.com/)|[Documentación](http://survey123.arcgis.com/help)
-|Operations Dashboard|[Acceder](https://www.arcgis.com/apps/opsdashboard/index.html)|[Documetación](https://doc.arcgis.com/en/operations-dashboard/)
+|Operations Dashboard|[Acceder](https://www.arcgis.com/apps/opsdashboard/index.html)|[Documentación](https://doc.arcgis.com/en/operations-dashboard/)
 |Aplicaciones configurables|[Acceder](https://www.arcgis.com/home/content.html) ("Create > Using a template") & [Storymaps](http://storymaps.arcgis.com/en/app-list/)|[Documentación de los storymaps](http://storymaps.arcgis.com/en/resources/)
 
 > **Nota**: las aplicaciones configurables también se pueden descargar y extender o personalizar. Cualquiera de las [40 aplicaciones web configurables creadas por Esri](https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/) ya que están licenciadas con [Apache v2.0](https://choosealicense.com/licenses/apache-2.0/) y publicadas en Github.
@@ -239,21 +257,49 @@ Este plan es como el *Plan Proffessional* pero en este caso incluye licencias de
 
 ### Programa de partners
 
+El [programa de partners de Esri](https://www.esri.es/es-es/acerca-de/partners-colaboradores/partners-y-colaboradores) está pensado para empresas interesadas en alinear estrategias de negocio. Estos programas incluyen paquetes con la dotación de software personalizados para cada caso.
 
+Se estructura en niveles que están pensados para:
 
+* **Partners GIS** que construyen su negocio entorno a la plataforma ArcGIS. Estos socios crean servicios, soluciones, contenidos, integración de sistemas, consultoría de gestión y ofertas de hardware. Con ellos se trabaja en un plan estratégico de negocio conjunto a corto, medio y largo plazo.
+* **Compañías de producto** que tienen contratado un [ArcGIS Developer Plan](#arcgis-developer-plans) y quieren explorar la posibilidad de incluir los usuarios nominales en sus desarrollos.
+* **Alianzas**: para empresas líderes con interés en alinearse con Esri para alcanzar objetivos compartidos y proporcionar programas especializados.
 
+Para más información:
+
+* [Esri Partner Network Policies (EPN)](https://www.esri.com/~/media/Files/Pdfs/partners/partner-network/docs/epn-silver-policies): para Partners GIS. Existen niveles varios niveles, "Silver" es el intermedio.
+    * [Esri Partner Network Policies (EPN) Silver Policies](https://www.esri.com/~/media/Files/Pdfs/partners/partner-network/docs/epn-silver-policies)
+* Contacto: información@esri.es
 
 ### Programa de startups
 
+Este es un programa pensado para startups:
 
+* Para empresas con menos de tres años
+* Con un fuerte equipo de desarrollo con foco en desarrollo de producto y/o contenidos
+* Cuyo modelo de negocio se basa en la venta de software como servicio (SaaS)/licencias/hardware pero no servicios
+* Cuyo modelo de negocio está centrado en la venta de producto(s) y/o contenidos
+* Invertidas pero generando menos de $1M de dólares anualmente en el momento de entrar al programa
+* Que no formen parte de un conglomerado de empresas
 
+> **Aclaración**: Cuando hablamos de desarrollo de producto excluimos las soluciones basadas ArcGIS + servicios ya que en este caso, existe un nivel del programa de partners diseñado para ellas.
+
+Para más información: developersstartups@esri.es
 
 
 ### Programa de Intercambio de Tecnologías Complementarias
 
+Este es un programa para proveedores de software que no tienen foco en la geolocalización, pero referentes a nivel nacional o internacional e interesados en hacer un intercambio de tecnología.
 
+El programa incluye:
+* Acceso al software para: desarrollo, fines demostrativos o marketing
+* Además de acceso a formación
+* Asignación de recursos para apoyar en demostraciones y eventos
+* etc.
 
-
+Para más información
+* [Complementary Technology Exchange (CTE) Partners](https://www.esri.com/en-us/about/esri-partner-network/our-partners/complementary-technology)
+* Contacto: raul.jimenez@esri.es
 
 ## Soporte
 
@@ -270,7 +316,7 @@ En cualquier caso, cualquier persona que lo desee (incluído los miembros del *p
 * [Iniciativas de comunidad en español](https://github.com/esri-es/devsummits-esri-spain/blob/gh-pages/2017/ppts/iniciativas-para-desarrolladores/presentation.md#comunidad).
 * [Iniciativas internacionales de comunidad](https://esri-es.github.io/awesome-arcgis/esri/community/).
 
-## FAQ:
+## Dudas / FAQ
 
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
@@ -283,7 +329,6 @@ El nivel de usuario indica los privilegios que puede tener. De manera muy simpli
 * [ArcGIS Engine](http://www.esri.com/software/arcgis/arcgisengine) (deprecated): El *Professional Plan*, aunque para los desarrollos que se hacían antes con ArcGIS Engine recomendamos usar las nuevas Runtime SDKs.
 
 **Q: ¿Qué licencia necesito para poder extender... ?:**
-* [Operations Dashboard](http://doc.arcgis.com/en/operations-dashboard/windows-desktop/author/custom-addins.htm) (crear widgets): sólo las licencias de Operations Dashboard.
 
 * [ArcGIS Enterprise](http://doc.arcgis.com/en/operations-dashboard/windows-desktop/author/custom-addins.htm) (crear SOIs o SOEs): En desarrollo requiere al menos del *Proffesional Plan*, pero si dispones de licencias de producción puedes usar esas mismas.
 
