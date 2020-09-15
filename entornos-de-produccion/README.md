@@ -1,86 +1,110 @@
-# Entornos de producción
+# Licenciar ArcGIS para entornos de producción
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Aplicaciones que usan ArcGIS Online](#aplicaciones-que-usan-arcgis-online)
-  - [ArcGIS Online Deployment Plans](#arcgis-online-deployment-plans)
-    - [Soporte](#soporte)
-      - [Servicio de Soporte Técnico de Esri España](#servicio-de-soporte-t%C3%A9cnico-de-esri-espa%C3%B1a)
-      - [Comunidad](#comunidad)
-  - [FAQ](#faq)
-- [Cuándo se requieren usuarios nominales](#cu%C3%A1ndo-se-requieren-usuarios-nominales)
-- [Licenciar apps creadas usando una Runtime](#licenciar-apps-creadas-usando-una-runtime)
+- [Introducción](#introducci%C3%B3n)
+- [Licenciar apps que usan ArcGIS Online](#licenciar-apps-que-usan-arcgis-online)
+  - [Escenarios de ejemplo](#escenarios-de-ejemplo)
+  - [Soporte](#soporte)
+  - [Preguntas frecuentes](#preguntas-frecuentes)
+- [Adquirir usuarios nominales](#adquirir-usuarios-nominales)
+- [Licenciar apps que usan alguna de las Runtime](#licenciar-apps-que-usan-alguna-de-las-runtime)
   - [Nivel: Lite](#nivel-lite)
   - [Nivel: Basic](#nivel-basic)
   - [Nivel: Standard](#nivel-standard)
   - [Nivel: Advanced](#nivel-advanced)
-  - [Extensión de análisis](#extensi%C3%B3n-de-an%C3%A1lisis)
-  - [FAQ](#faq-1)
-
-## Introducción
-Una vez nuestra aplicación esté lista para salir a producción tenemos que verificar si necesitamos adquirir:
-
-* Algún *ArcGIS Online Deployment Plan* <- si nuestra aplicación usa ArcGIS Online
-* Licencias de Runtime <- si nuestra aplicación es nativa
-* Usuarios nominales, veremos los casos en detalle a continuación
+  - [Licenciar apps con extensiones](#licenciar-apps-con-extensiones)
+  - [Preguntas frecuentes](#preguntas-frecuentes-1)
+- [Licenciar scripts y extensiones](#licenciar-scripts-y-extensiones)
+- [Licenciar apps que usan ArcGIS Enterprise](#licenciar-apps-que-usan-arcgis-enterprise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Aplicaciones que usan ArcGIS Online
+## Introducción
 
-Si tu aplicación (web o nativa) **tiene ánimo de lucro** y usa algún servicio de ArcGIS Online como: basemaps, geocodificador, etc. (independientemente de que consuman créditos o no), necesitarás:
-* Tener una cuenta de organización (que no sea de un [plan de desarrollo](../entornos-de-desarrollo/README.md))
-* O adquirir un *ArcGIS Online Deployment Plan* de pago mensual
+Una vez nuestra aplicación esté lista para salir a producción tenemos que comprobar que todos **las tecnologías que van a estar en el entorno de producción esté correctamente licenciadas**.
 
-> **Aviso**: Si estás desarrollando la aplicación para un tercero y este ya tiene una cuenta de organización, no hace falta adquirir ningún plan adicional. **Recuerda**: las licencias de ArcGIS Desktop incluyen una cuenta de organización.
+En esta página vamos a repasar cómo funciona el licenciamiento de las tecnologías más habituales.
 
-> **Nota**: si tu aplicación no tiene ánimo de lucro y estimas que no necesitará más de 50 créditos al mes, puedes usar el plan gratuito de 50 créditos al mes para sacar tu app a producción.
+## Licenciar apps que usan ArcGIS Online
 
-### ArcGIS Online Deployment Plans
+Los únicos **casos en los que no se necesitaría una licencia de ArcGIS Online adicional a cualquiera de las incluidas para el entorno desarrollado** son cuando la aplicación (web o nativa) desarrollada:
 
-En caso de que necesites adquirir un *ArcGIS Online Deployment Plan*, tienes siete disponibles:
+* [X] Se vaya a usar en organizaciones que ya disponga de una cuenta de organización de ArcGIS Online
+* [X] Desarrollos con datos públicos que no se vayan a monetizar. Esto incluye por ejemplo el típico mapa mostrando la ubicación de un negocio o buscador de tiendas de una empresa/franquicia. Ver: **[Simple Store Locator App Demo](https://youtu.be/R2wrO_MzT2A)**
+* [X] Se trata de un proyecto sin ánimo de lucro.
 
-|Créditos|Coste/mes|Tipo de soporte|
-|---|---|---|
-|200|$20|Comunidad|
-|900|$90|Comunidad|
-|2.000|$200|Servicio de Soporte Técnico de Esri España|
-|5.000|$500|Servicio de Soporte Técnico de Esri España|
-|10.000|$1.000|Servicio de Soporte Técnico de Esri España|
-|20.000|$2.000|Servicio de Soporte Técnico de Esri España|
-|40.000|$4.000|Servicio de Soporte Técnico de Esri España|
+En cualquiera de los dos últimos casos, si el consumo de créditos excede los disponibles en la cuenta se puede activar el [Pay As You Go](https://developers.arcgis.com/pricing/credits/) o [comprar un paquete e 1000 créditos adicionales](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits).
 
-Si necesitas más información en cuanto al funcionamiento de los créditos puede leer "[Understand credits](http://doc.arcgis.com/en/arcgis-online/reference/credits.htm)".
+> **Importante**: Si no sabes cómo funcionan los créditos de ArcGIS Online revisa: "[Awesome ArcGIS - ArcGIS Online Credits](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)".
 
-#### Soporte
+### Escenarios de ejemplo
 
-##### Servicio de Soporte Técnico de Esri España
+A continuación se describen dos escenarios a modo ilustrativo:
 
-Todos los planes a partir $200/mes incluyen servicio de soporte técnico de Esri España. Este está especialmente diseñado para ayudar en los errores que surjan en el uso de los productos de la Plataforma ArcGIS.
+* **Escenario 1) Solución o producto para [organizaciones GISeras](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#organizaciones-giseras)**
+    * Si la aplicación:
+        * [X] Está dirigida a organizaciones que no tienen una cuenta de ArcGIS Online
+        * [X] Y va a alojar en ArcGIS Online los datos privados de la organización.
+    * Entonces: por cada organización en esta situación habrá que contratar al menos una organización con un usuario (~605€/año).
+
+
+* **Escenario 2) Servicios Geoespaciales**
+    * Se ha desarrollado una API que:
+        * [X] Se está monetizando de algún modo
+        * [X] Que utiliza internamente los datos / APIs de nuestra organización de ArcGIS Online
+    * Entonces hará que contratar el Plan Builder (o superior) y si fuese necesario pagar el exceso de créditos.
+
+> **Recordatorio**: las licencias de ArcGIS Desktop incluyen una cuenta de organización.
+
+Más información:
+
+* [Cualquier duda o pregunta puedes hacerla en los issues](https://github.com/esri-es/licenciamiento-developers/issues)
+* [Contratar ArcGIS Online](https://www.esri.com/es-es/store/arcgis-online)
+
+### Soporte
+
+**Servicio de Soporte Técnico de Esri España**
+
+Todos los planes a partir [Plan Builder](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#plan-builder) incluyen servicio de soporte técnico de Esri España. Este está especialmente diseñado para ayudar en los errores que surjan en el uso de los productos de la Plataforma ArcGIS.
 
 El acceso al servicio se hace a través del Portal de Soporte: [https://soporte.esri.es](https://soporte.esri.es).
 
 Más información en la [web de Esri España](http://bit.ly/1ZLDU1b).
 
-##### Comunidad
+**Comunidad**
 
 En cualquier caso, cualquier persona que lo desee puede recurrir a la comunidad en busca de ayuda sobre errores o cualquier otro tipo de dudas (arquitectura, buenas prácticas, etc).
 
+* [Resolver dudas (Tips & Tricks)](https://community.esri.com/groups/geodev-spain/blog/2018/06/14/resolver-dudas-tips-tricks)
 * [Iniciativas de comunidad en español](https://github.com/esri-es/devsummits-esri-spain/blob/gh-pages/2017/ppts/iniciativas-para-desarrolladores/presentation.md#comunidad)
 * [Iniciaitivas internacionales de comunidad](https://esri-es.github.io/awesome-arcgis/esri/community/)
 
 
-### FAQ
+### Preguntas frecuentes
 
-*TODO* (importar de [1](https://developers.arcgis.com/credits/) y [2](https://developers.arcgis.com/terms/faq/))
+**Q: Si quiero que mis usuarios puedan utilizar servicios de análisis, ¿tienen que tener un usuario nominal?**
 
-## ¿Cuándo se requieren usuarios nominales?
+A: No, como desarrollador puedes hacer que los créditos consumidos por los análisis realizados por tus usuarios se carguen a tu cuenta, y tú si quieres puede cobrar a su vez un sobre-cargo y quedarte con un margen. Esto es igual de válido tanto para las aplicaciones nativas como para las web.
 
-> **Nota**: en este apartado vamos a ignorar el caso de licenciar aplicaciones creadas con el Runtime usando usuarios nominales ya que lo trataremos en el siguiente.
+**Q: ¿Qué pasa si me quedo sin créditos?**
 
-Necesitaremos un usuario de organización (de pago, ya sea de ArcGIS Online o ArcGIS Enterprise) cuando hayamos creado una app (web o nativa) en la que necesitemos **al menos una** de las siguientes funcionalidades:
+A: Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o activar el pay as you go. [Más información sobre el funcionamiento de los créditos](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)
+
+**Q: Cómo puedo cancelar mi cuenta de ArcGIS Online**
+
+A: Debes contactar directamente con suministros de Esri España (cgi@esri.es) y/o a accounts@esri.com (en inglés) indicándoles que quieres cancelar tu suscripción.
+
+
+## Adquirir usuarios nominales
+
+Lo primero y más importante es tener claro "[Qué son y como funcionan los usuarios nominales](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/)"".
+
+Será necesario adquirir usuarios nominales siempre que nuestro desarrollo haga uso de ellos y la organización que va a usar el software no disponga de los usuarios nominales necesarios.
+
+Los necesitaremos un usuario de organización (de pago, ya sea de ArcGIS Online o ArcGIS Enterprise) cuando hayamos creado una app (web o nativa) en la que necesitemos **al menos una** de las siguientes funcionalidades:
 
 * Limitar (por usuario) el acceso a información no pública (**alojada en ArcGIS Online o Enterprise**).
 * Que el usuario pueda formar parte de grupos de una organización de ArcGIS
@@ -89,10 +113,13 @@ Necesitaremos un usuario de organización (de pago, ya sea de ArcGIS Online o Ar
 
 Los usuarios nominales además se dividen por tipos que tienen diferentes capacidades y que pueden acceder a diferentes apps de la plataforma.
 
-Más info:  sobre los [tipos de usuario y sus capacidades](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/#user-types)
+> **Aviso**: el caso del licenciamiento de aplicaciones creadas con el Runtime usando usuarios nominales se ha obviado ya que lo trataremos en el siguiente punto.
 
+## Licenciar apps que usan alguna de las Runtime
 
-## Licenciar apps creadas usando una Runtime
+**Licencias de Runtime**: no sería necesario si
+    * [X] Ya disponemos de un [ArcGIS Developer Plan](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#arcgis-developer-plans-adp) superior a [Essentials](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#plan-essentials)
+    * [X] El desarrollo no tenga ánimo de lucro
 
 Cualquier aplicación creada con una Runtime tiene que ser licenciada, en función de la funcionalidad que necesitemos necesitaremos un nivel u otro.
 
@@ -172,7 +199,7 @@ Esta licencia permite:
 
 ---
 
-### Extensión de análisis
+### Licenciar apps con extensiones
 
 **Opciones para licenciar**: *license key* | **Coste de la *license key***: dependiendo del tamaño del paquete
 
@@ -182,16 +209,17 @@ La extensión de análisis se podrá adquirir opcionalmente para aquellas aplica
 
 La extensión incluye capacidades adicionales, herramientas de análisis y datos que permiten ejecutar geoprocesos en el dispositivo que soporten un subconjunto de las siguientes *toolboxes*: Network Analyst, Spatial Analyst y 3D Analyst.
 
-
-### FAQ
+### Preguntas frecuentes
 
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
-#### Runtimes
+**Q: ¿Se puede usar una License Key de un ADS en un entorno de producción?**
 
-**Q: Me aperece una marca de agua en mi aplicación nativa, ¿cómo la quito?**
+A: Sí, sólo habrá que asegurar que el resto de tecnologías de las que dependa (ArcGIS Online, ArcGIS Enterprise y extensiones) estén correctamente licenciadas para entornos de producción.
 
-A: Esta marca de agua sale porque no has licenciado correctamente tu app o la has licenciado con una cuenta que tiene el *ArcGIS Online Deployment Plan* de 50 créditos (gratuito) <- en este caso necesitas uno de pago (al menos el de $20/mes).
+**Q: Me aparece una marca de agua en mi aplicación nativa, ¿cómo la quito?**
+
+A: Esta marca de agua sale porque no has licenciado correctamente tu app. Revisar en el apartado "Guide" de la SDK y busca "Release your app > License your app". Ahí te indicará como introducir en tu app el "Runtime License Key" que encontrarás en tu [cuadro de mando de desarrollador](https://developers.arcgis.com/dashboard).
 
 **Q: ¿*ArcGIS Runtime Local Server* está disponible para todas las Runtime SDKs?**
 
@@ -203,33 +231,13 @@ A: Con el nivel *Lite* es suficiente.
 
 **Q: ¿Puedo usar Runtime Lite + Cuentas Públicas?**
 
-A: Sí, puedes licenciar una app usando una **license key** de [developers.arcgis.com](http://developers.arcgis.com) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
+A: Sí, puedes licenciar una app usando una **license key** de [developers.arcgis.com](https://developers.arcgis.com/dashboard) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
 
-#### ArcGIS Online
+## Licenciar scripts y extensiones
 
-**Q: Si quiero que mis usuarios puedan utilizar servicios de análisis, ¿tienen que tener un usuario nominal?**
+Los scripts y extensiones no requieren de licencias específicas para producción, es suficiente con que el producto contra el que van a correr esté correctamente licenciado. Independientemente que sean para ArcGIS Desktop (Add-ins, configurations, toolboxes, etc.), ArcGIS Enterprise (SOEs, SOIs, GeoEvent connectors, ...), scripts que hagan uso de la API de Python, API REST, etc.
 
-A: No, como desarrollador puedes hacer que los créditos consumidos por los análisis realizados por tus usuarios se carguen a tu cuenta, y tú si quieres puede cobrar a su vez un sobre-cargo y quedarte con un margen. Esto es igual de válido tanto para las aplicaciones nativas como para las web.
+## Licenciar apps que usan ArcGIS Enterprise
 
-**Q: ¿Qué pasa si me quedo sin créditos?**
-
-A: Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o actualizar a una cuenta de pago. Si estás usando un plan de pago puedes elegir cómo quieres que se comporte tu cuenta en cuanto al consumo de créditos:
-
-Puedes configurar tu suscripción para permitir "excesos"
-
-Cuando tu suscripción mensual se queda sin créditos se te cargará un poco más por crédito ($.13/credito vs $.10/credito).
-Se te facturará cuando hayas gastado $520 en créditos (4000 créditos) o al siguiente periodo de facturación (lo que llegue antes).
-Puedes actualizar tu plan en cualquier momento.
-
-O puedes configurar tu suscripción para que no permita "excesos"
-
-Cuando tu cuenta supera los créditos se suspende la cuenta. Aún podrás identificarte pero tus applicaciones no podrán acceder a los servicios que consumen créditos (como direcciones, geocodificación en lotes, geo-enriquecimiento o mapas demográficos).
-En el siguiente ciclo de facturación, recibirás un lote nuevo de créditos mensuales.
-
-Además, en cualquiera los dos escenarios descritos anteriormente podrás configurar tu suscripción para notificar por ejemplo cuando se hayan usado el 75%, 90% o 100% de tus créditos
-
-Sin embargo, también puede actualizar tu plan en cualquier momento para evitar excesos
-
-**Q: Cómo puedo hacer un downgrade de mi ArcGIS Online Deployment Plan**
-
-A: Debes contactar directamente con suministros de Esri España (cgi@esri.es) y/o a accounts@esri.com (en inglés) indicándoles que quieres cancelar tu suscripción.
+* **Licencias de ArcGIS Enterprise**: no sería necesario si:
+    * [X] La organización que va a usar el software disponga ya de licencias de ArcGIS Enterprise
