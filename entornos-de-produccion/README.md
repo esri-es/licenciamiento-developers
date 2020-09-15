@@ -92,7 +92,7 @@ A: No, como desarrollador puedes hacer que los créditos consumidos por los aná
 
 **Q: ¿Qué pasa si me quedo sin créditos?**
 
-A: Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o activar el pay as you go. [Más información sobre el funcionamiento de los créditos](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)
+A: Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o activar el pay as you go. Otra opción posible es [comprar un paquete de 1000 créditos](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits?from=sso&CustomerNumber=3501) por 125€. [Más información sobre el funcionamiento de los créditos](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)
 
 **Q: Cómo puedo cancelar mi cuenta de ArcGIS Online**
 
