@@ -247,9 +247,9 @@ La extensión incluye capacidades adicionales, herramientas de análisis y datos
 
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
-**Q: ¿Se puede usar una License Key de un ADS en un entorno de producción?**
+**Q: ¿Puedo usar la "Runtime Lite license key" disponible en el [Developer Dashboard](https://developers.arcgis.com/dashboard) para un entorno de producción?**
 
-A: Sí, sólo habrá que asegurar que el resto de tecnologías de las que dependa (ArcGIS Online, ArcGIS Enterprise y extensiones) estén correctamente licenciadas para entornos de producción.
+A: Sí. Todos los ArcGIS Developer Plans incluyen esta licencia que se puede usar bajo las condiciones descritas en [Nivel: Lite](#nivel-lite).
 
 **Q: Me aparece una marca de agua en mi aplicación nativa, ¿cómo la quito?**
 
