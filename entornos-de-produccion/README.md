@@ -1,4 +1,4 @@
-# Licenciar ArcGIS para entornos de producción
+# Licenciar desarrollos con ArcGIS para entornos de producción
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
