@@ -1,4 +1,4 @@
-# Entornos de producción 
+# Entornos de producción
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -78,13 +78,19 @@ En cualquier caso, cualquier persona que lo desee puede recurrir a la comunidad 
 
 ## ¿Cuándo se requieren usuarios nominales?
 
-> **Nota**: en este apartado vamos a ignorar el caso de licenciar aplicaciones creadas con el Runtime usando usuarios nominales ya que lo trataremos en el siguiente. 
+> **Nota**: en este apartado vamos a ignorar el caso de licenciar aplicaciones creadas con el Runtime usando usuarios nominales ya que lo trataremos en el siguiente.
 
 Necesitaremos un usuario de organización (de pago, ya sea de ArcGIS Online o ArcGIS Enterprise) cuando hayamos creado una app (web o nativa) en la que necesitemos **al menos una** de las siguientes funcionalidades:
-* Limitar (por usuario) el acceso a información no pública (alojada en ArcGIS Online o Enterprise).
+
+* Limitar (por usuario) el acceso a información no pública (**alojada en ArcGIS Online o Enterprise**).
 * Que el usuario pueda formar parte de grupos de una organización de ArcGIS
 * Que pueda hacer uso de las apps (Collector, Web AppBuilder, etc)
 * O queramos que este pueda crear servicios de: entidades, imágenes, etc.
+
+Los usuarios nominales además se dividen por tipos que tienen diferentes capacidades y que pueden acceder a diferentes apps de la plataforma.
+
+Más info:  sobre los [tipos de usuario y sus capacidades](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/#user-types)
+
 
 ## Licenciar apps creadas usando una Runtime
 
@@ -170,8 +176,8 @@ Esta licencia permite:
 
 **Opciones para licenciar**: *license key* | **Coste de la *license key***: dependiendo del tamaño del paquete
 
-La extensión de análisis se podrá adquirir opcionalmente para aquellas aplicaciones que: 
-* Hayan sido creadas con las Runtimes de .Net, Java o Qt 
+La extensión de análisis se podrá adquirir opcionalmente para aquellas aplicaciones que:
+* Hayan sido creadas con las Runtimes de .Net, Java o Qt
 * Estén licenciadas a nivel Standard o Advanced
 
 La extensión incluye capacidades adicionales, herramientas de análisis y datos que permiten ejecutar geoprocesos en el dispositivo que soporten un subconjunto de las siguientes *toolboxes*: Network Analyst, Spatial Analyst y 3D Analyst.
