@@ -1,4 +1,4 @@
-# Tecnología ArcGIS y licenciamiento para entornos de desarrollo
+# Obtener y licenciar tecnología ArcGIS para entornos de desarrollo
 
 Si tienes dudas sobre cómo acceder a la tecnología necesaria **para desarrollar productos con ArcGIS**, limitaciones, por donde empezar para calcular **el coste del desarrollo**, quién te puede ayudar... has llegado al sitio adecuado.
 
@@ -52,11 +52,11 @@ Además, ten en cuenta que cuando queramos **poner la aplicación en un entorno 
 
 A continuación vamos a explicar las diferentes alternativas para acceder al ecosistema de ArcGIS dependiendo del tipo de organización.
 
-> **Aclaración**: Hay compañías que pueden tener varios roles. Por ejemplo: Telefónica juega el rol de Compañía de producto cuando se trata de su producto [SÉNECA](https://www.esri.com/partners/telefonica-solucione-a2T70000000TRDtEAO/s-neca-a2d70000000hrKmAAI), de Cliente Esri ya que tiene en plantilla analistas que usan ArcGIS a diario y de partners cuando oferta servicios de desarrollo con ArcGIS y/o se presenta a concursos públicos con nuestra tecnología.
+> **Aclaración**: Hay compañías que pueden tener varios roles. Por ejemplo: Telefónica juega el rol de Compañía de producto cuando está desarrollando su producto [SÉNECA](https://www.esri.com/partners/telefonica-solucione-a2T70000000TRDtEAO/s-neca-a2d70000000hrKmAAI), de Cliente Esri ya que tiene en plantilla analistas que usan ArcGIS a diario y de Consultora de servicios / Integrador cuando oferta servicios de desarrollo y/o se presenta a concursos públicos con ArcGIS.
 
 Una cosa importante a tener en cuenta es que cualquier desarrollador particular u organización puede acceder gratuitamente a las herramientas incluidas en el "[Plan Essentials](#plan-essentials)": APIs, SDKs, License Keys, ArcGIS Online, constructores, etc.
 
-Como decíamos anteriormente, recuerda que para la puesta en producción puede que haya que adquirir alguna licencia adicional de software (o usuarios nominales), pero eso se explica en: **[Licenciamiento para Entornos de Producción](../entornos-de-produccion/README.md)**.
+Como decíamos anteriormente, para la puesta en producción puede que haya que adquirir alguna licencia adicional de software (o usuarios nominales), pero eso se explica en: **[Licenciamiento para Entornos de Producción](../entornos-de-produccion/README.md)**.
 
 Por último, recuerda que **si no encuentras resuelta tu duda aquí y necesitas ayuda o alguna aclaración sobre licenciamiento, puedes [crear un nuevo issue](https://github.com/esri-es/licenciamiento-developers/issues) con tu consulta**.
 
@@ -156,7 +156,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
     * [REST APIs](https://esri-es.github.io/awesome-arcgis/esri/open-vision/open-specifications/arcgis-rest-api/) (ArcGIS Online, ArcGIS Open Data, ...)
     * Runtime SDKs para: [Android](https://developers.arcgis.com/android/), [iOS](https://developers.arcgis.com/ios/), [Java](https://developers.arcgis.com/java/), [macOS](https://developers.arcgis.com/macos/), [.NET](https://developers.arcgis.com/net/), [Qt](https://developers.arcgis.com/qt/) y [WPF](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/) (deprecated).
 
-* **ArcGIS Online**: una cuenta de organización mono-usuario (*sin posibilidad de adquirir más usuarios*) que incluye también un *ArcGIS Online Deployment Plan* con 50 créditos mensuales (gratuitos) para desarrollo y pruebas que incluye:
+* **ArcGIS Online**: una cuenta de organización mono-usuario (*sin posibilidad de adquirir más usuarios*) que incluye 50 créditos mensuales (gratuitos) para desarrollo y pruebas que incluye:
 
     * Usuario creator con 50 créditos mensuales para para alojar datos en la nube (crear servicios alojados), acceder a contenido bajo suscripción, contenido premium del [Living Atlas](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/living-atlas/README.md) (datos sociodemográficos) o usar [los servicios/APIs listos para usar](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/products/arcgis-online/rest-apis/ready-to-use-services/README.md) (cálculos de rutas, geocodificaciones, análisis espaciales, ...). Si necesitas más de 50 créditos mensuales puedes activar la opción pay as you go. Más info sobre los [tipos de usuarios nominales](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/) y el funcionamiento de los créditos: [Understanding credits](https://doc.arcgis.com/en/arcgis-online/reference/credits.htm). | [Service credits overview](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/credits) | [Credits FAQ](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/products/arcgis-online/credits/README.md#credits)
 
@@ -212,22 +212,22 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 |Collector for ArcGIS|[Descargar](http://doc.arcgis.com/en/collector/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/collector-for-arcgis/)|Integrable o automatizable a través de [collector-tools](https://github.com/Esri/collector-tools) y [collector-integration](https://github.com/Esri/collector-integration).|
 |Workforce for ArcGIS|[Descargar](https://workforce.arcgis.com/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/workforce/)|Automatizable: [workforce-scripts](https://github.com/Esri/workforce-scripts).|
 |Explorer for ArcGIS|[Descargar](http://doc.arcgis.com/en/explorer/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/explorer-for-arcgis/)|Integrable usando [explorer-integration](https://github.com/Esri/explorer-integration).|
-|Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|[ArcGIS Online Deployment plan](https://developers.arcgis.com/pricing/credits/) por defecto: 50 créditos/mes|
+|Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|ArcGIS Online con 50 créditos/mes gratuitos|
+
 ---
 
 #### Plan: Builder
 
 **Precio aproximado:** $125/mes [Contratar](https://developers.arcgis.com/account/billing) | 2.385€/año + I.V.A. (Anual) | [Comprar online](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-builder)
 
-Especialmente pensado para proyectos que requieran crear una aplicación que funcione en **múltiples sistemas operativos y plataformas (móvil y desktop)**. Y/o en los que se cuenta con un equipo de desarrollo limitado (por: tiempo, tamaño o experiencia) para poder hacerlo.
 
-Por ello **además de lo que incluye el Plan Essentials**, este plan incluye:
+**Además de lo que incluye el Plan Essentials**, este plan incluye:
 
 |Tecnología|Acceder y/o descargar|Documentación|Detalles|
 |---|---|---|---|
 |AppStudio for ArcGIS Developer Edition|[Descargar](https://doc.arcgis.com/en/appstudio/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/appstudio/)|Con más de [60 ejemplos de código](https://github.com/Esri/arcgis-appstudio-samples) para acelerar la creación de aplicaciones multiplataforma.|
 |Survey123 for ArcGIS source code|[Descargar](https://doc.arcgis.com/en/survey123/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/survey123/)|n.a.|
-|Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos usuarios creator y tres usuarios viewer + [ArcGIS Online Deployment plan](https://developers.arcgis.com/pricing/credits/) por defecto: 50 créditos/mes|
+|Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos usuarios creator y tres usuarios viewer + ArcGIS Online con 50 créditos/mes gratuitos|
 |ArcGIS Desktop Basic (ArcGIS Pro & ArcMap)|[Download ArcGIS Pro](http://links.esri.com/pro/download/current) & [ArcMap](http://desktop.arcgis.com/en/arcmap/latest/get-started/main/get-started-with-arcmap.htm#ESRI_SECTION1_1920CFA5E30C477B9BD943844531DE11)|[ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/))|Para preparar y trabajar tus datos, realizar análisis, etc|
 
 ---
@@ -235,10 +235,6 @@ Por ello **además de lo que incluye el Plan Essentials**, este plan incluye:
 #### Plan: Professional
 
 **Precio aproximado:** 2.860€/año + I.V.A. | [Comprar online](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-professional)
-
-Este plan está pensando para aquellos que necesitan:
-* [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) para sus desarrollos, ya sea porque quieren extenderlo mediante los SOIs/SOEs, porque necesiten usar [GeoDatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/geodatabase/) o porque sus aplicaciones requieren de geoprocesos.
-* O bien extender [ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/).
 
 Este plan **además de lo descrito en el Plan Builder** incluye:
 * [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) (Advanced).
@@ -256,6 +252,11 @@ Este plan **además de lo descrito en el Plan Builder** incluye:
 |ArcGIS Pro SDK for .NET|[Descargar](https://github.com/Esri/arcgis-pro-sdk#installing-arcgis-pro-sdk-for-net)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/)|
 |ArcObjects SDK for .NET|[my.esri.com](https://my.esri.com/#/downloads/Developer%20Tools)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm)|
 |ArcObjects SDK for Java|[my.esri.com](https://my.esri.com/#/downloads/Developer%20Tools)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm)|
+
+> Se podría decir que este plan está pensando principalmente para aquellos que necesitan:
+* [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) para sus desarrollos, ya sea porque quieren extenderlo mediante los SOIs/SOEs, porque necesiten usar [GeoDatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/geodatabase/) o porque sus aplicaciones requieren de geoprocesos.
+* Usar ArcMap
+* Extender [ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/).
 
 ---
 
@@ -363,9 +364,21 @@ En cualquier caso, cualquier persona que lo desee (incluído los miembros del *p
 
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
+**Q: Ya tengo licencias de ArcGIS Pro, ArcGIS Enterprise, ... ¿necesito adquirir un ADS para poder extenderlo?**
+
+No, si ya tienes las licencias, aunque sean para entornos de producción, puedes acceder a las tecnologías necesarias para poder extenderlos.
+
 **Q: ¿Qué limitaciones tiene el software proporcionado en un ADP, EPN o un CTE?**
 
-Las licencias proporcionadas no se pueden usar para vender servicios o poner en producción un producto, salvo que se traten de proyectos sin ánimo de lucro.
+Las licencias proporcionadas no se pueden usar para vender servicios o poner en producción un producto, salvo las excepciones explicadas en: [Licenciar desarrollos con ArcGIS para entornos de producción](../entornos-de-produccion/README.md).
+
+Por ejemplo, una licencia de ArcGIS Pro del Plan Builder no se puede usar para vender servicios de análisis a terceros. O una licencia de Enterprise proporcionada en en Plan Premium no se puede usar para un entorno en producción.
+
+**Q: ¿Para desarrollar una aplicación nativa (móvil o desktop) con capacidades offline necesito adquirir alguna licencia o plan concreto?**
+
+Para desarrollar no. Cuando descargas y empiezas a desarrollar con cualquiera de las SDKs tienes todas las capacidades de todos los niveles disponibles (pero aparece la marca de agua "[Licensed For Developer Use Only](https://github.com/esri-es/licenciamiento-developers/blob/master/license-for-developer-use-only.png?raw=true)"). Para quitar esta marca de agua es necesario licenciar la aplicación para producción, ya sea usando una *license key* o un usuario nominal (ver más sobre los [mecanismos de licenciamiento de las Runtime SDK](#mecanismos-de-licenciamiento)). En ese momento, cuando se licencia la aplicación, es cuando se definen/limitan las capacidades a las que podrá acceder la aplicación.
+
+Luego dependerá del mecanismo que quieras utilizar para preparar el mapa offline. Para más información ver: [\[DUDA\] Desarrollo de una aplicación con la Runtime que pueda cargar datos alojados en ArcGIS](https://github.com/esri-es/licenciamiento-developers/issues/11).
 
 **Q: ¿Qué indican los tipos de usuarios?**
 
@@ -385,18 +398,6 @@ Los tipos de usuario limitan las capacidades que pueden tener. [Más info](https
 
 * [ArcGIS Pro](https://pro.arcgis.com/en/pro-app/sdk/): sólo las licencias de ArcGIS Pro. Para desarrollo te vale con el *Professional Plan* o si dispones de ellas, las propias licencias de ArcGIS Pro de producción.
 
-**Q: ¿A qué equivale mi EDN respecto a los nuevos planes?**
-
-A: En la siguiente tabla puedes ver las correspondencias:
-
-|EDN/Developer Subscription|Equivalencia con el nuevo plan|
-|---|---|
-|EDN + Desktop Adv. Add-On|Enterprise Plan|
-|EDN + Desktop Std. Add-On|Premium Plan|
-|EDN sólo <br>O EDN + AppStudio Add-on y/o Desktop Basic Add-On|Professional Plan|
-|AppStudio for ArcGIS|Builder Plan|
-|Plan gratuito o de pago|Essentials Plan|
-
 **Q: ¿Y si compro un Plan y somos cinco miembros en el equipo de desarrollo?**
 
 A: Deberás enviar la invitación de los dos usuarios nominales a los miembros
@@ -410,3 +411,15 @@ A: No, el software licenciado mediante el EDN no se ve afectado, se aplican los 
 **Q: ¿Cuántos usuarios nominales de ArcGIS Enterprise se incluyen con una suscripción?**
 
 A: (3) viewers y (2) nivel creators
+
+**Q: ¿A qué equivale mi EDN respecto a los nuevos planes?**
+
+A: En la siguiente tabla puedes ver las correspondencias:
+
+|EDN/Developer Subscription|Equivalencia con el nuevo plan|
+|---|---|
+|EDN + Desktop Adv. Add-On|Enterprise Plan|
+|EDN + Desktop Std. Add-On|Premium Plan|
+|EDN sólo <br>O EDN + AppStudio Add-on y/o Desktop Basic Add-On|Professional Plan|
+|AppStudio for ArcGIS|Builder Plan|
+|Plan gratuito o de pago|Essentials Plan|
