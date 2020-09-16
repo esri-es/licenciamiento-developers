@@ -18,6 +18,7 @@
   - [Nivel: Standard](#nivel-standard)
   - [Nivel: Advanced](#nivel-advanced)
   - [Licenciar apps con extensiones](#licenciar-apps-con-extensiones)
+  - [Escenarios de ejemplo](#escenarios-de-ejemplo-1)
   - [Preguntas frecuentes](#preguntas-frecuentes-2)
 - [Licenciar scripts y extensiones](#licenciar-scripts-y-extensiones)
 - [Licenciar apps que usan ArcGIS Enterprise](#licenciar-apps-que-usan-arcgis-enterprise)
@@ -51,7 +52,8 @@ A continuación se describen tres escenarios a modo ilustrativo:
     * Si la aplicación:
         * [X] Está dirigida a organizaciones que no tienen una cuenta de ArcGIS Online
         * [X] Y va a alojar en ArcGIS Online los datos privados de la organización.
-    * Entonces: por cada organización en esta situación habrá que contratar al menos una organización con un usuario (~605€/año).
+    * Entonces: **por cada organización** en esta situación habrá que contratar una organización con al menos un usuario (~605€/año).
+    > **Nota**: en las preguntas frecuentes se explica una posible fórmula para automatizar el proceso de contratación.
 
 
 * **Escenario 2) Servicios Geoespaciales**
@@ -59,6 +61,7 @@ A continuación se describen tres escenarios a modo ilustrativo:
         * [X] Se está monetizando de algún modo
         * [X] Que utiliza internamente los datos / APIs de nuestra organización de ArcGIS Online
     * Entonces hará que contratar el Plan Builder (o superior) y si fuese necesario pagar el exceso de créditos.
+
 
 * **Escenario 3) Solución o producto que no aloja datos privados de la organización en ArcGIS Online**
     * Entonces: necesitaremos o bien una cuenta de organización con un usuario (~605€/año), o cualquiera de los [planes para desarrolladores](../entornos-de-desarrollo/README.md#arcgis-developer-plans-adp) de pago (si necesitamos alguna herramientas adicional para desarrollar la aplicación).
@@ -86,7 +89,7 @@ En cualquier caso, cualquier persona que lo desee puede recurrir a la comunidad 
 
 * [Resolver dudas (Tips & Tricks)](https://community.esri.com/groups/geodev-spain/blog/2018/06/14/resolver-dudas-tips-tricks)
 * [Iniciativas de comunidad en español](https://github.com/esri-es/devsummits-esri-spain/blob/gh-pages/2017/ppts/iniciativas-para-desarrolladores/presentation.md#comunidad)
-* [Iniciaitivas internacionales de comunidad](https://esri-es.github.io/awesome-arcgis/esri/community/)
+* [Iniciativas internacionales de comunidad](https://esri-es.github.io/awesome-arcgis/esri/community/)
 
 
 ### Preguntas frecuentes
@@ -113,6 +116,10 @@ Algunas situaciones en las que se puede considerar esta opción son:
 **Q: Si quiero que mis usuarios puedan utilizar servicios de análisis, ¿tienen que tener un usuario nominal?**
 
 A: No, como desarrollador puedes hacer que los créditos consumidos por los análisis realizados por tus usuarios se carguen a tu cuenta, y tú si quieres puede cobrar a su vez un sobre-cargo y quedarte con un margen. Esto es igual de válido tanto para las aplicaciones nativas como para las web.
+
+**Q: ¿Es posible adquirir organizaciones de ArcGIS Online programáticamente?**
+
+A: A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de organizaciones. Sin embargo el proceso de creación de cuentas utilizado por el [e-commerce de Esri](https://www.esri.com/es-es/store/) está automatizado, por lo que en caso de ser necesario se podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
 
 **Q: ¿Qué pasa si me quedo sin créditos?**
 
@@ -159,7 +166,10 @@ Los *Partner user Types* se denominan: Lite (para visualizar), Basic (para edita
 
 > Más información: [Tipos de usuarios, roles y privilegios](https://doc.arcgis.com/es/arcgis-online/reference/roles.htm#USER_TYPES)
 
-Más información: informacion@esri.es
+Más información:
+
+* [Cualquier duda o pregunta puedes hacerla en los issues](https://github.com/esri-es/licenciamiento-developers/issues)
+* [Contratar ArcGIS usuarios nominales](https://www.esri.com/es-es/store/arcgis-online/user-types) (para licenciar)
 
 ### Preguntas frecuentes
 
@@ -186,6 +196,10 @@ Por tanto no se puede baipasear el sistema de autenticación de usuarios, [como 
 >  **It is not permitted to embed credentials in a resource proxy for the purpose of bypassing Named User authentication** (i.e. the principle that each end-user must have their own unique login). This is true both when using a resource proxy with ArcGIS Online as well as for ArcGIS Server sites federated as part of an ArcGIS Enterprise deployment.
 
 O lo que es lo mismo, usar un proxy para controlar el acceso por parte de diferentes usuarios de un sistema de gestión de usuarios propio a los recursos/contenidos de un único usuario nominal de ArcGIS.
+
+**Q: ¿Es posible adquirir usuarios nominales programáticamente?**
+
+A: A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de usuarios nominales. Sin embargo el proceso de creación y asignación de usuarios nominales utilizado por el [e-commerce de Esri](https://www.esri.com/es-es/store/) está automatizado, por lo que en caso de ser necesario, cualquier desarrollador podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
 
 ## Licenciar apps que usan alguna de las Runtime
 
@@ -368,6 +382,36 @@ La extensión incluye capacidades adicionales, herramientas de análisis y datos
 * Calcular áreas de servicio y encontrar la instalaciones más cercanas usando un *network dataset* en local.
 * Ejecutar geoprocesos en el dispositivo que soporten un subconjunto de las siguientes *toolboxes*: Network Analyst, Spatial Analyst y 3D Analyst.
 
+### Escenarios de ejemplo
+
+A continuación se describen cinco escenarios a modo ilustrativo:
+
+* **Escenario 1:** Un desarrollador crea una aplicación con la Runtime que usa ArcGIS Online basemaps y geocodificación, además funciona con datos offline en forma de paquetes y web maps offline. La aplicación **no** genera beneficio:
+    * El desarrollador puede licenciar usando el nivel Lite (sin coste) y usar la cuenta de ArcGIS Online incluida en el Plan Essential sin coste. el único coste asociado dependería de si hace consumo de créditos, en ese caso, si se superan los 50 créditos mensuales gratuitos, deberá activar al menos el mecanismo de "Pay as you go".
+
+
+* **Escenario 2:** Un desarrollador crea una aplicación con la Runtime que usa ArcGIS Online basemaps y geocodificación, además funciona con datos offline en forma de paquetes y web maps offline. La aplicación genera beneficio:
+    * El desarrollador puede licenciar usando el nivel Lite (sin coste) pero tiene que adquirir al menos el Plan Builder (o una organización de un usuario) para usar la cuenta de ArcGIS Online. También debería asumir los costes asociados al posible consumo de créditos.
+
+
+* **Escenario 3:** Un desarrollador hace una aplicación con la Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline para clientes que tienen ArcGIS Enterprise. La aplicación genera beneficio:
+    * El desarrollador puede licenciar usando el nivel Lite (sin coste).
+
+
+* **Escenario 4:** Un desarrollador hace una aplicación con al Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline para clientes que tienen ArcGIS Enterprise. La aplicación soporta edición La aplicación genera beneficio:
+    * El desarrollador necesita licenciar las aplicaciones de Runtime con "Basic"
+
+
+* **Escenario 5:** Un desarrollador hace una aplicación con al Runtime que funciona en modo offline con datos en forma de "shapefiles" o ficheros raster. La aplicación genera beneficio.
+    * El desarrollador necesita licenciar las aplicaciones de Runtime con "Standard"
+
+Más información:
+
+* [Cualquier duda o pregunta puedes hacerla en los issues](https://github.com/esri-es/licenciamiento-developers/issues)
+* [Contratar ArcGIS usuarios nominales](https://www.esri.com/es-es/store/arcgis-online/user-types) (para licenciar)
+* Contratar paquetes de **license keys**: informacion@esri.es
+
+
 ### Preguntas frecuentes
 
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
@@ -416,6 +460,8 @@ Los scripts y extensiones no requieren de licencias específicas para producció
 
 El único caso en el que no sería necesario adquirir licencias de ArcGIS Enterprise** para producción es si la organización que va a usar el software dispone ya de licencias de ArcGIS Enterprise.
 
+Más información: informacion@esri.es
+
 ## Licenciar apps generadas con los constructores de apps
 
 ArcGIS dispone de múltiples generadores de aplicaciones, algunos de ellos orientados o con versiones para desarrolladores que permiten añadir funcionalidad y/o incorporar nuevos "layouts" a los que ya incluyen por defecto. Nos referimos a: Web AppBuilder Developer Edition, Experience Builder Developer Edition, AppStudio Standard Developer Edition, Survey123, etc.
@@ -423,3 +469,5 @@ ArcGIS dispone de múltiples generadores de aplicaciones, algunos de ellos orien
 Al igual que ocurre al licenciar scripts y extensiones, poner en producción cualquier aplicación generada con estos constructores no requieren de licencias específicas. Es suficiente con que la tecnología que vayan a usar estén correctamente licenciadas. Por ejemplo: ArcGIS Online / Enterprise, y en el caso de AppStudio habrá que verificar que la aplicación incorpore el mecanismo de autenticación elegido.
 
 > **Observación**: no todos los constructores son gratuitos (por ej: AppStudio Standard Developer Edition), por tanto será necesario disponer de licencia de esta tecnología durante la fase de desarrollo. Más info es: [Obtener y licenciar tecnología ArcGIS para entornos de desarrollo](../entornos-de-desarrollo/README.md)
+
+Más información: informacion@esri.es
