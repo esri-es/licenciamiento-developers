@@ -222,7 +222,7 @@ Existen dos formas de licenciar una aplicación nativa:
   * Clientes finales que no disponen de licencias de ArcGIS Online o Enterprise
   * Aplicaciones que requieren funcionar por tiempo indefinido sin conexión a Internet
   * Y/o si se necesitan garantías de que la aplicación seguirá funcionando después de 30 días sin conexión, que es el periodo en el que puede caducar una licencia de usuario nominal y por tanto se requiere de nuevo  comprobar el estado de la cuenta.
-  > **Nota**: en el caso de optar por usar una *license key*, tendrás que utilizar una clave distinta por cada app y dispositivo, para todos los niveles salvo para *Lite*. Estas licencias se venden por paquetes cuyo precio varía según el tamaño del paquete. Por tanto, salvo que se trate del Nivel Lite que no tiene coste, este mecanismo no tiene sentido usarlo cuando se trata de aplicaciones públicamente subidas al marketplace.
+  > **Nota**: en el caso de optar por usar una *license key* y **que sea de un nivel superior a Basic**, tendrás que adquirir una clave que esté autorizada para ser usada por tantos usuarios como vayan a usar la app.
 
 ---
 
@@ -248,7 +248,7 @@ Existen dos formas de licenciar una aplicación nativa:
 
 |**Opción**|**Coste**|
 |---|---|
-|*License key*|0€|
+|*License key* (perpetua)|0€|
 |Tipo de usuario mínimo: *viewer*|120€/año + IVA|
 
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
@@ -269,7 +269,7 @@ Este nivel está pensado para aplicaciones que además de visualizar informació
 
 |**Opción**|**Coste**|
 |---|---|
-|*License key*|A partir de 170€/año + IVA|
+|*License key* (perpetua)|A partir de 170€ + IVA (por dispositivo y app)|
 |Tipo de usuario mínimo: *editor*|265€/año + IVA|
 
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
@@ -292,7 +292,7 @@ Este nivel está pensado para aplicaciones que utilizan archivos de datos en loc
 
 |**Opción**|**Coste**|
 |---|---|
-|*License key*|A partir de ~500€/año + IVA|
+|*License key* (perpetua)|A partir de ~500€ + IVA (por dispositivo y app)|
 |Usuario con licencia de "ArcGIS Runtime Standard" asignada|n.a.|
 
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
@@ -314,7 +314,7 @@ Este nivel está pensado para aplicaciones que trabajan directamente con ArcGIS 
 
 |**Opción**|**Coste**|
 |---|---|
-|*License key*|A partir de ~1000€/año|
+|*License key* (perpetua)|A partir de ~1000€ + IVA (por dispositivo y app)|
 |Usuario con licencia de "ArcGIS Runtime Advanced" asignada|n.a.|
 
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
@@ -414,15 +414,31 @@ Más información:
 
 ### Preguntas frecuentes
 
-> **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
+> **Nota**: Si tu pregunta no se encuentra respondida aquí, revisa las [preguntas frecuentes sobre licenciamiento de Runtime en developers.arcgis.com/pricing/licensing#faq](https://developers.arcgis.com/pricing/licensing/#faq). Si aún así no das con la respuesta, revisa si alguna persona ha planteado tu duda en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
-**Q: ¿Puedo usar la "Runtime Lite license key" que contiene el [Developer Dashboard](https://developers.arcgis.com/dashboard) para un entorno de producción?**
+**Q: ¿Existe un límite en el número de aplicaciones Runtime que se pueden desplegar con una *license key* Lite?**
+
+No, se pueden desplegar tantas como se quieran.
+
+**Q: ¿Qué puede ocurrir si tengo una licencia Basic/Standad/Advanced autorizada para un número de despliegues y supero este número?**
+
+A: Como se indica en los términos de uso, tendrñas que adquirir más licencias como sean necesarias para los despliegues realizados, y si fuera necesario, los desarrolladores podrían ser auditados por Esri para asegurar que se están cumpliendo los términos de uso.
+
+**Q: ¿Puedo crear una aplicación que en lugar de tener la *license key* "hardcodeada" en el código, se introduzca una vez la aplicación está en ejecución? (ya sea por el usuario o de otra forma)**
+
+A: La *license key* tiene que establecerse para inicializar el Runtime antes de que se utilice cualquier componente del mismo. Por tanto sería posible hacerlo en tiempo de ejecución, pero por norma general no suele hacerse así. Ten en cuenta que aunque se haga así, el desarrollador tiene que seguir contabilizando el número de veces que se ha usado esa *license key* y por tanto adquirir tantas licencias como sea necesario. Los despliegues se contabilizar base al número de instalaciones de la aplicación por usuario y dispositivo, no en el número de usuarios que utilizan la aplicación.
+
+**Q: ¿Puedo usar la "Runtime Lite license key" que aparece en el [Developer Dashboard](https://developers.arcgis.com/dashboard) de cualquier ADS para un entorno de producción?**
 
 A: Sí. **Todos** los ArcGIS Developer Plans incluyen esta licencia que se puede usar en producción bajo las condiciones descritas en [Nivel: Lite](#nivel-lite).
 
+**Q: ¿Las *license key* de ArcGIS Runtime "Lite" son únicas?**
+
+Sí, cada ADS genera una única "Runtime Lite license key". Esta cadena puede ser compartida por todas las aplicaciones Runtime asociadas a la cuenta de ArcGIS for Developers desde la que fue creada. Proteja su clave de licencia - es única para su cuenta de ArcGIS for Developers.
+
 **Q: ¿Cual es la licencia y mecanismo más adecuado si quiero subir mi aplicación móvil al marketplace de Google y/o Apple?**
 
-A: Por tanto deberíamos optar por el nivel Lite a través de *license key* o por cualquier otro nivel a través del mecanismo de licenciamiento a través de usuarios nominales. Como adelantábamos, no es viable usar el mecanismo de *license keys* ya que requiere un proceso manual de compra de paquetes de licencias.
+A: Cualquier mecanismo es válido, dependerá del caso de uso, público objetivo de la app, etc. Abre un issue y cuéntanos tu caso para que podamos ayudarte.
 
 **Q: ¿Está incluida la clase GeometryEngine en el Nivel Lite de AppStudio?**
 
@@ -430,7 +446,33 @@ A: Sí, está incluida. No es necesario subir a Basic o ningún otro nivel.
 
 **Q: ¿Cómo genero una *license key* nivel Basic/Standard/Advanced?**
 
-A: No existe una forma para que generes/adquieras *license key* automáticamente. Para conseguirlas tienes que contactar con informacion@esri.es, solicitar presupuesto y una vez realizada la compra recibirás las claves por correo.
+A: No existe una forma para que generes/adquieras *license key* ni extensiones automáticamente. Para conseguirlas tienes que contactar con informacion@esri.es, solicitar presupuesto y una vez realizada la compra la(s) recibirás por correo.
+
+**Q: Cuando adquiero un paquete para licenciar mi app como Basic/Standard/... , ¿cuántas license keys recibo?**
+
+Sólo se recibe una **license key** para cada aplicación y nivel. Cuando se hace referencia a "paquete" nos referimos a que dicha *license key* está autorizada para ser utilizada en tantos despliegues (instalaciones en dispositivos) como se indique en el paquete. Por ejemplo un pack de 25 licencias indica que la licencia puede usarse en 25 instalaciones (app & dispositivo).
+
+**Q: ¿Puedo combinar los dos mecanismos de licenciamiento en una sola app?**
+
+Sí. Puedes elegir compilar tu aplicación con una clave de licencia (*license key*) Lite para hacer uso de la funcionalidad Lite, pero también ofrecer la posibilidad de iniciar sesión con un usuario nominal para dotar a la app de más capacidades. Esto por ejemplo se podría usar para crear una aplicación que funcionase bajo un modelo Freemium.
+
+**Q: ¿Existe alguna posibilidad de crear una aplicación con capacidades de edición y que use la licencia "Lite"?**
+
+Imaginemos el siguiente escenario:
+
+* Estamos desarrollando una aplicación no centrada en mapas que va dirigida a PYMEs
+
+* Queremos usar la Runtime de ArcGIS para crear una aplicación que simplemente necesita una edición sencilla de datos geolocalizados (pero que hace otras muchas cosas con datos no geográficos/geolocalizados)
+
+* Usar el licenciamiento "Basic" haría que la solución fuese demasiado cara, hasta el punto de hacerla no competitiva en comparación con otras soluciones del mercado
+
+* Los competidores venden su solución directamente a través de Google Play y la Apple Store y usan un modelo Freemium, la misma estrategia que querríamos seguir nosotros.
+
+* Nosotros, como desarrolladores estamos dispuestos a desarrollar nuestro propio sistema de gestión de ediciones y almacenando dichas ediciones en un sistema de registro propio (que no sea ArcGIS)
+
+En una situación así podríamos optar por usar un licenciamiento "Lite" y crear nuestro propio sistema, aunque hay que tener en cuenta que de este modo no podríamos aprovechar el robusto soporte de edición que ofrece la Runtime para casos online/offline, control de acceso basado en usuarios, ... Pero desde luego sería una forma más económica de licenciar la aplicación.
+
+> Nota: en estate en cuenta que en este caso no podrías aprove
 
 **Q: Me aparece una marca de agua en mi aplicación nativa, ¿cómo la quito?**
 
@@ -444,13 +486,15 @@ A: No, *ArcGIS Runtime Local Server* sólo está disponible para las SDK de escr
 
 A: Con el nivel *Lite* es suficiente.
 
-**Q: ¿Puedo usar Runtime Lite + Cuentas Públicas?**
+**Q: ¿Puedo usar Runtime Lite + [Cuentas Pública](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/#account-types)?**
 
-A: Sí, puedes licenciar una app usando una **license key** de [developers.arcgis.com](https://developers.arcgis.com/dashboard) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
+> Una [cuenta pública de ArcGIS](https://www.arcgis.com/sharing/rest/oauth2/signup?client_id=arcgisonline&redirect_uri=http://www.arcgis.com&response_type=token) es una cuenta gratuita diseñada **para uso personal y no comercial** en la que se puede: crear, almacenar y gestionar mapas, escenas, ... compartir contenido con otros, acceder a contenido compartido por usuarios de Esri y GIS de todo el mundo.
+
+A: Sí.  puedes licenciar una app usando una **license key** de [developers.arcgis.com](https://developers.arcgis.com/dashboard) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
 
 **Q: ¿Existen *license keys* perpetuas o hay que renovarlas año a año?**
 
-A: No, las *license keys* sólo se pueden adquirir como licencias con renovación anual.
+A: Sí, todas las *license keys* son perpetuas y sólo se pueden adquirir de ese modo.
 
 ## Licenciar scripts y extensiones
 
