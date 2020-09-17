@@ -24,7 +24,7 @@ Si tienes dudas sobre cómo acceder a la tecnología necesaria **para desarrolla
   - [Programa de Intercambio de Tecnologías Complementarias (CTE)](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias-cte)
   - [Otros programas](#otros-programas)
     - [Para organizaciones sin ánimo de lucro (ONGs)](#para-organizaciones-sin-%C3%A1nimo-de-lucro-ongs)
-    - [Para Colegios](#para-colegios)
+    - [Para Colegios y otras entidades educativas](#para-colegios-y-otras-entidades-educativas)
 - [Soporte](#soporte)
   - [Servicio de Soporte Técnico de Esri España](#servicio-de-soporte-t%C3%A9cnico-de-esri-espa%C3%B1a)
   - [Comunidad](#comunidad)
@@ -218,7 +218,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 
 #### Plan: Builder
 
-**Precio aproximado:** $125/mes [Contratar](https://developers.arcgis.com/account/billing) | 2.385€/año + I.V.A. (Anual) | [Comprar online](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-builder)
+**Precio aproximado:** $125/mes [Contratar](https://developers.arcgis.com/account/billing)
 
 
 **Además de lo que incluye el Plan Essentials**, este plan incluye:
@@ -339,9 +339,11 @@ Existe un [programa para ONGs](https://www.esri.com/en-us/solutions/industries/s
 
 Más información: información@esri.es
 
-#### Para Colegios
+#### Para Colegios y otras entidades educativas
 
-Existe un [Programa para Colegios](https://colegios.esri.es/) que ofrece a estos la posibilidad de acceder gratuitamente a cuentas de ArcGIS Online con ususarios nominales sobre los que se pueden hacer desarrollos.
+Existe un **[Programa para Colegios](https://colegios.esri.es/)** que ofrece a estos la posibilidad de acceder gratuitamente a cuentas de ArcGIS Online con usuarios nominales sobre los que se pueden hacer desarrollos.
+
+También existen otro tipo de acuerdos especiales para otro tipo de entidades como pueden ser los **centros de investigación sin ánimo de lucro** que ofrecen programas de formación para estudiantes y programas de post-doctorado. En estos acuerdos las licencias proporcionadas se pueden usar para propósitos de investigación y gestión de los propios centros.
 
 Más información: información@esri.es
 
