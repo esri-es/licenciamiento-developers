@@ -23,8 +23,8 @@ Si tienes dudas sobre cómo acceder a la tecnología necesaria **para desarrolla
   - [Programa de Startups (EBP)](#programa-de-startups-ebp)
   - [Programa de Intercambio de Tecnologías Complementarias (CTE)](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias-cte)
   - [Otros programas](#otros-programas)
-    - [Para organizaciones sin ánimo de lucro (ONGs)](#para-organizaciones-sin-%C3%A1nimo-de-lucro-ongs)
-    - [Para Colegios y otras entidades educativas](#para-colegios-y-otras-entidades-educativas)
+    - [Organizaciones sin ánimo de lucro (ONGs)](#organizaciones-sin-%C3%A1nimo-de-lucro-ongs)
+    - [Colegios y otras entidades educativas](#colegios-y-otras-entidades-educativas)
 - [Soporte](#soporte)
   - [Servicio de Soporte Técnico de Esri España](#servicio-de-soporte-t%C3%A9cnico-de-esri-espa%C3%B1a)
   - [Comunidad](#comunidad)
@@ -333,13 +333,13 @@ Para más información
 
 ### Otros programas
 
-#### Para organizaciones sin ánimo de lucro (ONGs)
+#### Organizaciones sin ánimo de lucro (ONGs)
 
 Existe un [programa para ONGs](https://www.esri.com/en-us/solutions/industries/sustainability/nonprofit-program/overview) con licencias anuales con grandes descuentos para: ArcGIS Online, ArcGIS Pro y ArcGIS Enterprise.
 
 Más información: información@esri.es
 
-#### Para Colegios y otras entidades educativas
+#### Colegios y otras entidades educativas
 
 Existe un **[Programa para Colegios](https://colegios.esri.es/)** que ofrece a estos la posibilidad de acceder gratuitamente a cuentas de ArcGIS Online con usuarios nominales sobre los que se pueden hacer desarrollos.
 
