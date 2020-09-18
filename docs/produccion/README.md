@@ -43,7 +43,8 @@ Los únicos **casos en los que no se necesitaría una licencia de ArcGIS Online 
 
 En cualquiera de los dos últimos casos, si el consumo de créditos excede los disponibles en la cuenta se puede activar el [Pay As You Go](https://developers.arcgis.com/pricing/credits/) o [comprar un paquete de 1000 créditos adicionales](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits).
 
-> **Importante**: Si no sabes cómo funcionan los créditos de ArcGIS Online o tienes alguna duda, te recomendamos el siguiente recurso: "[Awesome ArcGIS - ArcGIS Online Credits](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)" ([vídeo](https://www.arcgis.com/apps/MapJournal/index.html?appid=3875c10877da43aaa215d0b216cb2137&section=8)).
+> [!TIP]
+> Si no sabes cómo funcionan los créditos de ArcGIS Online o tienes alguna duda, te recomendamos el siguiente recurso: "[Awesome ArcGIS - ArcGIS Online Credits](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)" ([vídeo](https://www.arcgis.com/apps/MapJournal/index.html?appid=3875c10877da43aaa215d0b216cb2137&section=8)).
 
 ### Escenarios de ejemplo
 
@@ -54,7 +55,8 @@ A continuación se describen tres escenarios a modo ilustrativo:
         * [X] Está dirigida a organizaciones que no tienen una cuenta de ArcGIS Online
         * [X] Y va a alojar en ArcGIS Online los datos privados de la organización.
     * Entonces: **por cada organización** en esta situación habrá que contratar una organización con al menos un [usuario creator](#tipos-y-capacidades-de-usuarios-nominales).
-    > **Nota**: en las preguntas frecuentes se explica una posible fórmula para automatizar el proceso de contratación.
+    > [!NOTE]
+    > En las preguntas frecuentes se explica una posible fórmula para automatizar el proceso de contratación.
 
 
 * **Escenario 2) Servicios Geoespaciales**
@@ -67,7 +69,8 @@ A continuación se describen tres escenarios a modo ilustrativo:
 * **Escenario 3) Solución o producto que aloja datos privados de la organización en ArcGIS Online**
     * Entonces: necesitaremos o bien una cuenta de organización con un [usuario creator](#tipos-y-capacidades-de-usuarios-nominales), o cualquiera de los [planes para desarrolladores](../entornos-de-desarrollo/README.md#arcgis-developer-plans-adp) de pago (si necesitamos alguna herramientas adicional para desarrollar la aplicación).
 
-> **Recordatorio**: las licencias de ArcGIS Desktop incluyen una cuenta de organización de ArcGIS Online.
+> [!NOTE]
+> En caso de que no lo supieras, te informamos que las licencias de ArcGIS Desktop incluyen una cuenta de organización de ArcGIS Online que también se podría usar para poner un desarrollo en producción.
 
 Más información:
 
@@ -95,9 +98,12 @@ En cualquier caso, cualquier persona que lo desee puede recurrir a la comunidad 
 
 ### Preguntas frecuentes
 
-> **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
+> [!WARNING]
+> Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
-**Q: ¿Puedo mostrar datos geolocalizados que estén protegidos/privados y que no estén alojados en ArcGIS en mi aplicación?**
+---
+
+**PREGUNTA: ¿Puedo mostrar datos geolocalizados que estén protegidos/privados y que no estén alojados en ArcGIS en mi aplicación?**
 
 Sí. Si quieres hacer una integración con otra base de datos o sistema de registro puedes hacerlo sin problema ya que las APIs y SDKs disponen de capas gráficas para pintar manualmente datos.
 
@@ -112,28 +118,38 @@ Algunas situaciones en las que se puede considerar esta opción son:
 * Porque no podamos o queramos habilitar la base de datos como geodatabase. Por ejemplo si usamos MongoDB, Elastic Search, MySQL, ...
 * etc.
 
-> **Aviso**: no alojar los datos en ArcGIS supone varios inconvenientes, por ejemplo se pierden: facilidades a la hora de editar los datos, rendimiento a la hora de pintar grandes capas de datos, los mecanismo de control de acceso de la plataforma, trazabilidad de las ediciones, capacidades de sincronización, versionado de datos y funcionamiento offline, capacidades de smartmapping, etc.
+> [!DANGER]
+> No alojar los datos en ArcGIS supone varios inconvenientes, por ejemplo se pierden: facilidades a la hora de editar los datos, rendimiento a la hora de pintar grandes capas de datos, los mecanismo de control de acceso de la plataforma, trazabilidad de las ediciones, capacidades de sincronización, versionado de datos y funcionamiento offline, capacidades de smartmapping, etc.
 
-**Q: Si quiero que mis usuarios puedan utilizar servicios de análisis, ¿tienen que tener un usuario nominal?**
+---
 
-A: No, como desarrollador puedes hacer que los créditos consumidos por los análisis realizados por tus usuarios se carguen a tu cuenta, y tú si quieres puede cobrar a su vez un sobre-cargo y quedarte con un margen. Esto es igual de válido tanto para las aplicaciones nativas como para las web.
+**PREGUNTA: Si quiero que mis usuarios puedan utilizar servicios de análisis, ¿tienen que tener un usuario nominal?**
 
-**Q: ¿Es posible adquirir organizaciones de ArcGIS Online programáticamente?**
+No, como desarrollador puedes hacer que los créditos consumidos por los análisis realizados por tus usuarios se carguen a tu cuenta, y tú si quieres puede cobrar a su vez un sobre-cargo y quedarte con un margen. Esto es igual de válido tanto para las aplicaciones nativas como para las web.
 
-A: A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de organizaciones. Sin embargo el proceso de creación de cuentas utilizado por el [e-commerce de Esri](https://www.esri.com/es-es/store/) está automatizado, por lo que en caso de ser necesario se podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
+---
 
-**Q: ¿Qué pasa si me quedo sin créditos?**
+**PREGUNTA: ¿Es posible adquirir organizaciones de ArcGIS Online programáticamente?**
 
-A: Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o activar el pay as you go. Otra opción posible es [comprar un paquete de 1000 créditos](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits?from=sso&CustomerNumber=3501). [Más información sobre el funcionamiento de los créditos](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)
+A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de organizaciones. Sin embargo el proceso de creación de cuentas utilizado por el [e-commerce de Esri](https://www.esri.com/es-es/store/) está automatizado, por lo que en caso de ser necesario se podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
 
-**Q: Cómo puedo cancelar mi cuenta de ArcGIS Online**
+---
 
-A: Debes contactar directamente con suministros de Esri España (cgi@esri.es) y/o a accounts@esri.com (en inglés) indicándoles que quieres cancelar tu suscripción.
+**PREGUNTA: ¿Qué pasa si me quedo sin créditos?**
+
+Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o activar el pay as you go. Otra opción posible es [comprar un paquete de 1000 créditos](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits?from=sso&CustomerNumber=3501). [Más información sobre el funcionamiento de los créditos](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)
+
+---
+
+**PREGUNTA: Cómo puedo cancelar mi cuenta de ArcGIS Online**
+
+Debes contactar directamente con suministros de Esri España (cgi@esri.es) y/o a accounts@esri.com (en inglés) indicándoles que quieres cancelar tu suscripción.
 
 
 ## Adquirir usuarios nominales
 
-> **Antes de comenzar**: Si aún no estás familiarizado este concepto lee el siguiente recursos: "[Qué son y como funcionan los usuarios nominales](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/)".
+> [!TIP]
+> **Si no sabes lo que son los usuarios nominales**, te recomendamos que antes de empezar leas el siguiente resumen: "[Qué son y como funcionan los usuarios nominales](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/)".
 
 Necesitaremos adquirir usuarios nominales cuando hayamos creado una app (web o nativa) en la que necesitemos **al menos una** de las siguientes funcionalidades:
 
@@ -176,17 +192,22 @@ Más información:
 
 ### Preguntas frecuentes
 
-> **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
+> [!WARNING]
+> Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
-**Q: ¿Puedo compartir las credenciales de un usuario nominal entre varias personas? Por ejemplo, del mismo departamento.**
+---
 
-A: No, como se indica en el apartado 2.5 de [los términos y condiciones](https://www.esri.com/en-us/legal/terms/full-master-agreement):
+**PREGUNTA: ¿Puedo compartir las credenciales de un usuario nominal entre varias personas? Por ejemplo, del mismo departamento.**
 
-> 1.   Named User login credentials are for designated users only and may not be shared with other individuals.
+No, como se indica en el apartado 2.5 de [los términos y condiciones](https://www.esri.com/en-us/legal/terms/full-master-agreement):
+
+> *1.   Named User login credentials are for designated users only and may not be shared with other individuals.*
 
 La razón por lo que esto es así es por la misma que no se puede (o deben) compartir las contraseñas del correo electrónico o la contraseña de tu ordenador personal, porque si lo haces eliminas la privacidad de los datos, trazabilidad, ... y en definitiva reduces la seguridad de la cuenta.
 
-**Q: ¿Puedo usar un proxy para controlar el acceso a los datos de ArcGIS?**
+---
+
+**PREGUNTA: ¿Puedo usar un proxy para controlar el acceso a los datos de ArcGIS?**
 
 Como se indica en el propio proyecto de Esri [resource-proxy](https://github.com/Esri/resource-proxy), los proxies se pueden usar para:
 
@@ -204,9 +225,11 @@ Por tanto no se puede baipasear el sistema de autenticación de usuarios, [como 
 
 O lo que es lo mismo, **no se puede usar un proxy para controlar el acceso por parte de diferentes usuarios** (por ejemplo, de un sistema de gestión de usuarios propio) **a los recursos/contenidos de un único usuario nominal de ArcGIS**.
 
-**Q: ¿Es posible adquirir usuarios nominales programáticamente?**
+---
 
-A: A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de usuarios nominales. Sin embargo el proceso de creación y asignación de usuarios nominales utilizado por del [e-commerce](https://www.esri.com/es-es/store/) a organizaciones está automatizado por parte de Esri, por lo que en caso de ser necesario, cualquier desarrollador podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
+**PREGUNTA: ¿Es posible adquirir usuarios nominales programáticamente?**
+
+A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de usuarios nominales. Sin embargo el proceso de creación y asignación de usuarios nominales utilizado por del [e-commerce](https://www.esri.com/es-es/store/) a organizaciones está automatizado por parte de Esri, por lo que en caso de ser necesario, cualquier desarrollador podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
 
 ## Licenciar apps que usan alguna de las Runtime
 
@@ -229,7 +252,8 @@ Existen dos formas de licenciar una aplicación nativa:
   * Clientes finales que no disponen de licencias de ArcGIS Online o Enterprise
   * Aplicaciones que requieren funcionar por tiempo indefinido sin conexión a Internet
   * Y/o si se necesitan garantías de que la aplicación seguirá funcionando después de 30 días sin conexión, que es el periodo en el que puede caducar una licencia de usuario nominal y por tanto se requiere de nuevo  comprobar el estado de la cuenta.
-  > **Nota**: en el caso de optar por usar una *license key* y **que sea de un nivel superior a Basic**, tendrás que adquirir una clave que esté autorizada para ser usada por tantos usuarios como vayan a usar la app.
+  > [!DANGER]
+  > En el caso de optar por usar una *license key* y **que sea de un nivel superior a Basic**, tendrás que adquirir una clave que esté autorizada para ser usada por tantos usuarios como vayan a usar la app.
 
 ---
 
@@ -237,13 +261,15 @@ Existen dos formas de licenciar una aplicación nativa:
 
 **Está incluida en todos los [planes de desarrolladores](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#arcgis-developer-plans-adp)**, incluido el plan gratuito (Essentials). Se puede acceder a ella a través del [cuadro de mando para desarrolladores](https://developers.arcgis.com/dashboard) y se puede usar para poner en aplicaciones en producción sin ningún coste. Lo que habrá que valorar es, en caso de usar  ArcGIS Online / Enterprise, si tiene algún coste licenciarlo
 
-> **Relacionado**: [licenciar apps que usan ArcGIS Online](#licenciar-apps-que-usan-arcgis-online) / [licenciar apps que usan ArcGIS Enterprise](#licenciar-apps-que-usan-arcgis-enterprise).
+> [!NOTE]
+> Si tienes alguna duda puedes consultar: [Licenciar apps que usan ArcGIS Online](#licenciar-apps-que-usan-arcgis-online) | [Licenciar apps que usan ArcGIS Enterprise](#licenciar-apps-que-usan-arcgis-enterprise).
 
 **CAPACIDADES QUE INCLUYE**
 
 * Visualizar datos:
     * **Alojados en ArcGIS**: mapas, escenas, capas y paquetes de la plataforma (mobile map packages, tile package, vector tile package, layer package, locator package, ...)<br>
-    > **Nota** En caso de que se necesite disponer de un control de acceso para asegurar que sólo algunos usuarios puedan acceder a cierta información publicada en ArcGIS, será necesario licenciar usando usuarios nominales
+    > [!DANGER]
+    > Si necesitas controlar el acceso para filtrar qué usuarios puedan acceder a cierta información **publicada en ArcGIS**, será necesario licenciar usando usuarios nominales
     * **Modo offline**: Mapas base y feature services en aplicaciones sin conexión a Internet
     * **Rutas y direcciones**: usando el servicio de cálculo de rutas
     * **Otros datos**: Ficheros KML accedidos a través de Internet
@@ -274,7 +300,8 @@ Este nivel está pensado para aplicaciones que además de visualizar informació
 
 **OPCIONES DE LICENCIAMIENTO Y PRECIO APROXIMADO**
 
-> **Aviso**: Los precios que se muestran aquí con orientativos y pueden no ser exactos.
+> [!DANGER]
+> Los precios que se muestran aquí con orientativos y **pueden no ser exactos**.
 
 |**Opción**|**Coste**|
 |---|---|
@@ -299,7 +326,8 @@ Este nivel está pensado para aplicaciones que utilizan archivos de datos en loc
 
 **OPCIONES DE LICENCIAMIENTO Y PRECIO APROXIMADO**
 
-> **Aviso**: Los precios que se muestran aquí con orientativos y pueden no ser exactos.
+> [!DANGER]
+> Los precios que se muestran aquí con orientativos y **pueden no ser exactos**.
 
 |**Opción**|**Coste**|
 |---|---|
@@ -323,7 +351,8 @@ Este nivel está pensado para aplicaciones que trabajan directamente con ArcGIS 
 
 **OPCIONES DE LICENCIAMIENTO Y PRECIO APROXIMADO**
 
-> **Aviso**: Los precios que se muestran aquí con orientativos y pueden no ser exactos.
+> [!DANGER]
+> Los precios que se muestran aquí con orientativos y **pueden no ser exactos**.
 
 |**Opción**|**Coste**|
 |---|---|
@@ -428,51 +457,75 @@ Más información:
 
 ### Preguntas frecuentes
 
+> [!WARNING]
 > **Nota**: Si tu pregunta no se encuentra respondida aquí, revisa las [preguntas frecuentes sobre licenciamiento de Runtime en developers.arcgis.com/pricing/licensing#faq](https://developers.arcgis.com/pricing/licensing/#faq). Si aún así no das con la respuesta, revisa si alguna persona ha planteado tu duda en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
-**Q: ¿Existe un límite en el número de aplicaciones Runtime que se pueden desplegar con una *license key* Lite?**
+---
+
+**PREGUNTA: ¿Existe un límite en el número de aplicaciones Runtime que se pueden desplegar con una *license key* Lite?**
 
 No, se pueden desplegar tantas como se quieran.
 
-**Q: ¿Qué puede ocurrir si tengo una licencia Basic/Standad/Advanced autorizada para un número de despliegues y supero este número?**
+---
 
-A: Como se indica en los [términos de uso](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), tendrás que adquirir más licencias como sean necesarias para los despliegues realizados.
+**PREGUNTA: ¿Qué puede ocurrir si tengo una licencia Basic/Standad/Advanced autorizada para un número de despliegues y supero este número?**
 
-> **Aviso**: en un caso extremo, un desarrollador podría ser auditado por Esri para asegurar que se están cumpliendo los términos de uso.
+Como se indica en los [términos de uso](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), tendrás que adquirir más licencias como sean necesarias para los despliegues realizados.
 
-**Q: ¿Puedo crear una aplicación que en lugar de tener la *license key* "hardcodeada" en el código, se introduzca una vez la aplicación está en ejecución? (ya sea por el usuario o de otra forma)**
+> [!DANGER]
+> **En un caso extremo**, un desarrollador podría ser auditado por Esri para asegurar que se están cumpliendo los términos de uso.
 
-A: La *license key* tiene que establecerse para inicializar el Runtime antes de que se utilice cualquier componente del mismo. Por tanto sería posible hacerlo en tiempo de ejecución, pero por norma general no suele hacerse así. Ten en cuenta que aunque se haga así, el desarrollador tiene que seguir contabilizando el número de veces que se ha usado esa *license key* y por tanto adquirir tantas licencias como sea necesario. Los despliegues se contabilizar base al número de instalaciones de la aplicación por usuario y dispositivo, no en el número de usuarios que utilizan la aplicación.
+---
 
-**Q: ¿Puedo usar la "Runtime Lite license key" que aparece en el [Developer Dashboard](https://developers.arcgis.com/dashboard) de cualquier ADS para un entorno de producción?**
+**PREGUNTA: ¿Puedo crear una aplicación que en lugar de tener la *license key* "hardcodeada" en el código, se introduzca una vez la aplicación está en ejecución? (ya sea por el usuario o de otra forma)**
 
-A: Sí. **Todos** los ArcGIS Developer Plans incluyen esta licencia que se puede usar en producción bajo las condiciones descritas en [Nivel: Lite](#nivel-lite).
+La *license key* tiene que establecerse para inicializar el Runtime antes de que se utilice cualquier componente del mismo. Por tanto sería posible hacerlo en tiempo de ejecución, pero por norma general no suele hacerse así. Ten en cuenta que aunque se haga así, el desarrollador tiene que seguir contabilizando el número de veces que se ha usado esa *license key* y por tanto adquirir tantas licencias como sea necesario. Los despliegues se contabilizar base al número de instalaciones de la aplicación por usuario y dispositivo, no en el número de usuarios que utilizan la aplicación.
 
-**Q: ¿Las *license key* de ArcGIS Runtime "Lite" son únicas?**
+---
+
+**PREGUNTA: ¿Puedo usar la "Runtime Lite license key" que aparece en el [Developer Dashboard](https://developers.arcgis.com/dashboard) de cualquier ADS para un entorno de producción?**
+
+Sí. **Todos** los ArcGIS Developer Plans incluyen esta licencia que se puede usar en producción bajo las condiciones descritas en [Nivel: Lite](#nivel-lite).
+
+---
+
+**PREGUNTA: ¿Las *license key* de ArcGIS Runtime "Lite" son únicas?**
 
 Sí, cada ADS genera una única "Runtime Lite license key". Esta cadena puede ser compartida por todas las aplicaciones Runtime asociadas a la cuenta de ArcGIS for Developers desde la que fue creada. Proteja su clave de licencia - es única para su cuenta de ArcGIS for Developers.
 
-**Q: ¿Cuál es la licencia y mecanismo más adecuado si quiero subir mi aplicación móvil al marketplace de Google y/o Apple?**
+---
 
-A: Cualquier mecanismo es válido, dependerá del caso de uso, público objetivo de la app, etc. Abre un issue y cuéntanos tu caso para que podamos ayudarte.
+**PREGUNTA: ¿Cuál es la licencia y mecanismo más adecuado si quiero subir mi aplicación móvil al marketplace de Google y/o Apple?**
 
-**Q: ¿Está incluida la clase GeometryEngine en el Nivel Lite de AppStudio?**
+Cualquier mecanismo es válido, dependerá del caso de uso, público objetivo de la app, etc. Abre un issue y cuéntanos tu caso para que podamos ayudarte.
 
-A: Sí, está incluida. No es necesario subir a Basic o ningún otro nivel.
+---
 
-**Q: ¿Cómo genero una *license key* nivel Basic/Standard/Advanced?**
+**PREGUNTA: ¿Está incluida la clase GeometryEngine en el Nivel Lite de AppStudio?**
 
-A: No existe una forma para que generes/adquieras *license key* ni extensiones automáticamente. Para conseguirlas tienes que contactar con informacion@esri.es, solicitar presupuesto y una vez realizada la compra la(s) recibirás por correo.
+Sí, está incluida. No es necesario subir a Basic o ningún otro nivel.
 
-**Q: Cuando adquiero un paquete para licenciar mi app como Basic/Standard/... , ¿cuántas license keys recibo?**
+---
+
+**PREGUNTA: ¿Cómo genero una *license key* nivel Basic/Standard/Advanced?**
+
+No existe una forma para que generes/adquieras *license key* ni extensiones automáticamente. Para conseguirlas tienes que contactar con informacion@esri.es, solicitar presupuesto y una vez realizada la compra la(s) recibirás por correo.
+
+---
+
+**PREGUNTA: Cuando adquiero un paquete para licenciar mi app como Basic/Standard/... , ¿cuántas license keys recibo?**
 
 Sólo se recibe una **license key** para cada aplicación y nivel. Cuando se hace referencia a "paquete" nos referimos a que dicha *license key* está autorizada para ser utilizada en tantos despliegues (instalaciones en dispositivos) como se indique en el paquete. Por ejemplo un pack de 25 licencias indica que la licencia puede usarse en 25 instalaciones (app & dispositivo).
 
-**Q: ¿Puedo combinar los dos mecanismos de licenciamiento en una sola app?**
+---
+
+**PREGUNTA: ¿Puedo combinar los dos mecanismos de licenciamiento en una sola app?**
 
 Sí. Puedes elegir compilar tu aplicación con una clave de licencia (*license key*) Lite para hacer uso de la funcionalidad Lite, pero también ofrecer la posibilidad de iniciar sesión con un usuario nominal para dotar a la app de más capacidades. Esto por ejemplo se podría usar para crear una aplicación que funcionase bajo un modelo Freemium.
 
-**Q: ¿Existe alguna posibilidad de crear una aplicación con capacidades de edición y que use la licencia "Lite"?**
+---
+
+**PREGUNTA: ¿Existe alguna posibilidad de crear una aplicación con capacidades de edición y que use la licencia "Lite"?**
 
 Imaginemos el siguiente escenario:
 
@@ -490,31 +543,43 @@ En una situación así podríamos optar por usar un licenciamiento "Lite" y crea
 
 > Nota: en estate en cuenta que en este caso no podrías aprove
 
-**Q: Me aparece una marca de agua en mi aplicación nativa, ¿cómo la quito?**
+---
 
-A: Esta marca de agua sale porque no has licenciado correctamente tu app. Revisar en el apartado "Guide" de la SDK y busca "Release your app > License your app". Ahí te indicará como introducir en tu app el "Runtime License Key" que encontrarás en tu [cuadro de mando de desarrollador](https://developers.arcgis.com/dashboard).
+**PREGUNTA: Me aparece una marca de agua en mi aplicación nativa, ¿cómo la quito?**
 
-**Q: ¿*ArcGIS Runtime Local Server* está disponible para todas las Runtime SDKs?**
+Esta marca de agua sale porque no has licenciado correctamente tu app. Revisar en el apartado "Guide" de la SDK y busca "Release your app > License your app". Ahí te indicará como introducir en tu app el "Runtime License Key" que encontrarás en tu [cuadro de mando de desarrollador](https://developers.arcgis.com/dashboard).
 
-A: No, *ArcGIS Runtime Local Server* sólo está disponible para las SDK de escritorio: .NET (WPF), Java y Qt. Se ofrece como un instalador independiente que complementa la funcionad de las SDKs soportadas en escritorios Windows y Linux.
+---
 
-**Q: Mi aplicación nativa requiere hacer consultas a un geoproceso de ArcGIS Server a través de la API REST, ¿qué nivel de licencia necesito?**
+**PREGUNTA: ¿*ArcGIS Runtime Local Server* está disponible para todas las Runtime SDKs?**
 
-A: Con el nivel *Lite* es suficiente.
+No, *ArcGIS Runtime Local Server* sólo está disponible para las SDK de escritorio: .NET (WPF), Java y Qt. Se ofrece como un instalador independiente que complementa la funcionad de las SDKs soportadas en escritorios Windows y Linux.
 
-**Q: ¿Puedo usar Runtime Lite + [Cuentas Pública](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/#account-types)?**
+---
+
+**PREGUNTA: Mi aplicación nativa requiere hacer consultas a un geoproceso de ArcGIS Server a través de la API REST, ¿qué nivel de licencia necesito?**
+
+Con el nivel *Lite* es suficiente.
+
+---
+
+**PREGUNTA: ¿Puedo usar Runtime Lite + [Cuentas Pública](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/#account-types)?**
 
 > Una [cuenta pública de ArcGIS](https://www.arcgis.com/sharing/rest/oauth2/signup?client_id=arcgisonline&redirect_uri=http://www.arcgis.com&response_type=token) es una cuenta gratuita diseñada **para uso personal y no comercial** en la que se puede: crear, almacenar y gestionar mapas, escenas, ... compartir contenido con otros, acceder a contenido compartido por usuarios de Esri y GIS de todo el mundo.
 
-A: Sí.  puedes licenciar una app usando una **license key** de [developers.arcgis.com](https://developers.arcgis.com/dashboard) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
+Sí.  puedes licenciar una app usando una **license key** de [developers.arcgis.com](https://developers.arcgis.com/dashboard) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
 
-**Q: ¿Existen *license keys* perpetuas o hay que renovarlas año a año?**
+---
 
-A: Sí, **todas las *license keys* son perpetuas** y sólo se pueden adquirir de ese modo.
+**PREGUNTA: ¿Existen *license keys* perpetuas o hay que renovarlas año a año?**
 
-**Q: ¿Que tipos de ficheros están soportados como ficheros de datos en local? ¿y qué nivel de licenciamiento se requiere para cada uno?**
+Sí, **todas las *license keys* son perpetuas** y sólo se pueden adquirir de ese modo.
 
-A: Los ficheros de datos en local son aquellos que se encuentran almancenados en el dispositivo del usuario, independientemente de como lleguen al dispositivo.
+---
+
+**PREGUNTA: ¿Que tipos de ficheros están soportados como ficheros de datos en local? ¿y qué nivel de licenciamiento se requiere para cada uno?**
+
+Los ficheros de datos en local son aquellos que se encuentran almancenados en el dispositivo del usuario, independientemente de como lleguen al dispositivo.
 
 * Nivel Lite:
 
@@ -534,19 +599,25 @@ A: Los ficheros de datos en local son aquellos que se encuentran almancenados en
 
     * Editar datos locales que no sean parte de la plataforma ArcGIS, incluyendo shapefiles and GeoPackages.
 
-**Q: ¿Puedo usar librerías de terceros en mi aplicación?**
+---
 
-A: Por supuesto, incluso aunque ofrezcan capacidades similares a las de la propia Runtime. Podrías intentar usar [diewald_shapeFileReader](https://github.com/diwi/diewald_shapeFileReader) o [Java ESRI Shape File Reader](https://sourceforge.net/projects/javashapefilere/) para leer ficheros Shapefile.
+**PREGUNTA: ¿Puedo usar librerías de terceros en mi aplicación?**
 
-**Q: ¿Puedo usar ArcGIS Runtime en un servicio?**
+Por supuesto, incluso aunque ofrezcan capacidades similares a las de la propia Runtime. Podrías intentar usar [diewald_shapeFileReader](https://github.com/diwi/diewald_shapeFileReader) o [Java ESRI Shape File Reader](https://sourceforge.net/projects/javashapefilere/) para leer ficheros Shapefile.
+
+---
+
+**PREGUNTA: ¿Puedo usar ArcGIS Runtime en un servicio?**
 
 No, como se indica en los [términos de uso específicos de producto](https://www.esri.com/content/dam/esrisites/en-us/media/legal/product-specific-terms-of-use/e300.pdf) (un suplemento al [Master License Agreement](http://www.esri.com/legal/pdfs/mla_e204_e300/english)), en una referencia general a las ArcGIS Runtime SDKs en la nota 19:
 
 > “License may not be used to develop Internet or server-based Value-Added Applications”.
 
-**Q: ¿Dónde puedo encontrar los términos de uso de la Runtime?**
+---
 
-https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english
+**PREGUNTA: ¿Dónde puedo encontrar los términos de uso de la Runtime?**
+
+En el siguiente enlace: [esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english)
 
 ## Licenciar scripts y extensiones
 
@@ -566,6 +637,7 @@ ArcGIS dispone de múltiples generadores de aplicaciones, algunos de ellos orien
 
 Al igual que ocurre al licenciar scripts y extensiones, **poner en producción cualquier aplicación generada con estos constructores no requieren de licencias específicas**. Es suficiente con que la tecnología que vayan a usar estén correctamente licenciadas. Por ejemplo: ArcGIS Online / Enterprise, y en el caso de AppStudio habrá que verificar que la aplicación incorpore el mecanismo de autenticación elegido.
 
-> **Observación**: no todos los constructores son gratuitos (por ej: AppStudio Standard Developer Edition), por tanto será necesario disponer de licencia de esta tecnología durante la fase de desarrollo. Más info es: [Obtener y licenciar tecnología ArcGIS para entornos de desarrollo](/desarrollo/README)
+> [!NOTE]
+> No todos los constructores de aplicaciones son gratuitos, por ejemplo AppStudio Standard Developer Edition no lo es, por tanto será necesario disponer de licencia del constructor en cuestión durante la fase de desarrollo. Más info es: [Obtener y licenciar tecnología ArcGIS para entornos de desarrollo](/desarrollo/README)
 
 Más información: informacion@esri.es

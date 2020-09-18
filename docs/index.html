@@ -13,25 +13,13 @@
         <ul>
 
             <li>
-                Licenciamiento
-                <ul>
-                    <li>
-                        <a href="/#/desarrollo/README">Entornos de desarrollo</a>
-                    </li>
-                    <li>
-                        <a href="/#/produccion/README">Entornos de producción</a>
-                    </li>
-                </ul>
+                <a href="https://github.com/esri-es/licenciamiento-developers/issues">Dudas y sugerencias</a>
             </li>
-            <li>
-                <a href="https://github.com/esri-es/licenciamiento-developers/issues">¿Dudas?</a>
-            </li>
+            <li>|</li>
             <li>
                 <a href="https://www.youtube.com/playlist?list=PLVfQL04Y8hoLIdS4A4zIAvFL_jKKxqiCK">Webinars</a>
             </li>
-            <li>
-                <a href="https://github.com/esri-es/licenciamiento-developers/commits/master">Últimas actualizaciones</a>
-            </li>
+
         </nav>
     </nav>
     <div id="app"></div>
@@ -40,9 +28,62 @@
         name: 'ArcGIS Developers',
         repo: 'https://github.com/esri-es/licenciamiento-developers',
         loadSidebar: true,
-        subMaxLevel: 4
+        subMaxLevel: 4,
+        'flexible-alerts': {
+            note: {
+              label: "NOTA"
+            },
+            tip: {
+              label: "CONSEJO"
+            },
+            warning: {
+              label: "AVISO"
+            },
+            danger: {
+              label: "ATENCIÓN"
+            }
+        },
+
+        coverpage: true,
+        search: {
+            maxAge: 86400000, // Expiration time, the default one day
+            paths: 'auto',
+            placeholder: 'Escribe aquí lo que buscas...',
+            noData: 'No se encuentran resultados',
+            // Headline depth, 1 - 6
+            depth: 6,
+            hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        },
+        formatUpdated: '{DD}/{MM}/{YYYY}',
+        plugins: [
+            function(hook, vm) {
+              hook.beforeEach(function (html) {
+                var url = 'https://github.com/esri-es/licenciamiento-developers/blob/master/docs' + vm.router.getFile()
+                var editHtml = '> [!WARNING]\n**En caso de encontrar cualquier incoherencia** con la documentación oficial ([términos y condiciones](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), [FAQ](https://developers.arcgis.com/terms/faq/) o [documentación de licenciamiento de las Runtimes SDKs](https://developers.arcgis.com/pricing/licensing/)) siempre prevalecerá esa documentación. Si encuentra alguna errata o quiere hacer alguna mejora puede [📝 editar este documento](' + url + '), y en caso de duda por favor [abre un *issue* en Github](https://github.com/esri-es/licenciamiento-developers/issues).\n'
+
+                return editHtml
+                  + html
+                  + '\n----\n'
+                  + 'ESRI ESPAÑA SOLUCIONES GEOESPACIALES, S.L. | [Dudas y sugerencias](https://github.com/esri-es/licenciamiento-developers/issues) | [desarrolladores@esri.es](mailto:desarrolladores@esri.es) | Última actualización: {docsify-updated} '
+
+              })
+            }
+          ]
     }
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163807400-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-163807400-3');
+    </script>
+
 </body>
 </html>

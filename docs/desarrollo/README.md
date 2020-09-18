@@ -28,7 +28,7 @@ Si tienes dudas sobre cómo acceder a la tecnología necesaria **para desarrolla
 - [Soporte](#soporte)
   - [Servicio de Soporte Técnico de Esri España](#servicio-de-soporte-t%C3%A9cnico-de-esri-espa%C3%B1a)
   - [Comunidad](#comunidad)
-- [Dudas / FAQ](#dudas--faq)
+- [Preguntas frecuentes](#preguntas-frecuentes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -42,17 +42,19 @@ El ecosistema de aplicaciones creadas por Esri está compuesto por **más de 100
 
 * **Soporte**: los diferentes canales donde podrás encontrar soporte a desarrolladores.
 
-* **Dudas / FAQ**: envía tu pregunta o revisa otras preguntas frecuentes relacionadas con el licenciamento para entornos de producción
+* **Preguntas frecuentes**: envía tu pregunta o revisa otras preguntas frecuentes relacionadas con el licenciamento para entornos de producción
 
 Además, ten en cuenta que cuando queramos **poner la aplicación en un entorno de producción puede que tengamos que adquirir alguna licencia/plan adicional**. Dependerá de factores como: el tipo de desarrollador que seamos, la(s) tecnología(s) que necesitemos y/o el el propósito de la aplicación que queramos crear.
 
-> **Nota**: El precio de las licencias para entornos de desarrollo son mucho más económicas pero dependiendo del tiempo estimado de desarrollo y de puesta en producción puede tener sentido adquirirlas o no.
+> [!WARNING]
+> El precio de las licencias para entornos de desarrollo son mucho más económicas pero dependiendo del tiempo estimado de desarrollo y de puesta en producción puede tener sentido adquirirlas o no.
 
 ## Cómo acceder al software (por tipo de desarrollador)
 
 A continuación vamos a explicar las diferentes alternativas para acceder al ecosistema de ArcGIS dependiendo del tipo de organización.
 
-> **Aclaración**: Hay compañías que pueden tener varios roles. Por ejemplo: Telefónica juega el rol de Compañía de producto cuando está desarrollando su producto [SÉNECA](https://www.esri.com/partners/telefonica-solucione-a2T70000000TRDtEAO/s-neca-a2d70000000hrKmAAI), de Cliente Esri ya que tiene en plantilla analistas que usan ArcGIS a diario y de Consultora de servicios / Integrador cuando oferta servicios de desarrollo y/o se presenta a concursos públicos con ArcGIS.
+> [!NOTE]
+> Hay compañías que pueden tener varios roles. Por ejemplo: Telefónica juega el rol de Compañía de producto cuando está desarrollando su producto [SÉNECA](https://www.esri.com/partners/telefonica-solucione-a2T70000000TRDtEAO/s-neca-a2d70000000hrKmAAI), de Cliente Esri ya que tiene en plantilla analistas que usan ArcGIS a diario y de Consultora de servicios / Integrador cuando oferta servicios de desarrollo y/o se presenta a concursos públicos con ArcGIS.
 
 Una cosa importante a tener en cuenta es que cualquier desarrollador particular u organización puede acceder gratuitamente a las herramientas incluidas en el "[Plan Essentials](#plan-essentials)": APIs, SDKs, License Keys, ArcGIS Online, constructores, etc.
 
@@ -141,7 +143,8 @@ Más información: desarrolladores@esri.es
 
 Los ArcGIS Developer Plans: hacen referencia a los cinco "paquetes" que se han creado para agrupar las licencias que pueden ser necesarias a la hora de **desarrollar una aplicación**.
 
-> **Nota**: Gran parte de la información de esta página ha sido extraída y **posteriormente enriquecida** a partir de la tabla disponible en [developers.arcgis.com/pricing](https://developers.arcgis.com/pricing/).
+> [!NOTE]
+> Gran parte de la información de esta página ha sido extraída y **posteriormente enriquecida** a partir de la tabla disponible en [developers.arcgis.com/pricing](https://developers.arcgis.com/pricing/).
 
 #### Plan: Essentials
 
@@ -203,7 +206,8 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 |Operations Dashboard|[Acceder](https://www.arcgis.com/apps/opsdashboard/index.html)|[Documentación](https://doc.arcgis.com/en/operations-dashboard/)
 |Aplicaciones configurables|[Acceder](https://www.arcgis.com/home/content.html) ("Create > Using a template") & [Storymaps](http://storymaps.arcgis.com/en/app-list/)|[Documentación de los storymaps](http://storymaps.arcgis.com/en/resources/)
 
-> **Nota**: las aplicaciones configurables también se pueden descargar y extender o personalizar. Cualquiera de las [40 aplicaciones web configurables creadas por Esri](https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/) ya que están licenciadas con [Apache v2.0](https://choosealicense.com/licenses/apache-2.0/) y publicadas en Github.
+> [!NOTE]
+> Las aplicaciones configurables también se pueden descargar y extender o personalizar. Cualquiera de las [40 aplicaciones web configurables creadas por Esri](https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/) ya que están licenciadas con [Apache v2.0](https://choosealicense.com/licenses/apache-2.0/) y publicadas en Github.
 
 **¿Dónde se puede acceder o descargar cada app?**
 
@@ -266,7 +270,8 @@ Este plan **además de lo descrito en el Plan Builder** incluye:
 
 Este plan es como el *Plan Proffessional* pero para proyectos que requieran una gestión avanzada de datos a través de [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Standard.
 
-> **Nota** sólo se incluye una licencia de Desktop y es Standard en lugar de Basic.
+> [!NOTE]
+> Sólo se incluye una licencia de Desktop y es Standard en lugar de Basic.
 
 ---
 
@@ -279,7 +284,8 @@ Este plan es como el *Plan Proffessional* pero en este caso incluye licencias de
 * ArcGIS Server roles: [GIS Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/gis-server/), [GeoEvent Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/geoevent-server/), [GeoAnalytics Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/geoanalytics-server/) and [Image Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/image-server/).
 * Entrada para cualquiera de los siguientes Developer Summits: [Palm Springs](http://esri.com/events/devsummit), [Europa](http://www.esri.com/events/devsummit-europe) (Berlin) o [Washington DC](http://www.esri.com/events/devsummit-dc).
 
-> **Nota** sólo se incluye una licencia de Desktop y es Advanced en lugar de Standard.
+> [!NOTE]
+> Sólo se incluye una licencia de Desktop y es Advanced en lugar de Standard.
 
 ### Programa de Partners (EPN)
 
@@ -317,9 +323,11 @@ El [Programa de Startups](https://docs.google.com/presentation/d/1v3y7cRC99Rfj34
 
 Las integraciones se pueden hacer de muchas formas, en el siguiente enlace puedes encontrar un [listado de productos integrados con ArcGIS](https://esri-es.github.io/awesome-arcgis/arcgis/integrations/).
 
-> **Aviso**: a fecha del 15/09/2020 no se pueden acceder a través de este programa tecnologías como: Tacker for ArcGIS, Analytics for IoT, ArcGIS Indoors, ArcGIS Urban, etc.
+> [!WARNING]
+> A fecha del 15/09/2020 no se pueden acceder a través de este programa tecnologías como: Tacker for ArcGIS, Analytics for IoT, ArcGIS Indoors, ArcGIS Urban, etc.
 
-> **Aclaración**: Cuando hablamos de desarrollo de producto excluimos las soluciones basadas ArcGIS + servicios. Para organizaciones que desarrollan este tipo de soluciones existe un nivel del EPN diseñado para ellas.
+> [!NOTE]
+> Cuando hablamos de desarrollo de producto excluimos las soluciones basadas ArcGIS + servicios. Para organizaciones que desarrollan este tipo de soluciones existe un nivel del EPN diseñado para ellas.
 
 Para más información: developersstartups@esri.es
 
@@ -367,37 +375,50 @@ En cualquier caso, cualquier persona que lo desee (incluído los miembros del *p
 * [Iniciativas de comunidad en español](https://github.com/esri-es/devsummits-esri-spain/blob/gh-pages/2017/ppts/iniciativas-para-desarrolladores/presentation.md#comunidad).
 * [Iniciativas internacionales de comunidad](https://esri-es.github.io/awesome-arcgis/esri/community/).
 
-## Dudas / FAQ
+## Preguntas frecuentes
 
-> **Nota**: Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
+> [!WARNING]
+> Si tu pregunta no se encuentra respondida aquí, busca a ver si otra persona la ha planteado en los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) y si no siéntete libre de crear un nuevo issue.
 
-**Q: Ya tengo licencias de ArcGIS Pro, ArcGIS Enterprise, ... ¿necesito adquirir un ADS para poder extenderlo?**
+---
+
+**PREGUNTA: Ya tengo licencias de ArcGIS Pro, ArcGIS Enterprise, ... ¿necesito adquirir un ADS para poder extenderlo?**
 
 No, si ya tienes las licencias, aunque sean para entornos de producción, puedes acceder a las tecnologías necesarias para poder extenderlos.
 
-**Q: ¿Qué limitaciones tiene el software proporcionado en un ADP, EPN o un CTE?**
+---
+
+**PREGUNTA: ¿Qué limitaciones tiene el software proporcionado en un ADP, EPN o un CTE?**
 
 Las licencias proporcionadas no se pueden usar para vender servicios o poner en producción un producto, salvo las excepciones explicadas en: [Licenciar desarrollos con ArcGIS para entornos de producción](/produccion/README).
 
 Por ejemplo, una licencia de ArcGIS Pro del Plan Builder no se puede usar para vender servicios de análisis a terceros. O una licencia de Enterprise proporcionada en en Plan Premium no se puede usar para un entorno en producción.
 
-**Q: ¿Para desarrollar una aplicación nativa (móvil o desktop) con capacidades offline necesito adquirir alguna licencia o plan concreto?**
+---
+
+**PREGUNTA: ¿Para desarrollar una aplicación nativa (móvil o desktop) con capacidades offline necesito adquirir alguna licencia o plan concreto?**
 
 Para desarrollar no. Cuando descargas y empiezas a desarrollar con cualquiera de las SDKs tienes todas las capacidades de todos los niveles disponibles (pero aparece la marca de agua "[Licensed For Developer Use Only](https://github.com/esri-es/licenciamiento-developers/blob/master/license-for-developer-use-only.png?raw=true)"). Para quitar esta marca de agua es necesario licenciar la aplicación para producción, ya sea usando una *license key* o un usuario nominal (ver más sobre los [mecanismos de licenciamiento de las Runtime SDK](#mecanismos-de-licenciamiento)). En ese momento, cuando se licencia la aplicación, es cuando se definen/limitan las capacidades a las que podrá acceder la aplicación.
 
 Luego dependerá del mecanismo que quieras utilizar para preparar el mapa offline. Para más información ver: [\[DUDA\] Desarrollo de una aplicación con la Runtime que pueda cargar datos alojados en ArcGIS](https://github.com/esri-es/licenciamiento-developers/issues/11).
 
-**Q: ¿Qué indican los tipos de usuarios?**
+---
+
+**PREGUNTA: ¿Qué indican los tipos de usuarios?**
 
 Los tipos de usuario limitan las capacidades que pueden tener. [Más info](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/)).
 
-**Q: ¿Qué licencia necesito para poder desarrollar con... ?:**
+---
+
+**PREGUNTA: ¿Qué licencia necesito para poder desarrollar con... ?:**
 
 * [ArcPy](http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm): sólo se pueden crear scripts con ArcPy si dispones de licencias de [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) o [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/).
 
 * [ArcGIS Engine](http://www.esri.com/software/arcgis/arcgisengine) (deprecated): El *Professional Plan*, aunque para los desarrollos que se hacían antes con ArcGIS Engine recomendamos usar las nuevas Runtime SDKs.
 
-**Q: ¿Qué licencia necesito para poder extender... ?:**
+---
+
+**PREGUNTA: ¿Qué licencia necesito para poder extender... ?:**
 
 * [ArcGIS Enterprise](http://doc.arcgis.com/en/operations-dashboard/windows-desktop/author/custom-addins.htm) (crear SOIs o SOEs): En desarrollo requiere al menos del *Proffesional Plan*, pero si dispones de licencias de producción puedes usar esas mismas.
 
@@ -405,33 +426,45 @@ Los tipos de usuario limitan las capacidades que pueden tener. [Más info](https
 
 * [ArcGIS Pro](https://pro.arcgis.com/en/pro-app/sdk/): sólo las licencias de ArcGIS Pro. Para desarrollo te vale con el *Professional Plan* o si dispones de ellas, las propias licencias de ArcGIS Pro de producción.
 
-**Q: ¿Y si compro un Plan y somos cinco miembros en el equipo de desarrollo?**
+---
 
-A: Deberás enviar la invitación de los dos usuarios nominales a los miembros
+**PREGUNTA: ¿Y si compro un Plan y somos cinco miembros en el equipo de desarrollo?**
+
+Deberás enviar la invitación de los dos usuarios nominales a los miembros
 de tu equipo que se vayan a encargar de crear los servicios, generar los App IDs, etc.
 Una vez creados el AppID y el AppSecret el resto del equipo puede construir las apps.
 
-**Q: ¿Cómo activo mis licencias?**
+---
 
-A: A continuación te dejamos un vídeo donde podrás ver los **[pasos de activación de un ADS](https://www.youtube.com/watch?v=9LFJXEEc6zA)**.
+**PREGUNTA: ¿Cómo activo mis licencias?**
+
+A continuación te dejamos un vídeo donde podrás ver los **[pasos de activación de un ADS](https://www.youtube.com/watch?v=9LFJXEEc6zA)**.
 
 Para más información consulta la siguiente página: [www.esri.es/activacion-licencias](http://www.esri.es/activacion-licencias/)
 
-**Q: ¿Desde donde se descargan las licencias del software asociado a mi ADS?**
+---
 
-A: A continuación de tejamos otro vídeo: **[Download software licences from my.esri.com](https://www.youtube.com/watch?v=MzpuoXtZUU8)**.
+**PREGUNTA: ¿Desde donde se descargan las licencias del software asociado a mi ADS?**
 
-**Q: Ya tengo licenciado mi software con EDN, ¿tengo que volver a licenciar algo?**
+A continuación de tejamos otro vídeo: **[Download software licences from my.esri.com](https://www.youtube.com/watch?v=MzpuoXtZUU8)**.
 
-A: No, el software licenciado mediante el EDN no se ve afectado, se aplican los mismo términos y se ofrecerá más software y herramientas simplemente activando la nueva suscripción - Contacta con suministros: cgi@esri.es
+---
 
-**Q: ¿Cuántos usuarios nominales de ArcGIS Enterprise se incluyen con una suscripción?**
+**PREGUNTA: Ya tengo licenciado mi software con EDN, ¿tengo que volver a licenciar algo?**
 
-A: (3) [tipo viewers](/produccion/README#tipos-y-capacidades-de-usuarios-nominales) y (2) [tipo creators](/produccion/README#tipos-y-capacidades-de-usuarios-nominales)
+No, el software licenciado mediante el EDN no se ve afectado, se aplican los mismo términos y se ofrecerá más software y herramientas simplemente activando la nueva suscripción - Contacta con suministros: cgi@esri.es
 
-**Q: ¿A qué equivale mi EDN respecto a los nuevos planes?**
+---
 
-A: En la siguiente tabla puedes ver las correspondencias:
+**PREGUNTA: ¿Cuántos usuarios nominales de ArcGIS Enterprise se incluyen con una suscripción?**
+
+(3) [tipo viewers](/produccion/README#tipos-y-capacidades-de-usuarios-nominales) y (2) [tipo creators](/produccion/README#tipos-y-capacidades-de-usuarios-nominales)
+
+---
+
+**PREGUNTA: ¿A qué equivale mi EDN respecto a los nuevos planes?**
+
+En la siguiente tabla puedes ver las correspondencias:
 
 |EDN/Developer Subscription|Equivalencia con el nuevo plan|
 |---|---|
