@@ -3,4 +3,4 @@
     * [Entornos de producción](produccion/README.md)
 * [Envía tu pregunta](https://github.com/esri-es/licenciamiento-developers/issues)
 * [Webinars sobre licenciamiento](https://www.youtube.com/playlist?list=PLVfQL04Y8hoLIdS4A4zIAvFL_jKKxqiCK)
-* [Últimos cambios](https://github.com/esri-es/licenciamiento-developers/commits/master)
+* [Últimas actualizaciones](https://github.com/esri-es/licenciamiento-developers/commits/master)
