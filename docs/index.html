@@ -62,7 +62,7 @@
             function(hook, vm) {
               hook.beforeEach(function (html) {
                 var url = 'https://github.com/esri-es/licenciamiento-developers/blob/master/docs' + vm.router.getFile()
-                var editHtml = '> [!WARNING]\n**En caso de encontrar cualquier incoherencia** con la documentación oficial ([términos y condiciones](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), [FAQ](https://developers.arcgis.com/terms/faq/) o [documentación de licenciamiento de las Runtimes SDKs](https://developers.arcgis.com/pricing/licensing/)) siempre prevalecerá esa documentación. Si encuentra alguna errata o quiere hacer alguna mejora puede [📝 editar este documento](' + url + '), y en caso de duda por favor [abre un *issue* en Github](https://github.com/esri-es/licenciamiento-developers/issues).\n'
+                var editHtml = '> [!WARNING]\n**En caso de encontrar cualquier incoherencia** con la documentación oficial ([términos y condiciones](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), [FAQ](https://developers.arcgis.com/terms/faq/) o [documentación de licenciamiento de las Runtimes SDKs](https://developers.arcgis.com/pricing/licensing/)) siempre prevalecerá esa documentación. Si encuentras alguna errata o quieres hacer alguna mejora puedes [📝 editar este documento](' + url + '), y en caso de duda por favor [abre un *issue* en Github](https://github.com/esri-es/licenciamiento-developers/issues).\n'
 
                 return editHtml
                   + html
