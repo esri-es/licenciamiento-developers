@@ -422,7 +422,7 @@ No, se pueden desplegar tantas como se quieran.
 
 **Q: ¿Qué puede ocurrir si tengo una licencia Basic/Standad/Advanced autorizada para un número de despliegues y supero este número?**
 
-A: Como se indica en los términos de uso, tendrñas que adquirir más licencias como sean necesarias para los despliegues realizados, y si fuera necesario, los desarrolladores podrían ser auditados por Esri para asegurar que se están cumpliendo los términos de uso.
+A: Como se indica en los [términos de uso](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), tendrás que adquirir más licencias como sean necesarias para los despliegues realizados, y si fuera necesario, los desarrolladores podrían ser auditados por Esri para asegurar que se están cumpliendo los términos de uso.
 
 **Q: ¿Puedo crear una aplicación que en lugar de tener la *license key* "hardcodeada" en el código, se introduzca una vez la aplicación está en ejecución? (ya sea por el usuario o de otra forma)**
 
@@ -495,6 +495,38 @@ A: Sí.  puedes licenciar una app usando una **license key** de [developers.arcg
 **Q: ¿Existen *license keys* perpetuas o hay que renovarlas año a año?**
 
 A: Sí, todas las *license keys* son perpetuas y sólo se pueden adquirir de ese modo.
+
+**Q: ¿Que tipos de ficheros están soportados como ficheros de datos en local? ¿y qué nivel de licenciamiento se requiere para cada uno?**
+
+A: Los ficheros de datos en local son aquellos que se encuentran almancenados en el dispositivo del usuario, independientemente de como lleguen al dispositivo.
+
+* Nivel Lite:
+
+    * Visualizar [capas y paquetes de la plataforma ArcGIS](https://developers.arcgis.com/net/latest/wpf/guide/layer-types-described.htm). Si los paquetes contienen datos que no sean parte de la plataforma ArcGIS, ver los datos podría requerir de un nivel de licencia superior. Por ejemplo, leer ficheros "raster" en un "mobile map package" o "mobile scene package" necesita licencia "Standard".
+
+    * Ver capas de servicios en formatos abiertos como WMS o KML, accedidos como un recurso web o usando otros proveedores como Bing u OpenStreetMap. *Friendly reminder*: comprueba si acceder a los servicios que no sean parte de la plataforma necesitan de algún licenciamiento por parte de un tercero.
+
+    * Descargar, editar y sincronizar entidades de un servicio de entidades público. Estos servicios están disponibles en Internet y no son seguros.
+
+* Nivel Basic:
+
+    * Descargar, editar y sincronizar entidades de un servicio de entidades privado. Estos servicios son seguros y/o sólo se pueden acceder a través de una red local.
+
+* Nivel Standard:
+
+    * Ver datos en local que no sean parte de la plataforma ArcGIS, incluyendo KML accedido como recurso, shapefiles, GeoPackages, capas ENC (S-57), ficheros de rasters locales, uso de funciones raster, y fuentes de elevación raster locales. Aunque estos datos podrían haber sido generado con productos ArcGIS, el formato de datos no es propiedad o está gestionado por Esri.
+
+    * Editar datos locales que no sean parte de la plataforma ArcGIS, incluyendo shapefiles and GeoPackages.
+
+** Q: ¿Puedo usar ArcGIS Runtime en un servicio?**
+
+No, como se indica en los [términos de uso específicos de producto](https://www.esri.com/content/dam/esrisites/en-us/media/legal/product-specific-terms-of-use/e300.pdf) (un suplemento al [Master License Agreement](http://www.esri.com/legal/pdfs/mla_e204_e300/english)), en una referencia general a las ArcGIS Runtime SDKs en la nota 19:
+
+> “License may not be used to develop Internet or server-based Value-Added Applications”.
+
+** Q: ¿Dónde puedo encontrar los términos de uso de la Runtime?**
+
+https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english
 
 ## Licenciar scripts y extensiones
 
