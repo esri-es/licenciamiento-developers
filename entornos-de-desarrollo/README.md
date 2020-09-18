@@ -405,6 +405,16 @@ A: Deberás enviar la invitación de los dos usuarios nominales a los miembros
 de tu equipo que se vayan a encargar de crear los servicios, generar los App IDs, etc.
 Una vez creados el AppID y el AppSecret el resto del equipo puede construir las apps.
 
+**Q: ¿Cómo activo mis licencias?**
+
+A: A continuación te dejamos un vídeo donde podrás ver los **[pasos de activación de un ADS](https://www.youtube.com/watch?v=9LFJXEEc6zA)**.
+
+Para más información consulta la siguiente página: [www.esri.es/activacion-licencias](http://www.esri.es/activacion-licencias/)
+
+**Q: ¿Desde donde se descargan las licencias del software asociado a mi ADS?**
+
+A: A continuación de tejamos otro vídeo: **[Download software licences from my.esri.com](https://www.youtube.com/watch?v=MzpuoXtZUU8)**.
+
 **Q: Ya tengo licenciado mi software con EDN, ¿tengo que volver a licenciar algo?**
 
 A: No, el software licenciado mediante el EDN no se ve afectado, se aplican los mismo términos y se ofrecerá más software y herramientas simplemente activando la nueva suscripción - Contacta con suministros: cgi@esri.es
