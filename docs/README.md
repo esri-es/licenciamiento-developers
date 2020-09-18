@@ -1,6 +1,6 @@
 # Licenciamiento para ArcGIS Developers
 
-Esta documentación se ha creada para ser usado como:
+Esta documentación se ha creada para ser usada como:
 
 1. Recurso adicional para entender mejor cómo:
 
