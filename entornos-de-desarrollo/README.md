@@ -113,7 +113,7 @@ Al igual que en los casos anteriores se pueden dar dos escenarios dependiendo de
 * **Si la consultora dispone de las licencias**: no necesitan adquirir nada adicional, independientemente de que sea porque:
     1. Las licencias estén incluidas en el [Plan Essentials](#plan-essentials).
     2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias.
-    3.Por que tengan contratando un [ADP](#arcgis-developer-plans-adp) de algún proyecto anterior.
+    3. Por que tengan contratando un [ADP](#arcgis-developer-plans-adp) de algún proyecto anterior.
 * **Si la consultora NO dispone de las licencias pero su cliente SÍ**: osea que el cliente ya dispone de todas las licencias del software sobre el que van a desarrollar la solución/integración. Podrían hablar con ellos para ver si les pudiesen ceder las licencias que no estuviesen en uso (temporalmente) para hacer el desarrollo.
 * **Ninguno dispone de todas las licencias**. En este caso existen dos formas:
    1. Adquirir las licencias a través de un [ADP](#arcgis-developer-plans-adp).
