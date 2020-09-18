@@ -1,4 +1,4 @@
-* [Inicio](/)
+* [Inicio](/?id=introducción)
     * [Entornos de desarrollo](desarrollo/README.md)
     * [Entornos de producción](produccion/README.md)
 * [Dudas y sugerencias](https://github.com/esri-es/licenciamiento-developers/issues)

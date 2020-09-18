@@ -58,7 +58,7 @@ A continuación vamos a explicar las diferentes alternativas para acceder al eco
 
 Una cosa importante a tener en cuenta es que cualquier desarrollador particular u organización puede acceder gratuitamente a las herramientas incluidas en el "[Plan Essentials](#plan-essentials)": APIs, SDKs, License Keys, ArcGIS Online, constructores, etc.
 
-Como decíamos anteriormente, para la puesta en producción puede que haya que adquirir alguna licencia adicional de software (o usuarios nominales), pero eso se explica en: **[Licenciamiento para Entornos de Producción](/produccion/README)**.
+Como decíamos anteriormente, para la puesta en producción puede que haya que adquirir alguna licencia adicional de software (o usuarios nominales), pero eso se explica en: **[Licenciamiento para Entornos de Producción](/produccion/README?id=licenciar-desarrollos-con-arcgis-para-entornos-de-producción)**.
 
 Por último, recuerda que **si no encuentras resuelta tu duda aquí y necesitas ayuda o alguna aclaración sobre licenciamiento, puedes [crear un nuevo issue](https://github.com/esri-es/licenciamiento-developers/issues) con tu consulta**.
 
@@ -390,7 +390,7 @@ No, si ya tienes las licencias, aunque sean para entornos de producción, puedes
 
 **PREGUNTA: ¿Qué limitaciones tiene el software proporcionado en un ADP, EPN o un CTE?**
 
-Las licencias proporcionadas no se pueden usar para vender servicios o poner en producción un producto, salvo las excepciones explicadas en: [Licenciar desarrollos con ArcGIS para entornos de producción](/produccion/README).
+Las licencias proporcionadas no se pueden usar para vender servicios o poner en producción un producto, salvo las excepciones explicadas en: [Licenciar desarrollos con ArcGIS para entornos de producción](/produccion/README?id=licenciar-desarrollos-con-arcgis-para-entornos-de-producción).
 
 Por ejemplo, una licencia de ArcGIS Pro del Plan Builder no se puede usar para vender servicios de análisis a terceros. O una licencia de Enterprise proporcionada en en Plan Premium no se puede usar para un entorno en producción.
 

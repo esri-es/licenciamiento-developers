@@ -9,4 +9,4 @@
 - ...
 
 [Github issues](https://github.com/esri-es/licenciamiento-developers/issues)
-[Empezar](#Licenciamiento-para-ArcGIS-Developers)
+[Empezar](#introducción)

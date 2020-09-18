@@ -638,6 +638,6 @@ ArcGIS dispone de múltiples generadores de aplicaciones, algunos de ellos orien
 Al igual que ocurre al licenciar scripts y extensiones, **poner en producción cualquier aplicación generada con estos constructores no requieren de licencias específicas**. Es suficiente con que la tecnología que vayan a usar estén correctamente licenciadas. Por ejemplo: ArcGIS Online / Enterprise, y en el caso de AppStudio habrá que verificar que la aplicación incorpore el mecanismo de autenticación elegido.
 
 > [!NOTE]
-> No todos los constructores de aplicaciones son gratuitos, por ejemplo AppStudio Standard Developer Edition no lo es, por tanto será necesario disponer de licencia del constructor en cuestión durante la fase de desarrollo. Más info es: [Obtener y licenciar tecnología ArcGIS para entornos de desarrollo](/desarrollo/README)
+> No todos los constructores de aplicaciones son gratuitos, por ejemplo AppStudio Standard Developer Edition no lo es, por tanto será necesario disponer de licencia del constructor en cuestión durante la fase de desarrollo. Más info es: [Obtener y licenciar tecnología ArcGIS para entornos de desarrollo](/desarrollo/README?id=obtener-y-licenciar-tecnolog%c3%ada-arcgis-para-entornos-de-desarrollo)
 
 Más información: informacion@esri.es
