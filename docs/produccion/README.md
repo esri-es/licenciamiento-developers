@@ -10,6 +10,7 @@
   - [Soporte](#soporte)
   - [Preguntas frecuentes](#preguntas-frecuentes)
 - [Adquirir usuarios nominales](#adquirir-usuarios-nominales)
+  - [Tipos y capacidades de usuarios nominales](#tipos-y-capacidades-de-usuarios-nominales)
   - [Preguntas frecuentes](#preguntas-frecuentes-1)
 - [Licenciar apps que usan alguna de las Runtime](#licenciar-apps-que-usan-alguna-de-las-runtime)
   - [Mecanismos de licenciamiento](#mecanismos-de-licenciamiento)
@@ -52,7 +53,7 @@ A continuación se describen tres escenarios a modo ilustrativo:
     * Si la aplicación:
         * [X] Está dirigida a organizaciones que no tienen una cuenta de ArcGIS Online
         * [X] Y va a alojar en ArcGIS Online los datos privados de la organización.
-    * Entonces: **por cada organización** en esta situación habrá que contratar una organización con al menos un usuario (~605€/año).
+    * Entonces: **por cada organización** en esta situación habrá que contratar una organización con al menos un [usuario creator](#tipos-y-capacidades-de-usuarios-nominales).
     > **Nota**: en las preguntas frecuentes se explica una posible fórmula para automatizar el proceso de contratación.
 
 
@@ -63,8 +64,8 @@ A continuación se describen tres escenarios a modo ilustrativo:
     * Entonces hará que contratar el Plan Builder (o superior) y si fuese necesario pagar el exceso de créditos.
 
 
-* **Escenario 3) Solución o producto que no aloja datos privados de la organización en ArcGIS Online**
-    * Entonces: necesitaremos o bien una cuenta de organización con un usuario (~605€/año), o cualquiera de los [planes para desarrolladores](../entornos-de-desarrollo/README.md#arcgis-developer-plans-adp) de pago (si necesitamos alguna herramientas adicional para desarrollar la aplicación).
+* **Escenario 3) Solución o producto que aloja datos privados de la organización en ArcGIS Online**
+    * Entonces: necesitaremos o bien una cuenta de organización con un [usuario creator](#tipos-y-capacidades-de-usuarios-nominales), o cualquiera de los [planes para desarrolladores](../entornos-de-desarrollo/README.md#arcgis-developer-plans-adp) de pago (si necesitamos alguna herramientas adicional para desarrollar la aplicación).
 
 > **Recordatorio**: las licencias de ArcGIS Desktop incluyen una cuenta de organización de ArcGIS Online.
 
@@ -123,7 +124,7 @@ A: A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisició
 
 **Q: ¿Qué pasa si me quedo sin créditos?**
 
-A: Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o activar el pay as you go. Otra opción posible es [comprar un paquete de 1000 créditos](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits?from=sso&CustomerNumber=3501) por 125€. [Más información sobre el funcionamiento de los créditos](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)
+A: Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o activar el pay as you go. Otra opción posible es [comprar un paquete de 1000 créditos](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits?from=sso&CustomerNumber=3501). [Más información sobre el funcionamiento de los créditos](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)
 
 **Q: Cómo puedo cancelar mi cuenta de ArcGIS Online**
 
@@ -148,17 +149,19 @@ Necesitaremos adquirir usuarios nominales cuando hayamos creado una app (web o n
 
 Por supuesto, los usuarios nominales van siempre vinculados a una cuenta de organización de ArcGIS Online o ArcGIS Enterprise que a su vez tiene que estar correctamente licenciada.
 
-**PRECIOS Y CAPACIDADES**
+### Tipos y capacidades de usuarios nominales
 
 A la hora de usar usuarios nominales en nuestros desarrollo podemos usar los usuarios nominales tradicionales:
 
-|Tipo|Capacidades|Apps|Precio
-|---|---|---|---
-|**Viewer** (anteriormente usuarios de nivel 1)|Pueden ver elementos que otros usuarios de ArcGIS compartan con ellos. Viewers no pueden crear, editar, compartir ni realizar análisis en elementos ni datos|[Essential Apps Bundle](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)|120€/año + IVA
-|**Editor**|Pueden ver y editar datos en mapas y aplicaciones de ArcGIS que otros usuarios de ArcGIS compartan con ellos. No pueden analizar, crear ni compartir elementos ni datos|[Essential Apps Bundle](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)|265€/año + IVA
-|**Field Worker**|Pueden ver y editar datos que otros usuarios de ArcGIS hayan compartido con ellos. No pueden analizar, crear ni compartir elementos ni datos.|[Essential Apps y Field Apps bundles](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)|450€/año + IVA
-|**Creator** (anteriormente usuarios de nivel 2)|Tienen todas las capacidades de los tipos de usuario Viewer, Editor y Field Worker, además de la capacidad de crear contenido, administrar la organización y compartir contenido.|[Essential Apps, Field Apps, and Office Apps bundles](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)|605€/año + IVA
+|Tipo|Capacidades|Apps|
+|---|---|---|
+|**Viewer** (anteriormente usuarios de nivel 1)|Pueden ver elementos que otros usuarios de ArcGIS compartan con ellos. Viewers no pueden crear, editar, compartir ni realizar análisis en elementos ni datos|[Essential Apps Bundle](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)
+|**Editor**|Pueden ver y editar datos en mapas y aplicaciones de ArcGIS que otros usuarios de ArcGIS compartan con ellos. No pueden analizar, crear ni compartir elementos ni datos|[Essential Apps Bundle](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)
+|**Field Worker**|Pueden ver y editar datos que otros usuarios de ArcGIS hayan compartido con ellos. No pueden analizar, crear ni compartir elementos ni datos.|[Essential Apps y Field Apps bundles](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)
+|**Creator** (anteriormente usuarios de nivel 2)|Tienen todas las capacidades de los tipos de usuario Viewer, Editor y Field Worker, además de la capacidad de crear contenido, administrar la organización y compartir contenido.|[Essential Apps, Field Apps, and Office Apps bundles](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)
 |...|...|...
+
+Los **precios** los puedes consultar en: [esri.com/es-es/store/arcgis-online/user-types](https://www.esri.com/es-es/store/arcgis-online/user-types#)
 
 Y las organizaciones que forman parte del [Programa de Partners de Esri](#programa-de-partners-epn) pueden adquirir usuarios nominales especiales demoniados *Partner user Types*. A diferencia de los usuarios nominales tradicionales, los *Partner user Types* pueden configurarse para no tener acceso al "Essential Apps Bundle" (por ejemplo al Map y Scene Viewer) y son más económicos.
 
@@ -248,12 +251,12 @@ Existen dos formas de licenciar una aplicación nativa:
 * Descargar y actualizar datos de servicios de entidades habilitados funcionar en modo offline
 * Búsqueda de localizaciones (mediante el servicio de geocodificación)
 
-**OPCIONES DE LICENCIAMIENTO Y PRECIO**
+**OPCIONES DE LICENCIAMIENTO Y PRECIOS**
 
 |**Opción**|**Coste**|
 |---|---|
 |*License key* (perpetua)|0€|
-|Tipo de usuario mínimo: *viewer*|120€/año + IVA|
+|Tipo de usuario mínimo: *viewer*|[Ver precio](https://www.esri.com/es-es/store/arcgis-online/user-types#)|
 
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
@@ -269,12 +272,14 @@ Este nivel está pensado para aplicaciones que además de visualizar informació
 * Editar entidades tanto en [geodatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/databases/#introduction-to-esri-geodatabases) móviles como en servicios de entidades vía API REST
 * Añadir, actualizar o borrar contenido de ArcGIS Online o Portal for ArcGIS
 
-**OPCIONES DE LICENCIAMIENTO Y PRECIO**
+**OPCIONES DE LICENCIAMIENTO Y PRECIO APROXIMADO**
+
+> **Aviso**: Los precios que se muestran aquí con orientativos y pueden no ser exactos.
 
 |**Opción**|**Coste**|
 |---|---|
-|*License key* (perpetua)|A partir de 170€ + IVA (por dispositivo y app)|
-|Tipo de usuario mínimo: *editor*|265€/año + IVA|
+|*License key* (perpetua)|A partir de ~170€ + IVA (por dispositivo y app)|
+|Tipo de usuario mínimo: *editor*|[Ver precio](https://www.esri.com/es-es/store/arcgis-online/user-types#)|
 
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
@@ -292,7 +297,9 @@ Este nivel está pensado para aplicaciones que utilizan archivos de datos en loc
 * Ver, crear, editar y guardar datos en KML almacenado en un fichero en local
 * Hacer análisis visual, incluyendo líneas de visión y cuencas visuales.
 
-**OPCIONES DE LICENCIAMIENTO Y PRECIO**
+**OPCIONES DE LICENCIAMIENTO Y PRECIO APROXIMADO**
+
+> **Aviso**: Los precios que se muestran aquí con orientativos y pueden no ser exactos.
 
 |**Opción**|**Coste**|
 |---|---|
@@ -314,7 +321,9 @@ Este nivel está pensado para aplicaciones que trabajan directamente con ArcGIS 
   * Ejecutar geoprocesos en el dispositivo (se puede incluir en el *geoprocessing package* un subconjunto de herramientas estándar y avanzadas de ArcGIS Desktop)
   * Editar servicios de entidades en *enterprise geodatabases*
 
-**OPCIONES DE LICENCIAMIENTO Y PRECIO**
+**OPCIONES DE LICENCIAMIENTO Y PRECIO APROXIMADO**
+
+> **Aviso**: Los precios que se muestran aquí con orientativos y pueden no ser exactos.
 
 |**Opción**|**Coste**|
 |---|---|
@@ -546,6 +555,8 @@ Los scripts y extensiones no requieren de licencias específicas para producció
 ## Licenciar apps que usan ArcGIS Enterprise
 
 El único caso en el que no sería necesario adquirir licencias de ArcGIS Enterprise para producción es si la organización que va a usar el software dispone ya de licencias de ArcGIS Enterprise.
+
+El precio de las licencias variará en función de si son para entornos de producción o pre-producción.
 
 Más información: informacion@esri.es
 

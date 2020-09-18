@@ -68,11 +68,11 @@ En este caso nos referimos a organizaciones (normalmente públicas o de servicio
 
 * **Si ya se disponen de las licencias**: no se necesita adquirir nada adicional, independientemente que sea porque:
     * Están incluídas en el [Plan Essentials](#plan-essentials)
-    * Dispongan licencias previamente contratadas: [ADP](#arcgis-developer-plans-adp), licencias para entornos de producción o acuerdo empresarial (EA).
+    * Dispongan licencias previamente contratadas: [ADP](#arcgis-developer-plans-adp), licencias para entornos de producción o algún otro acuerdo corporativo específico.
 * **Si no disponen de las licencias**: se pueden adquirir las licencias:
     * A través de un [ADP](#arcgis-developer-plans-adp)
-    * De productos individualmente (para entornos de producción)
-    * A través de un [acuerdo empresarial (EA)](https://www.esri.com/en-us/industries/enterprise-agreement/overview) disponible para pequeñas, medianas y grandes administraciones, empresas de "Utilities", etc. (para entornos de producción)
+    * Cómo productos licenciados individualmente (por ejemplo: para entornos de producción)
+    * A través de alguno de los programas específicos que se ajustan a las necesidades de pequeñas, medianas y grandes administraciones, empresas de "Utilities", universidades, centros de investigación, etc.
     * A través del [programa para organizaciones sin ánimo de lucro](#programa-para-organizaciones-sin-%C3%A1nimo-de-lucro-ongs)
 
 Para que se entienda mejor a lo que nos referimos con "organizaciones GISeras", listamos a continuación (agrupadas por sector) algunas de las conocidas que trabajan con nosotros: ayuntamientos (Madrid, Sevilla, Rivas VaciaMadrid, ...), ministerios (Fomento, INE, IGN, Agricultura y Pesca, Defensa ...), ingenierías (Ferrovial, FCC, Acciona, Valoriza, ...), universidades (facultades de geografía, topografía, ...), electricidad y GAS (Naturgy, Unión Fenosa, ...), seguros (Mapfre, Allianz, ...), infraestructuras y transportes (AENA, ADIF, Puertos del Estado, Puerto de Algeciras, EMT, aeropuertos, ...), aguas (canal de Isabel II, aguas de BCN, aguas de Málaga, ...), inmobiliarias (Idealista, CBRE, JLL, ...), Retail (Alcampo, Carrefour, Covira, Nivea, Nielsen, ...), emergencias y seguridad (Guardia Civil, bomberos, UME, DGT, ...), telcos (Telefónica, Vodaphone, ...), ONGs (Cruz Roja, Médicos Sin Fronteras, ...), etc.
@@ -87,7 +87,7 @@ Como el en caso anterior se pueden dar dos escenarios dependiendo de si la organ
 
 * **Si ya se disponen de las licencias**: no se necesita adquirir nada adicional, independientemente que sea porque:
     1. Están incluídas en el [Plan Essentials](#plan-essentials)
-    2. La organización forme parte de algún programa de Esri (EPN, CTE o EBP) que tenga incluidas las licencias
+    2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias **con propósito de desarrollo**.
     3. Por que tengan contratado un [ADP](#arcgis-developer-plans-adp) de algún desarrollo previo.
 * **No se disponen de las licencias**: se pueden adquirir las licencias:
     1. Si la organización está interesada en crear una estrategia win-win con Esri, a través de diferentes programas:
@@ -112,9 +112,9 @@ Al igual que en los casos anteriores se pueden dar dos escenarios dependiendo de
 
 * **Si la consultora dispone de las licencias**: no necesitan adquirir nada adicional, independientemente de que sea porque:
     1. Las licencias estén incluidas en el [Plan Essentials](#plan-essentials).
-    2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias.
+    2. La organización forme parte de algún programa de Esri que tenga incluidas las licencias **con propósito de desarrollo**.
     3. Por que tengan contratando un [ADP](#arcgis-developer-plans-adp) de algún proyecto anterior.
-* **Si la consultora NO dispone de las licencias pero su cliente SÍ**: osea que el cliente ya dispone de todas las licencias del software sobre el que van a desarrollar la solución/integración. Podrían hablar con ellos para ver si les pudiesen ceder las licencias que no estuviesen en uso (temporalmente) para hacer el desarrollo.
+* **Si la consultora NO dispone de las licencias pero su cliente SÍ**: osea que el cliente ya dispone de todas las licencias del software sobre el que van a desarrollar la solución/integración. La única forma de poder usar esas licencias para hacer el desarrollo es llegar a un acuerdo en el que un trabajador de la consultora se desplazase a las oficinas del cliente durante todo el desarrollo.
 * **Ninguno dispone de todas las licencias**. En este caso existen dos formas:
    1. Adquirir las licencias a través de un [ADP](#arcgis-developer-plans-adp).
    2. Unirse al [Programa de Partners de Esri](#programa-de-partners-epn). Esta opción es la más adecuada cuando se quiere definir una estrategia de negocio a largo plazo conjunta. Para más información escriba a: informacion@esri.es.
@@ -158,7 +158,7 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 
 * **ArcGIS Online**: una cuenta de organización mono-usuario (*sin posibilidad de adquirir más usuarios*) que incluye 50 créditos mensuales (gratuitos) para desarrollo y pruebas que incluye:
 
-    * Usuario creator con 50 créditos mensuales para para alojar datos en la nube (crear servicios alojados), acceder a contenido bajo suscripción, contenido premium del [Living Atlas](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/living-atlas/README.md) (datos sociodemográficos) o usar [los servicios/APIs listos para usar](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/products/arcgis-online/rest-apis/ready-to-use-services/README.md) (cálculos de rutas, geocodificaciones, análisis espaciales, ...). Si necesitas más de 50 créditos mensuales puedes activar la opción pay as you go. Más info sobre los [tipos de usuarios nominales](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/) y el funcionamiento de los créditos: [Understanding credits](https://doc.arcgis.com/en/arcgis-online/reference/credits.htm). | [Service credits overview](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/credits) | [Credits FAQ](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/products/arcgis-online/credits/README.md#credits)
+    * [Usuario creator](/produccion/README#tipos-y-capacidades-de-usuarios-nominales) con 50 créditos mensuales para para alojar datos en la nube (crear servicios alojados), acceder a contenido bajo suscripción, contenido premium del [Living Atlas](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/living-atlas/README.md) (datos sociodemográficos) o usar [los servicios/APIs listos para usar](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/products/arcgis-online/rest-apis/ready-to-use-services/README.md) (cálculos de rutas, geocodificaciones, análisis espaciales, ...). Si necesitas más de 50 créditos mensuales puedes activar la opción pay as you go. Más info sobre los [tipos de usuarios nominales](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/) y el funcionamiento de los créditos: [Understanding credits](https://doc.arcgis.com/en/arcgis-online/reference/credits.htm). | [Service credits overview](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/credits) | [Credits FAQ](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/products/arcgis-online/credits/README.md#credits)
 
     * Acceso a las aplicaciones *ready to use* como: [Collector](http://www.esri.com/products/collector-for-arcgis), [Workforce](https://esri-es.github.io/awesome-arcgis/arcgis/products/workforce/?h=workforce), [Explorer](http://www.esri.com/software/explorer-for-arcgis), [Survey123](http://www.esri.com/products/survey123) que pueden ser integradas o extendidas usando [algunos de los repositorios](https://github.com/esri?utf8=%E2%9C%93&q=-integration&type=&language=) de Github. También tendrás acceso a otras como [ArcGIS Companion](https://www.esri.com/arcgis-blog/products/apps/announcements/introducing-arcgis-companion/), QuickCapture, [ArcGIS Earth](https://www.esri.com/en-us/arcgis/products/arcgis-earth), [AuGEO](https://www.esri.com/arcgis-blog/products/apps/3d-gis/ar-for-your-gis/), y cualquier otra [aplicación (salvo las Premium)](http://www.esri.com/software/apps) o [aplicación de labs.esri.com](http://labs.esri.com/), etc con las que construir flujos de trabajo.
 
@@ -227,14 +227,14 @@ Este paquete [freemium](https://es.wikipedia.org/wiki/Freemium) incluye licencia
 |---|---|---|---|
 |AppStudio for ArcGIS Developer Edition|[Descargar](https://doc.arcgis.com/en/appstudio/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/appstudio/)|Con más de [60 ejemplos de código](https://github.com/Esri/arcgis-appstudio-samples) para acelerar la creación de aplicaciones multiplataforma.|
 |Survey123 for ArcGIS source code|[Descargar](https://doc.arcgis.com/en/survey123/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/survey123/)|n.a.|
-|Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos usuarios creator y tres usuarios viewer + ArcGIS Online con 50 créditos/mes gratuitos|
+|Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos [usuarios creator y tres usuarios viewer](/produccion/README#tipos-y-capacidades-de-usuarios-nominales) + ArcGIS Online con 50 créditos/mes gratuitos|
 |ArcGIS Desktop Basic (ArcGIS Pro & ArcMap)|[Download ArcGIS Pro](http://links.esri.com/pro/download/current) & [ArcMap](http://desktop.arcgis.com/en/arcmap/latest/get-started/main/get-started-with-arcmap.htm#ESRI_SECTION1_1920CFA5E30C477B9BD943844531DE11)|[ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/))|Para preparar y trabajar tus datos, realizar análisis, etc|
 
 ---
 
 #### Plan: Professional
 
-**Precio aproximado:** 2.860€/año + I.V.A. | [Comprar online](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-professional)
+**Precio aproximado:** ~2.800€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-professional)
 
 Este plan **además de lo descrito en el Plan Builder** incluye:
 * [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) (Advanced).
@@ -262,7 +262,7 @@ Este plan **además de lo descrito en el Plan Builder** incluye:
 
 #### Plan: Premium
 
-**Precio aproximado:** 5.240€/año + I.V.A. | [Comprar online](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-premium)
+**Precio aproximado:** ~5.200€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-premium)
 
 Este plan es como el *Plan Proffessional* pero para proyectos que requieran una gestión avanzada de datos a través de [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Standard.
 
@@ -272,7 +272,7 @@ Este plan es como el *Plan Proffessional* pero para proyectos que requieran una 
 
 #### Plan: Enterprise
 
-**Precio aproximado:** 6.830€/año + I.V.A. | [Comprar online](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-enterprise)
+**Precio aproximado:** ~6.800€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-enterprise)
 
 Este plan es como el *Plan Proffessional* pero en este caso incluye licencias de:
 * [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Advanced.
@@ -283,9 +283,15 @@ Este plan es como el *Plan Proffessional* pero en este caso incluye licencias de
 
 ### Programa de Partners (EPN)
 
-El [programa de partners de Esri](https://www.esri.es/es-es/acerca-de/partners-colaboradores/partners-y-colaboradores) o "Esri Partner Network" (EPN) está pensado para empresas interesadas en alinear estrategias de negocio. Estos programas incluyen paquetes con la dotación de software personalizados para cada caso.
+El [programa de partners de Esri](https://www.esri.es/es-es/acerca-de/partners-colaboradores/partners-y-colaboradores) o "Esri Partner Network" (EPN) está pensado para empresas interesadas en alinear estrategias de negocio. Estos programas incluyen paquetes con la dotación de software personalizados para cada caso que **pueden ser usados con los siguientes fines**:
 
-Se estructura en niveles que están pensados para:
+* Demostrativos
+* De formación
+* De desarrollo de una solución propia
+
+En ningún caso las licencias proporcionadas a través de un programa del EPN  puede ser usada para hacer un desarrollo a un tercero.
+
+El EPN se estructura en niveles que están pensados para:
 
 * **Partners GIS** que construyen su negocio entorno a la plataforma ArcGIS. Estos socios crean servicios, soluciones, contenidos, integración de sistemas, consultoría de gestión y ofertas de hardware. Con ellos se trabaja en un plan estratégico de negocio conjunto a corto, medio y largo plazo.
 * **Compañías de producto** que tienen contratado un [ADP](#arcgis-developer-plans-adp) y quieren explorar la posibilidad de incluir los usuarios nominales en sus desarrollos.
@@ -293,9 +299,9 @@ Se estructura en niveles que están pensados para:
 
 Para más información:
 
-* [Esri Partner Network Policies (EPN)](https://www.esri.com/~/media/Files/Pdfs/partners/partner-network/docs/epn-silver-policies): para Partners GIS. Existen niveles varios niveles, "Silver" es el intermedio.
-    * [Esri Partner Network Policies (EPN) Silver Policies](https://www.esri.com/~/media/Files/Pdfs/partners/partner-network/docs/epn-silver-policies)
-* Contacto: información@esri.es
+* [Esri Partner Network Policies (EPN)](https://www.esri.com/~/media/Files/Pdfs/partners/partner-network/docs/epn-silver-policies): para Partners GIS.
+
+* Contacto: noemi.sanchidrian@esri.es | borja.solis@esri.es | informacion@esri.es
 
 ### Programa de Startups (EBP)
 
@@ -421,7 +427,7 @@ A: No, el software licenciado mediante el EDN no se ve afectado, se aplican los 
 
 **Q: ¿Cuántos usuarios nominales de ArcGIS Enterprise se incluyen con una suscripción?**
 
-A: (3) viewers y (2) nivel creators
+A: (3) [tipo viewers](/produccion/README#tipos-y-capacidades-de-usuarios-nominales) y (2) [tipo creators](/produccion/README#tipos-y-capacidades-de-usuarios-nominales)
 
 **Q: ¿A qué equivale mi EDN respecto a los nuevos planes?**
 
