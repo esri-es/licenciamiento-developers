@@ -1,5 +1,19 @@
 # Introducción
 
+<div>
+<div style="display:inline-block;margin-right:.5rem">
+<a href="https://github.com/esri-es/licenciamiento-developers/stargazers"><img src="https://img.shields.io/github/stars/esri-es/licenciamiento-developers?style=social" style="margin-left:0;box-shadow:none;border-radius:0;height:24px"></a>
+</div>
+<div style="display:inline-block;margin-left:.5rem">
+<a href="https://github.com/esri-es/licenciamiento-developers/stargazers"><img src="https://img.shields.io/github/watchers/esri-es/licenciamiento-developers?style=social" style="margin-left:0;box-shadow:none;border-radius:0;height:24px"></a>
+</div>
+</div>
+
+<!--
+https://github.com/esri-es/licenciamiento-developers/subscription
+-->
+
+
 Esta documentación se ha creada para ser usada como:
 
 1. Recurso adicional para entender mejor cómo:

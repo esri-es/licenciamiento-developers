@@ -1,6 +1,6 @@
 * [Inicio](/?id=introducción)
-    * [Entornos de desarrollo](desarrollo/README.md)
-    * [Entornos de producción](produccion/README.md)
+    * [Entornos de desarrollo](desarrollo/README.md?id=obtener-y-licenciar-tecnolog%c3%ada-arcgis-para-entornos-de-desarrollo)
+    * [Entornos de producción](produccion/README.md?id=licenciar-desarrollos-con-arcgis-para-entornos-de-producción)
 * [Dudas y sugerencias](https://github.com/esri-es/licenciamiento-developers/issues)
 * [Webinars](https://www.youtube.com/playlist?list=PLVfQL04Y8hoLIdS4A4zIAvFL_jKKxqiCK)
 * [Últimas actualizaciones](https://github.com/esri-es/licenciamiento-developers/commits/master)

@@ -1,5 +1,14 @@
 # Obtener y licenciar tecnología ArcGIS para entornos de desarrollo
 
+<div>
+<div style="display:inline-block;margin-right:.5rem">
+<a href="https://github.com/esri-es/licenciamiento-developers/stargazers"><img src="https://img.shields.io/github/stars/esri-es/licenciamiento-developers?style=social" style="margin-left:0;box-shadow:none;border-radius:0;height:24px"></a>
+</div>
+<div style="display:inline-block;margin-left:.5rem">
+<a href="https://github.com/esri-es/licenciamiento-developers/stargazers"><img src="https://img.shields.io/github/watchers/esri-es/licenciamiento-developers?style=social" style="margin-left:0;box-shadow:none;border-radius:0;height:24px"></a>
+</div>
+</div>
+
 Si tienes dudas sobre cómo acceder a la tecnología necesaria **para desarrollar productos con ArcGIS**, limitaciones, por donde empezar para calcular **el coste del desarrollo**, quién te puede ayudar... has llegado al sitio adecuado.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->

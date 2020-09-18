@@ -1,5 +1,14 @@
 # Licenciar desarrollos con ArcGIS para entornos de producción
 
+<div>
+<div style="display:inline-block;margin-right:.5rem">
+<a href="https://github.com/esri-es/licenciamiento-developers/stargazers"><img src="https://img.shields.io/github/stars/esri-es/licenciamiento-developers?style=social" style="margin-left:0;box-shadow:none;border-radius:0;height:24px"></a>
+</div>
+<div style="display:inline-block;margin-left:.5rem">
+<a href="https://github.com/esri-es/licenciamiento-developers/stargazers"><img src="https://img.shields.io/github/watchers/esri-es/licenciamiento-developers?style=social" style="margin-left:0;box-shadow:none;border-radius:0;height:24px"></a>
+</div>
+</div>
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
