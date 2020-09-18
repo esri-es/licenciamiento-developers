@@ -1,6 +1,6 @@
 * [Licenciamiento](/)
     * [Entornos de desarrollo](desarrollo/README.md)
     * [Entornos de producción](produccion/README.md)
-* [Envía tu pregunta](https://github.com/esri-es/licenciamiento-developers/issues)
-* [Webinars sobre licenciamiento](https://www.youtube.com/playlist?list=PLVfQL04Y8hoLIdS4A4zIAvFL_jKKxqiCK)
+* [¿Dudas?](https://github.com/esri-es/licenciamiento-developers/issues)
+* [Webinars](https://www.youtube.com/playlist?list=PLVfQL04Y8hoLIdS4A4zIAvFL_jKKxqiCK)
 * [Últimas actualizaciones](https://github.com/esri-es/licenciamiento-developers/commits/master)
