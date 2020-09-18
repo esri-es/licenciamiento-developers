@@ -4,9 +4,9 @@ Este repositorio se ha creado para ser usado como:
 
 * Recurso adicional para entender mejor cómo:
 
-    * **[Obtener y licenciar tecnología ArcGIS para entornos de desarrollo](./docs/desarrollo#obtener-y-licenciar-tecnolog%C3%ADa-arcgis-para-entornos-de-desarrollo)** y el coste asociado (si lo hubiese)
+    * **[Obtener y licenciar tecnología ArcGIS para entornos de desarrollo](desarrollo/README)** y el coste asociado (si lo hubiese)
 
-    * **[Licenciar desarrollos con ArcGIS para entornos de producción](./docs/produccion/#licenciar-desarrollos-con-arcgis-para-entornos-de-producción)** y el coste asociado (si lo hubiese)
+    * **[Licenciar desarrollos con ArcGIS para entornos de producción](produccion/README)** y el coste asociado (si lo hubiese)
 
 * **[Foro de consulta](https://github.com/esri-es/licenciamiento-developers/issues)**: para aquellos que no encuentren su duda resuelta aquí.
 
