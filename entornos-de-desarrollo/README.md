@@ -311,9 +311,9 @@ El [Programa de Startups](https://docs.google.com/presentation/d/1v3y7cRC99Rfj34
 
 Las integraciones se pueden hacer de muchas formas, en el siguiente enlace puedes encontrar un [listado de productos integrados con ArcGIS](https://esri-es.github.io/awesome-arcgis/arcgis/integrations/).
 
-> **Aviso**: a fecha del 15/09/2020 no se pueden acceder a tecnologías como a través de este programa: Tacker for ArcGIS, Analytics for IoT, ArcGIS Indoors, ArcGIS Urban, etc.
+> **Aviso**: a fecha del 15/09/2020 no se pueden acceder a través de este programa tecnologías como: Tacker for ArcGIS, Analytics for IoT, ArcGIS Indoors, ArcGIS Urban, etc.
 
-> **Aclaración**: Cuando hablamos de desarrollo de producto excluimos las soluciones basadas ArcGIS + servicios ya que en este caso, existe un nivel del programa de partners diseñado para ellas.
+> **Aclaración**: Cuando hablamos de desarrollo de producto excluimos las soluciones basadas ArcGIS + servicios. Para organizaciones que desarrollan este tipo de soluciones existe un nivel del EPN diseñado para ellas.
 
 Para más información: developersstartups@esri.es
 

@@ -40,9 +40,9 @@ Los únicos **casos en los que no se necesitaría una licencia de ArcGIS Online 
 * [X] Desarrollos con datos públicos que no se vayan a monetizar. Esto incluye por ejemplo el típico mapa mostrando la ubicación de un negocio o buscador de tiendas de una empresa/franquicia. Ver: **[Simple Store Locator App Demo](https://youtu.be/R2wrO_MzT2A)**
 * [X] Se trata de un proyecto sin ánimo de lucro.
 
-En cualquiera de los dos últimos casos, si el consumo de créditos excede los disponibles en la cuenta se puede activar el [Pay As You Go](https://developers.arcgis.com/pricing/credits/) o [comprar un paquete e 1000 créditos adicionales](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits).
+En cualquiera de los dos últimos casos, si el consumo de créditos excede los disponibles en la cuenta se puede activar el [Pay As You Go](https://developers.arcgis.com/pricing/credits/) o [comprar un paquete de 1000 créditos adicionales](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits).
 
-> **Importante**: Si no sabes cómo funcionan los créditos de ArcGIS Online revisa: "[Awesome ArcGIS - ArcGIS Online Credits](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)".
+> **Importante**: Si no sabes cómo funcionan los créditos de ArcGIS Online o tienes alguna duda, te recomendamos el siguiente recurso: "[Awesome ArcGIS - ArcGIS Online Credits](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)" ([vídeo](https://www.arcgis.com/apps/MapJournal/index.html?appid=3875c10877da43aaa215d0b216cb2137&section=8)).
 
 ### Escenarios de ejemplo
 
@@ -177,7 +177,11 @@ Más información:
 
 **Q: ¿Puedo compartir las credenciales de un usuario nominal entre varias personas? Por ejemplo, del mismo departamento.**
 
-A: Técnicamente sí, pero por [los términos y condiciones](https://www.esri.com/en-us/legal/terms/full-master-agreement) no. La razón por lo que esto es así es por la misma que no se puede (o deben) compartir las contraseñas del correo electrónico o la contraseña de tu ordenador personal, porque si lo haces eliminas la privacidad de los datos, trazabilidad, ... y en definitiva reduces la seguridad de la cuenta.
+A: No, como se indica en el apartado 2.5 de [los términos y condiciones](https://www.esri.com/en-us/legal/terms/full-master-agreement):
+
+> 1.   Named User login credentials are for designated users only and may not be shared with other individuals.
+
+La razón por lo que esto es así es por la misma que no se puede (o deben) compartir las contraseñas del correo electrónico o la contraseña de tu ordenador personal, porque si lo haces eliminas la privacidad de los datos, trazabilidad, ... y en definitiva reduces la seguridad de la cuenta.
 
 **Q: ¿Puedo usar un proxy para controlar el acceso a los datos de ArcGIS?**
 
@@ -186,20 +190,20 @@ Como se indica en el propio proyecto de Esri [resource-proxy](https://github.com
 * Acceder a [contenido del Living Atlas de acceso limitado](https://esri-es.github.io/awesome-arcgis/arcgis/living-atlas/#limited-access-content)
 * Acceder a recursos securizados por "Microsoft Integrated Windows Authentication" (IWA)
 * Evitar que un usuario tenga que volver a introducir sus propias credenciales
-* Establecer restricciones sobre el uso de un recurso. Desde qué URLs se puede acceder a una API o dataset, o a una API, etc.
+* Establecer restricciones sobre el uso de un recurso, por ejemplo: desde qué URLs se puede acceder a un dataset o API, con qué frecuencia se puede llamar a una API, etc.
 * Resolver problemas de CORS
 * Hacer peticiones que excedan el límite de 2048 caracteres por URL
-* Crear logs con las acciones realizadas por los usuarios
+* Crear logs para tener trazabilidad de las acciones realizadas por los usuarios
 
 Por tanto no se puede baipasear el sistema de autenticación de usuarios, [como se indica en la documentación del resource-proxy](https://github.com/Esri/resource-proxy#proxy-files-for-dotnet-java-and-php):
 
 >  **It is not permitted to embed credentials in a resource proxy for the purpose of bypassing Named User authentication** (i.e. the principle that each end-user must have their own unique login). This is true both when using a resource proxy with ArcGIS Online as well as for ArcGIS Server sites federated as part of an ArcGIS Enterprise deployment.
 
-O lo que es lo mismo, usar un proxy para controlar el acceso por parte de diferentes usuarios de un sistema de gestión de usuarios propio a los recursos/contenidos de un único usuario nominal de ArcGIS.
+O lo que es lo mismo, **no se puede usar un proxy para controlar el acceso por parte de diferentes usuarios** (por ejemplo, de un sistema de gestión de usuarios propio) **a los recursos/contenidos de un único usuario nominal de ArcGIS**.
 
 **Q: ¿Es posible adquirir usuarios nominales programáticamente?**
 
-A: A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de usuarios nominales. Sin embargo el proceso de creación y asignación de usuarios nominales utilizado por el [e-commerce de Esri](https://www.esri.com/es-es/store/) está automatizado, por lo que en caso de ser necesario, cualquier desarrollador podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
+A: A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de usuarios nominales. Sin embargo el proceso de creación y asignación de usuarios nominales utilizado por del [e-commerce](https://www.esri.com/es-es/store/) a organizaciones está automatizado por parte de Esri, por lo que en caso de ser necesario, cualquier desarrollador podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
 
 ## Licenciar apps que usan alguna de las Runtime
 
@@ -387,19 +391,20 @@ La extensión incluye capacidades adicionales, herramientas de análisis y datos
 A continuación se describen cinco escenarios a modo ilustrativo:
 
 * **Escenario 1:** Un desarrollador crea una aplicación con la Runtime que usa ArcGIS Online basemaps y geocodificación, además funciona con datos offline en forma de paquetes y web maps offline. La aplicación **no** genera beneficio:
-    * El desarrollador puede licenciar usando el nivel Lite (sin coste) y usar la cuenta de ArcGIS Online incluida en el Plan Essential sin coste. el único coste asociado dependería de si hace consumo de créditos, en ese caso, si se superan los 50 créditos mensuales gratuitos, deberá activar al menos el mecanismo de "Pay as you go".
+    * El desarrollador puede licenciar usando el nivel Lite (**sin coste**) y usar la cuenta de ArcGIS Online incluida en el Plan Essential (**sin coste**). el único coste asociado dependería de si hace consumo de créditos, en ese caso, si se superan los 50 créditos mensuales gratuitos, deberá activar al menos el mecanismo de "Pay as you go".
 
 
 * **Escenario 2:** Un desarrollador crea una aplicación con la Runtime que usa ArcGIS Online basemaps y geocodificación, además funciona con datos offline en forma de paquetes y web maps offline. La aplicación genera beneficio:
-    * El desarrollador puede licenciar usando el nivel Lite (sin coste) pero tiene que adquirir al menos el Plan Builder (o una organización de un usuario) para usar la cuenta de ArcGIS Online. También debería asumir los costes asociados al posible consumo de créditos.
+    * El desarrollador puede licenciar usando el nivel Lite (**sin coste**) **pero tiene que adquirir al menos el Plan Builder (o una organización de un usuario)** para usar la cuenta de ArcGIS Online. También debería asumir los costes asociados al posible consumo de créditos.
 
 
-* **Escenario 3:** Un desarrollador hace una aplicación con la Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline para clientes que tienen ArcGIS Enterprise. La aplicación genera beneficio:
-    * El desarrollador puede licenciar usando el nivel Lite (sin coste).
+* **Escenario 3:** Un desarrollador hace una aplicación con la Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline *para clientes que tienen ArcGIS Enterprise**. La aplicación genera beneficio:
+    * El desarrollador puede licenciar usando el nivel Lite (**sin coste**).
 
 
-* **Escenario 4:** Un desarrollador hace una aplicación con al Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline para clientes que tienen ArcGIS Enterprise. La aplicación soporta edición La aplicación genera beneficio:
-    * El desarrollador necesita licenciar las aplicaciones de Runtime con "Basic"
+* **Escenario 4:** Un desarrollador hace una aplicación con al Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline para clientes que tienen ArcGIS Enterprise. La aplicación **soporta edición**. La aplicación genera beneficio:
+    * El desarrollador necesita licenciar las aplicaciones de Runtime con **"Basic"**
+    * Si el desarrollador decidiese implementar su propio sistema de edición -> **sin coste**
 
 
 * **Escenario 5:** Un desarrollador hace una aplicación con al Runtime que funciona en modo offline con datos en forma de "shapefiles" o ficheros raster. La aplicación genera beneficio.
@@ -422,7 +427,9 @@ No, se pueden desplegar tantas como se quieran.
 
 **Q: ¿Qué puede ocurrir si tengo una licencia Basic/Standad/Advanced autorizada para un número de despliegues y supero este número?**
 
-A: Como se indica en los [términos de uso](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), tendrás que adquirir más licencias como sean necesarias para los despliegues realizados, y si fuera necesario, los desarrolladores podrían ser auditados por Esri para asegurar que se están cumpliendo los términos de uso.
+A: Como se indica en los [términos de uso](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), tendrás que adquirir más licencias como sean necesarias para los despliegues realizados.
+
+> **Aviso**: en un caso extremo, un desarrollador podría ser auditado por Esri para asegurar que se están cumpliendo los términos de uso.
 
 **Q: ¿Puedo crear una aplicación que en lugar de tener la *license key* "hardcodeada" en el código, se introduzca una vez la aplicación está en ejecución? (ya sea por el usuario o de otra forma)**
 
@@ -436,7 +443,7 @@ A: Sí. **Todos** los ArcGIS Developer Plans incluyen esta licencia que se puede
 
 Sí, cada ADS genera una única "Runtime Lite license key". Esta cadena puede ser compartida por todas las aplicaciones Runtime asociadas a la cuenta de ArcGIS for Developers desde la que fue creada. Proteja su clave de licencia - es única para su cuenta de ArcGIS for Developers.
 
-**Q: ¿Cual es la licencia y mecanismo más adecuado si quiero subir mi aplicación móvil al marketplace de Google y/o Apple?**
+**Q: ¿Cuál es la licencia y mecanismo más adecuado si quiero subir mi aplicación móvil al marketplace de Google y/o Apple?**
 
 A: Cualquier mecanismo es válido, dependerá del caso de uso, público objetivo de la app, etc. Abre un issue y cuéntanos tu caso para que podamos ayudarte.
 
@@ -494,7 +501,7 @@ A: Sí.  puedes licenciar una app usando una **license key** de [developers.arcg
 
 **Q: ¿Existen *license keys* perpetuas o hay que renovarlas año a año?**
 
-A: Sí, todas las *license keys* son perpetuas y sólo se pueden adquirir de ese modo.
+A: Sí, **todas las *license keys* son perpetuas** y sólo se pueden adquirir de ese modo.
 
 **Q: ¿Que tipos de ficheros están soportados como ficheros de datos en local? ¿y qué nivel de licenciamiento se requiere para cada uno?**
 
@@ -518,13 +525,17 @@ A: Los ficheros de datos en local son aquellos que se encuentran almancenados en
 
     * Editar datos locales que no sean parte de la plataforma ArcGIS, incluyendo shapefiles and GeoPackages.
 
-** Q: ¿Puedo usar ArcGIS Runtime en un servicio?**
+**Q: ¿Puedo usar librerías de terceros en mi aplicación?**
+
+A: Por supuesto, incluso aunque ofrezcan capacidades similares a las de la propia Runtime. Podrías intentar usar [diewald_shapeFileReader](https://github.com/diwi/diewald_shapeFileReader) o [Java ESRI Shape File Reader](https://sourceforge.net/projects/javashapefilere/) para leer ficheros Shapefile.
+
+**Q: ¿Puedo usar ArcGIS Runtime en un servicio?**
 
 No, como se indica en los [términos de uso específicos de producto](https://www.esri.com/content/dam/esrisites/en-us/media/legal/product-specific-terms-of-use/e300.pdf) (un suplemento al [Master License Agreement](http://www.esri.com/legal/pdfs/mla_e204_e300/english)), en una referencia general a las ArcGIS Runtime SDKs en la nota 19:
 
 > “License may not be used to develop Internet or server-based Value-Added Applications”.
 
-** Q: ¿Dónde puedo encontrar los términos de uso de la Runtime?**
+**Q: ¿Dónde puedo encontrar los términos de uso de la Runtime?**
 
 https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english
 
