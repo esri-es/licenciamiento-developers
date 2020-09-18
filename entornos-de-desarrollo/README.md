@@ -321,15 +321,15 @@ Para más información: developersstartups@esri.es
 
 El Programa de Intercambio de Tecnologías Complementarias o "Complementary Technology Exchange Partner"(CTE) es un programa para proveedores de software que no tienen foco en la geolocalización, pero referentes a nivel nacional o internacional e interesados en hacer un intercambio de tecnología.
 
+Algunos ejemplos de este tipo de empresas son: Garmin International, PubNub, VMware Inc, ... [ver más](https://www.esri.com/en-us/about/esri-partner-network/our-partners/complementary-technology).
+
 El programa incluye:
 * Acceso al software para: desarrollo, fines demostrativos o marketing
 * Además de acceso a formación
 * Asignación de recursos para apoyar en demostraciones y eventos
 * etc.
 
-Para más información
-* [Complementary Technology Exchange (CTE) Partners](https://www.esri.com/en-us/about/esri-partner-network/our-partners/complementary-technology)
-* Contacto: raul.jimenez@esri.es
+Para más información: raul.jimenez@esri.es
 
 ### Otros programas
 
