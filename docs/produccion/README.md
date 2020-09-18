@@ -556,7 +556,7 @@ Los scripts y extensiones no requieren de licencias específicas para producció
 
 El único caso en el que no sería necesario adquirir licencias de ArcGIS Enterprise para producción es si la organización que va a usar el software dispone ya de licencias de ArcGIS Enterprise.
 
-El precio de las licencias variará en función de si son para entornos de producción o pre-producción.
+El precio de las licencias variará en función de si son para entornos de producción (*commercial license**) o pre-producción (*staging server*).
 
 Más información: informacion@esri.es
 
