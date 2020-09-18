@@ -541,11 +541,11 @@ https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-engli
 
 ## Licenciar scripts y extensiones
 
-Los scripts y extensiones no requieren de licencias específicas para producción, es suficiente con que el producto contra el que van a correr esté correctamente licenciado. Independientemente que sean para ArcGIS Desktop (Add-ins, configurations, toolboxes, etc.), ArcGIS Enterprise (SOEs, SOIs, GeoEvent connectors, ...), scripts que hagan uso de la API de Python, API REST, etc.
+Los scripts y extensiones no requieren de licencias específicas para producción, **es suficiente con que el producto contra el que van a correr esté correctamente licenciado**. Independientemente que sean para ArcGIS Desktop (Add-ins, configurations, toolboxes, etc.), ArcGIS Enterprise (SOEs, SOIs, GeoEvent connectors, ...), scripts que hagan uso de la API de Python, API REST, etc.
 
 ## Licenciar apps que usan ArcGIS Enterprise
 
-El único caso en el que no sería necesario adquirir licencias de ArcGIS Enterprise** para producción es si la organización que va a usar el software dispone ya de licencias de ArcGIS Enterprise.
+El único caso en el que no sería necesario adquirir licencias de ArcGIS Enterprise para producción es si la organización que va a usar el software dispone ya de licencias de ArcGIS Enterprise.
 
 Más información: informacion@esri.es
 
@@ -553,7 +553,7 @@ Más información: informacion@esri.es
 
 ArcGIS dispone de múltiples generadores de aplicaciones, algunos de ellos orientados o con versiones para desarrolladores que permiten añadir funcionalidad y/o incorporar nuevos "layouts" a los que ya incluyen por defecto. Nos referimos a: Web AppBuilder Developer Edition, Experience Builder Developer Edition, AppStudio Standard Developer Edition, Survey123, etc.
 
-Al igual que ocurre al licenciar scripts y extensiones, poner en producción cualquier aplicación generada con estos constructores no requieren de licencias específicas. Es suficiente con que la tecnología que vayan a usar estén correctamente licenciadas. Por ejemplo: ArcGIS Online / Enterprise, y en el caso de AppStudio habrá que verificar que la aplicación incorpore el mecanismo de autenticación elegido.
+Al igual que ocurre al licenciar scripts y extensiones, **poner en producción cualquier aplicación generada con estos constructores no requieren de licencias específicas**. Es suficiente con que la tecnología que vayan a usar estén correctamente licenciadas. Por ejemplo: ArcGIS Online / Enterprise, y en el caso de AppStudio habrá que verificar que la aplicación incorpore el mecanismo de autenticación elegido.
 
 > **Observación**: no todos los constructores son gratuitos (por ej: AppStudio Standard Developer Edition), por tanto será necesario disponer de licencia de esta tecnología durante la fase de desarrollo. Más info es: [Obtener y licenciar tecnología ArcGIS para entornos de desarrollo](../entornos-de-desarrollo/README.md)
 
