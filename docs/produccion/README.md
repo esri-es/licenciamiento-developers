@@ -16,18 +16,14 @@
 - [Introducción](#introducci%C3%B3n)
 - [Licenciar apps que usan ArcGIS Online](#licenciar-apps-que-usan-arcgis-online)
   - [Escenarios de ejemplo](#escenarios-de-ejemplo)
-  - [Soporte](#soporte)
   - [Preguntas frecuentes](#preguntas-frecuentes)
 - [Adquirir usuarios nominales](#adquirir-usuarios-nominales)
   - [Tipos y capacidades de usuarios nominales](#tipos-y-capacidades-de-usuarios-nominales)
   - [Preguntas frecuentes](#preguntas-frecuentes-1)
-- [Licenciar apps que usan alguna de las Runtime](#licenciar-apps-que-usan-alguna-de-las-runtime)
+- [Licenciar Runtime apps](#licenciar-runtime-apps)
   - [Mecanismos de licenciamiento](#mecanismos-de-licenciamiento)
-  - [Nivel: Lite](#nivel-lite)
-  - [Nivel: Basic](#nivel-basic)
-  - [Nivel: Standard](#nivel-standard)
-  - [Nivel: Advanced](#nivel-advanced)
-  - [Licenciar apps con extensiones](#licenciar-apps-con-extensiones)
+  - [Niveles](#niveles)
+  - [Extensiones](#extensiones)
   - [Escenarios de ejemplo](#escenarios-de-ejemplo-1)
   - [Preguntas frecuentes](#preguntas-frecuentes-2)
 - [Licenciar scripts y extensiones](#licenciar-scripts-y-extensiones)
@@ -59,50 +55,50 @@ En cualquiera de los dos últimos casos, si el consumo de créditos excede los d
 
 A continuación se describen tres escenarios a modo ilustrativo:
 
-* **Escenario 1) Solución o producto para [organizaciones GISeras](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#organizaciones-giseras)**
-    * Si la aplicación:
-        * [X] Está dirigida a organizaciones que no tienen una cuenta de ArcGIS Online
-        * [X] Y va a alojar en ArcGIS Online los datos privados de la organización.
-    * Entonces: **por cada organización** en esta situación habrá que contratar una organización con al menos un [usuario creator](#tipos-y-capacidades-de-usuarios-nominales).
-    > [!NOTE]
-    > En las preguntas frecuentes se explica una posible fórmula para automatizar el proceso de contratación.
+<!-- tabs:start -->
 
+#### ** Escenario 1 **
 
-* **Escenario 2) Servicios Geoespaciales**
-    * Se ha desarrollado una API que:
-        * [X] Se está monetizando de algún modo
-        * [X] Que utiliza internamente los datos / APIs de nuestra organización de ArcGIS Online
-    * Entonces hará que contratar el Plan Builder (o superior) y si fuese necesario pagar el exceso de créditos.
+**Solución o producto para [organizaciones GISeras](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#organizaciones-giseras)**
 
+* Si la aplicación la compra una organización:
+    * [X] Que **no tiene una cuenta de ArcGIS Online**
+    * [X] Y que necesita **alojar sus datos privados** en ArcGIS Online.
+* Entonces, **por cada organización** en esta situación habrá que contratar una organización con al menos un [usuario creator](#tipos-y-capacidades-de-usuarios-nominales).
 
-* **Escenario 3) Solución o producto que aloja datos privados de la organización en ArcGIS Online**
-    * Entonces: necesitaremos o bien una cuenta de organización con un [usuario creator](#tipos-y-capacidades-de-usuarios-nominales), o cualquiera de los [planes para desarrolladores](../entornos-de-desarrollo/README.md#arcgis-developer-plans-adp) de pago (si necesitamos alguna herramientas adicional para desarrollar la aplicación).
+> [!NOTE]
+> En las preguntas frecuentes se explica una posible fórmula para automatizar el proceso de contratación de organizaciones.
+
+#### ** Escenario 2 **
+
+**Servicios/APIs Geoespaciales**
+
+* Se ha desarrollado una API que:
+    * [X] Se está monetizando
+    * [X] Utiliza internamente los datos / APIs de nuestra organización de ArcGIS Online
+* Entonces habrá que contratar el Plan Builder (o superior), y si fuese necesario pagar el exceso de créditos.
+
+#### ** Escenario 3 **
+
+**Solución o producto que NO aloja datos privados del cliente en ArcGIS Online**
+
+* Si la aplicación la compra una organización:
+    * [X] Que **no tiene una cuenta de ArcGIS Online**
+    * [X] Pero **NO necesita alojar sus datos privados** en ArcGIS Online.
+* Entonces será suficiente con disponer de **una sola cuenta de organización** (la nuestra) para todos los clientes. Con una organización de un [usuario creator](#tipos-y-capacidades-de-usuarios-nominales) o la incluída en cualquiera de los [planes para desarrolladores](../entornos-de-desarrollo/README.md#arcgis-developer-plans-adp) de pago será suficiente
+
+> [!NOTE]
+> Lo lógico sería contratar si necesitamos alguna herramientas incluída en él para el desarrollo de nuestra aplicación.
 
 > [!NOTE]
 > En caso de que no lo supieras, te informamos que las licencias de ArcGIS Desktop incluyen una cuenta de organización de ArcGIS Online que también se podría usar para poner un desarrollo en producción.
+
+<!-- tabs:end -->
 
 Más información:
 
 * [Cualquier duda o pregunta puedes hacerla en los issues](https://github.com/esri-es/licenciamiento-developers/issues)
 * [Contratar ArcGIS Online](https://www.esri.com/es-es/store/arcgis-online)
-
-### Soporte
-
-**Servicio de Soporte Técnico de Esri España**
-
-Todos los planes a partir [Plan Builder](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#plan-builder) incluyen servicio de soporte técnico de Esri España. Este está especialmente diseñado para ayudar en los errores que surjan en el uso de los productos de la Plataforma ArcGIS.
-
-El acceso al servicio se hace a través del Portal de Soporte: [https://soporte.esri.es](https://soporte.esri.es).
-
-Más información en la [web de Esri España](http://bit.ly/1ZLDU1b).
-
-**Comunidad**
-
-En cualquier caso, cualquier persona que lo desee puede recurrir a la comunidad en busca de ayuda sobre errores o cualquier otro tipo de dudas (arquitectura, buenas prácticas, etc).
-
-* [Resolver dudas (Tips & Tricks)](https://community.esri.com/groups/geodev-spain/blog/2018/06/14/resolver-dudas-tips-tricks)
-* [Iniciativas de comunidad en español](https://github.com/esri-es/devsummits-esri-spain/blob/gh-pages/2017/ppts/iniciativas-para-desarrolladores/presentation.md#comunidad)
-* [Iniciativas internacionales de comunidad](https://esri-es.github.io/awesome-arcgis/esri/community/)
 
 
 ### Preguntas frecuentes
@@ -154,6 +150,18 @@ Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el pr�
 
 Debes contactar directamente con suministros de Esri España (cgi@esri.es) y/o a accounts@esri.com (en inglés) indicándoles que quieres cancelar tu suscripción.
 
+---
+
+**PREGUNTA: ¿Incluyen soporte al desarrollo las licencias de ArcGIS Online?**
+
+Todos los productos contratados incluyen soporte técnico de Esri España, aunque este está principalmente dirigido para ayudar a clientes con problemas en el uso de los productos de la Plataforma ArcGIS, más que en dudas concretas de desarrollo.
+
+Es por eso, desde el área de tecnología e innovación, crean recursos para desarrolladores y se dinamiza la comunidad con el objetivo de poder ofrecer otro tipo apoyo y acompañamiento a los desarrolladores.
+
+En los siguentes enlaces puedes consultar los [recursos creados desde Esri España](https://esri-es.github.io/arcgis-developer-resources/#arcgis-developer-resources) y  [otras iniciativas internacionales](https://esri-es.github.io/awesome-arcgis/esri/community/).
+
+Más información sobre el [Soporte de Esri España](http://www.esri.es/sobre-esri/soporte/).
+
 
 ## Adquirir usuarios nominales
 
@@ -170,7 +178,7 @@ Necesitaremos adquirir usuarios nominales cuando hayamos creado una app (web o n
 
 * Que el usuario final pueda formar parte de grupos de una organización de ArcGIS Online/Enterprise
 
-* Que necesitemos licenciar apps creadas con el Runtime usando usuarios nominales.<br>*Veremos más sobre esto en el apartado: [Licenciar apps que usan alguna de las Runtime](#licenciar-apps-que-usan-alguna-de-las-runtime)*.
+* Que necesitemos licenciar apps creadas con el Runtime usando usuarios nominales.<br>*Veremos más sobre esto en el apartado: [Licenciar apps que usan alguna de las Runtime](#licenciar-runtime-apps)*.
 
 Por supuesto, los usuarios nominales van siempre vinculados a una cuenta de organización de ArcGIS Online o ArcGIS Enterprise que a su vez tiene que estar correctamente licenciada.
 
@@ -240,7 +248,7 @@ O lo que es lo mismo, **no se puede usar un proxy para controlar el acceso por p
 
 A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de usuarios nominales. Sin embargo el proceso de creación y asignación de usuarios nominales utilizado por del [e-commerce](https://www.esri.com/es-es/store/) a organizaciones está automatizado por parte de Esri, por lo que en caso de ser necesario, cualquier desarrollador podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
 
-## Licenciar apps que usan alguna de las Runtime
+## Licenciar Runtime apps
 
 Cualquier aplicación creada con una Runtime y puesta en producción tiene que ser licenciada, como mínimo en el nivel "Lite" usando la "License Key" incluida en el "[Plan Essentials](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#plan-essentials)" (gratuito) que además quitará la marca de agua:
 
@@ -266,7 +274,11 @@ Existen dos formas de licenciar una aplicación nativa:
 
 ---
 
-### Nivel: Lite
+### Niveles
+
+<!-- tabs:start -->
+
+#### ** Lite **
 
 **Está incluida en todos los [planes de desarrolladores](https://github.com/esri-es/licenciamiento-developers/tree/master/entornos-de-desarrollo#arcgis-developer-plans-adp)**, incluido el plan gratuito (Essentials). Se puede acceder a ella a través del [cuadro de mando para desarrolladores](https://developers.arcgis.com/dashboard) y se puede usar para poner en aplicaciones en producción sin ningún coste. Lo que habrá que valorar es, en caso de usar  ArcGIS Online / Enterprise, si tiene algún coste licenciarlo
 
@@ -297,7 +309,7 @@ Existen dos formas de licenciar una aplicación nativa:
 
 ---
 
-### Nivel: Basic
+#### ** Basic **
 
 Este nivel está pensado para aplicaciones que además de visualizar información **también puedan editar contenidos**. No podrán hacer análisis, crear o compartir *[items](https://developers.arcgis.com/rest/users-groups-and-items/items-and-item-types.htm)* o datos.
 
@@ -309,19 +321,19 @@ Este nivel está pensado para aplicaciones que además de visualizar informació
 
 **OPCIONES DE LICENCIAMIENTO Y PRECIO APROXIMADO**
 
-> [!DANGER]
-> Los precios que se muestran aquí con orientativos y **pueden no ser exactos**.
-
 |**Opción**|**Coste**|
 |---|---|
 |*License key* (perpetua)|A partir de ~170€ + IVA (por dispositivo y app)|
 |Tipo de usuario mínimo: *editor*|[Ver precio](https://www.esri.com/es-es/store/arcgis-online/user-types#)|
 
+> [!DANGER]
+> Los precios que se muestran aquí con orientativos y **pueden no ser exactos**.
+
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
 ---
 
-### Nivel: Standard
+#### ** Standard **
 
 Este nivel está pensado para aplicaciones que utilizan archivos de datos en local o *[file geodatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/file-formats/gdb/)*.
 
@@ -335,19 +347,19 @@ Este nivel está pensado para aplicaciones que utilizan archivos de datos en loc
 
 **OPCIONES DE LICENCIAMIENTO Y PRECIO APROXIMADO**
 
-> [!DANGER]
-> Los precios que se muestran aquí con orientativos y **pueden no ser exactos**.
-
 |**Opción**|**Coste**|
 |---|---|
 |*License key* (perpetua)|A partir de ~500€ + IVA (por dispositivo y app)|
 |Usuario con licencia de "ArcGIS Runtime Standard" asignada|n.a.|
 
+> [!DANGER]
+> Los precios que se muestran aquí con orientativos y **pueden no ser exactos**.
+
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
 ---
 
-### Nivel: Advanced
+#### ** Advanced **
 
 Este nivel está pensado para aplicaciones que trabajan directamente con ArcGIS Enterprise Geodatabases.
 
@@ -360,68 +372,56 @@ Este nivel está pensado para aplicaciones que trabajan directamente con ArcGIS 
 
 **OPCIONES DE LICENCIAMIENTO Y PRECIO APROXIMADO**
 
-> [!DANGER]
-> Los precios que se muestran aquí con orientativos y **pueden no ser exactos**.
-
 |**Opción**|**Coste**|
 |---|---|
 |*License key* (perpetua)|A partir de ~1000€ + IVA (por dispositivo y app)|
 |Usuario con licencia de "ArcGIS Runtime Advanced" asignada|n.a.|
 
+> [!DANGER]
+> Los precios que se muestran aquí con orientativos y **pueden no ser exactos**.
+
 **Más info**: [developers.arcgis.com/arcgis-runtime/licensing](https://developers.arcgis.com/arcgis-runtime/licensing/)
 
----
+<!-- tabs:end -->
 
-### Licenciar apps con extensiones
 
-Vamos a empezar mostrando dos tablas que resumen los niveles soportados por cada extensión y los mecanismos de licenciamiento. Posteriormente describiremos lo que hacen cada una.
+### Extensiones
 
-**NIVELES**
+Ahora vamos a ver cómo se licencias las aplicaciones que usen algunas de las siguientes extensiones:
 
-|Extension|Lite|Basic|Standard|Advanced|
-|---|---|---|---|---|
-|Utility Network Extension|X|X|X|X
-|StreetMap Premium Extensions|X|X|X|X
-|Analysis Extension|||X|X
+<!-- tabs:start -->
 
-**MECANISMOS DE LICENCIAMIENTO**
+#### ** Utility Network Extension **
 
-|Extension|License Key|Name User|
-|---|---|---|
-|Utility Network Extension|X|Al autenticarnos usando un usuario de tipo "GIS Professional Standard" o "GIS Professional Advanced" automáticamente ya tendremos la extensión habilitada. Para cualquier otro tipo de usuario habría que adquirir una licencia adicional|
-|StreetMap Premium Extensions|X||
-|Analysis Extension|X|Son licencias adicionales que tienen que ser asignadas a un usuario a través del gestor de licencias de ArcGIS Online / Enterprise.|
-
-A continuación se muestra la interfaz para asignar una licencia de la "Analysis Extension" a un usuario nominal a través de ArcGIS Online / Enterprise:
-
-![license-manager-analysis-extension](https://github.com/esri-es/licenciamiento-developers/blob/master/license-manager-analysis-extension.png?raw=true).
-
-Vamos a ver ahora las capacidades que incluyen.
-
-**Utility Network Extension**
-
-Permite ver, consultar y analizar (por ej: trazar) una *utility network*.
+* **¿Qué permite hacer?**: Permite ver, consultar y analizar (por ej: trazar) una *utility network*.
+* **Con qué niveles es compatible?**: con todos (Lite, Basic, ...)
+* **Qué mecanismos de licenciamiento soporta?**:
+    * License key
+    * Usuario nominal: cualquier otro tipo de usuario habría que adquirir una licencia adicional salvo si nos autenticarnos usando un usuario de tipo "GIS Professional Standard" o "GIS Professional Advanced", que automáticamente tendrán la extensión habilitada.
 
 Más info: [developers.arcgis.com/net/latest/wpf/guide/utility-networks.htm](https://developers.arcgis.com/net/latest/wpf/guide/utility-networks.htm)
 
-**StreetMap Premium Extension**
 
-Permite trabajar en modo sin conexión con datos de alta calidad optimizados para ser mostrados, geocodificar y hacer cálculos de rutas.
+#### ** StreetMap Premium Extension **
 
-StreetMap Premium se puede descargar por regiones:
+* **¿Qué permite hacer?**: Permite trabajar en modo sin conexión con datos de alta calidad optimizados para ser mostrados, geocodificar y hacer cálculos de rutas.
+* **Con qué niveles es compatible?**: con todos (Lite, Basic, ...)
+* **Qué mecanismos de licenciamiento soporta?**:
+    * License key
 
-* América del Norte
-* América Latina
-* Europa
-* Asia y el Pacífico
-* Oriente Medio y África
-* Japón
+StreetMap Premium se puede descargar por regiones: Europa , Asia y el Pacífico, Oriente Medio y África, América del Norte, América Latina, Japón.
 
 Cada "mobile map package" tiene que licenciarse por separado con un *license key*. Y por supuesto se pueden usar tantos paquetes como se quiera.
 
 Más info: [developers.arcgis.com/arcgis-runtime/streetmap-premium/](https://developers.arcgis.com/arcgis-runtime/streetmap-premium/)
 
-**Analysis Extension**
+#### ** Analysis Extension **
+
+* **¿Qué permite hacer?**: La extensión incluye capacidades adicionales, herramientas de análisis y datos.
+* **Con qué niveles es compatible?**: Standard y Advanced
+* **Qué mecanismos de licenciamiento soporta?**:
+    * License keys
+    * Usuarios nominales: Son licencias adicionales que tienen que ser asignadas a un usuario a través del gestor de licencias de ArcGIS Online / Enterprise.
 
 La extensión de análisis se podrá adquirir opcionalmente para aquellas aplicaciones que:
 
@@ -433,29 +433,50 @@ La extensión incluye capacidades adicionales, herramientas de análisis y datos
 * Calcular áreas de servicio y encontrar la instalaciones más cercanas usando un *network dataset* en local.
 * Ejecutar geoprocesos en el dispositivo que soporten un subconjunto de las siguientes *toolboxes*: Network Analyst, Spatial Analyst y 3D Analyst.
 
+A continuación se muestra la interfaz para asignar una licencia de la "Analysis Extension" a un usuario nominal a través de ArcGIS Online / Enterprise:
+
+![license-manager-analysis-extension](https://github.com/esri-es/licenciamiento-developers/blob/master/license-manager-analysis-extension.png?raw=true).
+
+<!-- tabs:end -->
+
+
 ### Escenarios de ejemplo
 
 A continuación se describen cinco escenarios a modo ilustrativo:
 
-* **Escenario 1:** Un desarrollador crea una aplicación con la Runtime que usa ArcGIS Online basemaps y geocodificación, además funciona con datos offline en forma de paquetes y web maps offline. La aplicación **no** genera beneficio:
-    * El desarrollador puede licenciar usando el nivel Lite (**sin coste**) y usar la cuenta de ArcGIS Online incluida en el Plan Essential (**sin coste**). el único coste asociado dependería de si hace consumo de créditos, en ese caso, si se superan los 50 créditos mensuales gratuitos, deberá activar al menos el mecanismo de "Pay as you go".
+<!-- tabs:start -->
 
+#### ** Escenario 1 **
 
-* **Escenario 2:** Un desarrollador crea una aplicación con la Runtime que usa ArcGIS Online basemaps y geocodificación, además funciona con datos offline en forma de paquetes y web maps offline. La aplicación genera beneficio:
-    * El desarrollador puede licenciar usando el nivel Lite (**sin coste**) **pero tiene que adquirir al menos el Plan Builder (o una organización de un usuario)** para usar la cuenta de ArcGIS Online. También debería asumir los costes asociados al posible consumo de créditos.
+**DESCRIPCIÓN:** Un desarrollador crea una aplicación con la Runtime que usa ArcGIS Online basemaps y geocodificación, además funciona con datos offline en forma de paquetes y web maps offline. La aplicación **no** genera beneficio:
 
+**COSTE:** El desarrollador puede licenciar usando el nivel Lite (**sin coste**) y usar la cuenta de ArcGIS Online incluida en el Plan Essential (**sin coste**). el único coste asociado dependería de si hace consumo de créditos, en ese caso, si se superan los 50 créditos mensuales gratuitos, deberá activar al menos el mecanismo de "Pay as you go".
 
-* **Escenario 3:** Un desarrollador hace una aplicación con la Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline *para clientes que tienen ArcGIS Enterprise**. La aplicación genera beneficio:
-    * El desarrollador puede licenciar usando el nivel Lite (**sin coste**).
+#### ** Escenario 2 **
 
+**DESCRIPCIÓN:** Un desarrollador crea una aplicación con la Runtime que usa ArcGIS Online basemaps y geocodificación, además funciona con datos offline en forma de paquetes y web maps offline. La aplicación **genera beneficio**.
 
-* **Escenario 4:** Un desarrollador hace una aplicación con al Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline para clientes que tienen ArcGIS Enterprise. La aplicación **soporta edición**. La aplicación genera beneficio:
-    * El desarrollador necesita licenciar las aplicaciones de Runtime con **"Basic"**
-    * Si el desarrollador decidiese implementar su propio sistema de edición -> **sin coste**
+**COSTE:** El desarrollador puede licenciar usando el nivel Lite (sin coste) pero **tiene que adquirir al menos el Plan Builder (o una organización de un usuario)** para usar la cuenta de ArcGIS Online. También debería asumir los costes asociados al posible consumo de créditos.
 
+#### ** Escenario 3 **
 
-* **Escenario 5:** Un desarrollador hace una aplicación con al Runtime que funciona en modo offline con datos en forma de "shapefiles" o ficheros raster. La aplicación genera beneficio.
-    * El desarrollador necesita licenciar las aplicaciones de Runtime con "Standard"
+**DESCRIPCIÓN:** Un desarrollador hace una aplicación con la Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline *para clientes que tienen ArcGIS Enterprise**. La aplicación **genera beneficio**.
+
+**COSTE:** El desarrollador puede licenciar usando el nivel Lite (**sin coste**).
+
+#### ** Escenario 4 **
+
+**DESCRIPCIÓN:** Un desarrollador hace una aplicación con al Runtime que funciona en modo offline con datos en forma de paquetes y web maps offline para clientes que tienen ArcGIS Enterprise. La aplicación **soporta edición**. La aplicación **genera beneficio**.
+
+**COSTE:**
+* El desarrollador necesita licenciar las aplicaciones de Runtime con **"Basic"**
+* En caso de que el desarrollador decidiese implementar su propio sistema de edición **no tendría ningún coste**
+
+#### ** Escenario 5 **
+
+**DESCRIPCIÓN:** Un desarrollador hace una aplicación con al Runtime que funciona en modo offline con datos en forma de "shapefiles" o ficheros raster. La aplicación **genera beneficio**.
+
+**COSTE:** El desarrollador necesita licenciar las aplicaciones de Runtime con "Standard"
 
 Más información:
 
@@ -463,6 +484,7 @@ Más información:
 * [Contratar ArcGIS usuarios nominales](https://www.esri.com/es-es/store/arcgis-online/user-types) (para licenciar)
 * Contratar paquetes de **license keys**: informacion@esri.es
 
+<!-- tabs:end -->
 
 ### Preguntas frecuentes
 
@@ -550,8 +572,6 @@ Imaginemos el siguiente escenario:
 
 En una situación así podríamos optar por usar un licenciamiento "Lite" y crear nuestro propio sistema, aunque hay que tener en cuenta que de este modo no podríamos aprovechar el robusto soporte de edición que ofrece la Runtime para casos online/offline, control de acceso basado en usuarios, ... Pero desde luego sería una forma más económica de licenciar la aplicación.
 
-> Nota: en estate en cuenta que en este caso no podrías aprove
-
 ---
 
 **PREGUNTA: Me aparece una marca de agua en mi aplicación nativa, ¿cómo la quito?**
@@ -574,6 +594,7 @@ Con el nivel *Lite* es suficiente.
 
 **PREGUNTA: ¿Puedo usar Runtime Lite + [Cuentas Pública](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/#account-types)?**
 
+> [!NOTE]
 > Una [cuenta pública de ArcGIS](https://www.arcgis.com/sharing/rest/oauth2/signup?client_id=arcgisonline&redirect_uri=http://www.arcgis.com&response_type=token) es una cuenta gratuita diseñada **para uso personal y no comercial** en la que se puede: crear, almacenar y gestionar mapas, escenas, ... compartir contenido con otros, acceder a contenido compartido por usuarios de Esri y GIS de todo el mundo.
 
 Sí.  puedes licenciar una app usando una **license key** de [developers.arcgis.com](https://developers.arcgis.com/dashboard) y cuando el usuario acceda a la aplicación pedirle sus credenciales para poder acceder a sus items privados.
@@ -590,23 +611,34 @@ Sí, **todas las *license keys* son perpetuas** y sólo se pueden adquirir de es
 
 Los ficheros de datos en local son aquellos que se encuentran almancenados en el dispositivo del usuario, independientemente de como lleguen al dispositivo.
 
-* Nivel Lite:
 
-    * Visualizar [capas y paquetes de la plataforma ArcGIS](https://developers.arcgis.com/net/latest/wpf/guide/layer-types-described.htm). Si los paquetes contienen datos que no sean parte de la plataforma ArcGIS, ver los datos podría requerir de un nivel de licencia superior. Por ejemplo, leer ficheros "raster" en un "mobile map package" o "mobile scene package" necesita licencia "Standard".
+<!-- tabs:start -->
 
-    * Ver capas de servicios en formatos abiertos como WMS o KML, accedidos como un recurso web o usando otros proveedores como Bing u OpenStreetMap. *Friendly reminder*: comprueba si acceder a los servicios que no sean parte de la plataforma necesitan de algún licenciamiento por parte de un tercero.
+#### ** Nivel Lite **
 
-    * Descargar, editar y sincronizar entidades de un servicio de entidades público. Estos servicios están disponibles en Internet y no son seguros.
+* Visualizar [capas y paquetes de la plataforma ArcGIS](https://developers.arcgis.com/net/latest/wpf/guide/layer-types-described.htm). Si los paquetes contienen datos que no sean parte de la plataforma ArcGIS, ver los datos podría requerir de un nivel de licencia superior. Por ejemplo, leer ficheros "raster" en un "mobile map package" o "mobile scene package" necesita licencia "Standard".
 
-* Nivel Basic:
 
-    * Descargar, editar y sincronizar entidades de un servicio de entidades privado. Estos servicios son seguros y/o sólo se pueden acceder a través de una red local.
+* Ver capas de servicios en formatos abiertos como **WMS o KML, accedidos como un recurso web o usando otros proveedores como Bing u OpenStreetMap**.
+> [!WARNING]
+> Friendly reminder*: comprueba si acceder a los servicios que no sean parte de la plataforma necesitan de algún licenciamiento por parte de un tercero.
 
-* Nivel Standard:
 
-    * Ver datos en local que no sean parte de la plataforma ArcGIS, incluyendo KML accedido como recurso, shapefiles, GeoPackages, capas ENC (S-57), ficheros de rasters locales, uso de funciones raster, y fuentes de elevación raster locales. Aunque estos datos podrían haber sido generado con productos ArcGIS, el formato de datos no es propiedad o está gestionado por Esri.
+* Descargar, editar y sincronizar **datos de un servicio de entidades público**. Estos servicios están disponibles en Internet y no son seguros.
 
-    * Editar datos locales que no sean parte de la plataforma ArcGIS, incluyendo shapefiles and GeoPackages.
+#### ** Nivel Basic **
+
+* Descargar, editar y sincronizar entidades de un **servicio de entidades privado**. Estos servicios son seguros y/o sólo se pueden acceder a través de una red local.
+
+#### ** Nivel Standard **
+
+* Ver datos en local que no sean parte de la plataforma ArcGIS, incluyendo **KML accedido como recurso, shapefiles, GeoPackages, capas ENC (S-57), ficheros de rasters locales, uso de funciones raster, y fuentes de elevación raster locales**. Aunque estos datos podrían haber sido generado con productos ArcGIS, el formato de datos no es propiedad o está gestionado por Esri.
+
+
+* Editar datos locales que no sean parte de la plataforma ArcGIS, incluyendo shapefiles and GeoPackages.
+
+<!-- tabs:end -->
+
 
 ---
 

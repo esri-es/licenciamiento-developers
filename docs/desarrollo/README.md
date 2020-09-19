@@ -16,26 +16,11 @@ Si tienes **dudas sobre** cómo acceder a la tecnología necesaria para **desarr
 
 
 - [Introducción](#introducci%C3%B3n)
-- [Programas y planes disponibles](#programas-y-planes-disponibles)
+- [Planes y programas disponibles](#planes-y-programas-disponibles)
   - [ArcGIS Developer Plans (ADP)](#arcgis-developer-plans-adp)
-    - [Plan: Essentials](#plan-essentials)
-    - [Plan: Builder](#plan-builder)
-    - [Plan: Professional](#plan-professional)
-    - [Plan: Premium](#plan-premium)
-    - [Plan: Enterprise](#plan-enterprise)
   - [Programas](#programas)
-    - [Programas de Partners (EPN)](#programas-de-partners-epn)
-    - [Programa de Startups (EBP)](#programa-de-startups-ebp)
-    - [Programa de Intercambio de Tecnologías Complementarias (CTE)](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias-cte)
-    - [Otros programas](#otros-programas)
-      - [Organizaciones sin ánimo de lucro (ONGs)](#organizaciones-sin-%C3%A1nimo-de-lucro-ongs)
-      - [Colegios y otras entidades educativas](#colegios-y-otras-entidades-educativas)
   - [Preguntas frecuentes](#preguntas-frecuentes)
 - [Cómo acceder al software](#c%C3%B3mo-acceder-al-software)
-  - [Organizaciones GISeras](#organizaciones-giseras)
-  - [Compañías de producto](#compa%C3%B1%C3%ADas-de-producto)
-  - [Consultoras de servicios / Integradores](#consultoras-de-servicios--integradores)
-  - [Estudiantes y autónomos](#estudiantes-y-aut%C3%B3nomos)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -60,9 +45,10 @@ Una vez hayamos entendido el licenciamiento para entornos de desarrollo, tratare
 > [!WARNING]
 > Aunque el precio de las licencias para entornos de desarrollo son más económicas, cuando conozcas bien el licenciamiento entenderás que se pueden dar situaciones en las que resulte más económico adquirir directamente licencias para entornos de producción.
 
-## Programas y planes disponibles
+## Planes y programas disponibles
 
 **Empezaremos por los ArcGIS Developer Plans a los que puede acceder cualquier persona u organización**. Posteriormente pasaremos a analizar algunos de los programas específicos para organizaciones que cumplen una serie de requisitos.
+
 
 ### ArcGIS Developer Plans (ADP)
 
@@ -71,7 +57,9 @@ A continuación veremos los cinco "paquetes" de las licencias que se pueden adqu
 > [!NOTE]
 > La información de este apartado ha sido principalmente extraída y **posteriormente enriquecida** a partir de la tabla disponible en [developers.arcgis.com/pricing](https://developers.arcgis.com/pricing/).
 
-#### Plan: Essentials
+<!-- tabs:start -->
+
+#### ** Plan Essentials **
 
 **Precio aproximado:** 0€ y por tiempo ilimitado
 
@@ -88,6 +76,7 @@ Concretamente incluye:
 
     * Runtime SDKs para: [Android](https://developers.arcgis.com/android/), [iOS](https://developers.arcgis.com/ios/), [Java](https://developers.arcgis.com/java/), [macOS](https://developers.arcgis.com/macos/), [.NET](https://developers.arcgis.com/net/), [Qt](https://developers.arcgis.com/qt/) y [WPF](http://resources.arcgis.com/en/help/runtime-wpf/concepts/index.html#/Welcome_to_the_help_for_developing_Operations_Dashboard_for_ArcGIS_add_ins/0170000000np000000/) (deprecated).
 
+
 * **ArcGIS Online**: una cuenta de organización mono-usuario (*sin posibilidad de añadirle más usuarios*) para desarrollo y pruebas que incluye:
 
     * [Usuario creator](/produccion/README#tipos-y-capacidades-de-usuarios-nominales) con 50 créditos mensuales (gratuitos) para para alojar datos en la nube (crear [capas alojadas](https://doc.arcgis.com/en/arcgis-online/manage-data/hosted-web-layers.htm)), acceder a [contenido bajo suscripción y contenido premium del Living Atlas](https://github.com/esri-es/awesome-arcgis/blob/master/arcgis/living-atlas/README.md#limited-access-content) (por ej: datos sociodemográficos), o usar [los servicios/APIs listos para usar](https://github.com/esri-es/awesome-arcgis/tree/master/arcgis/products/arcgis-online/rest-apis/location-based-services#location-based-services) (cálculos de rutas, geocodificaciones, análisis espaciales, ...). <br>
@@ -98,6 +87,7 @@ Concretamente incluye:
 
     * Los más de [7000 items gratuitos del Living Atlas](https://www.arcgis.com/home/group.html?id=47dd57c9a59d458c86d3d6b978560088&view=list&start=1&num=20&searchTerm=-typekeywords%3A%22Requires%20Subscription%22%20-typekeywords%3A%22Requires%20Credits%22#content)
 
+
 * **Constructores** (generadores [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) de aplicaciones):
     * [Web AppBuilder Developer Edition](https://developers.arcgis.com/web-appbuilder/)
 
@@ -105,6 +95,7 @@ Concretamente incluye:
     * [Survey123 website](http://survey123.arcgis.com/) y [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources)
     * [Operations Dashboard](https://esri-es.github.io/awesome-arcgis/arcgis/products/operations-dashboard/)
     * [Aplicaciones configurables](https://www.arcgis.com/home/search.html?q=tags%3AArcGIS%20web%20application%20template%20owner%3Aesri_en&t=content&sortField=modified&sortOrder=desc&start=1) (incluidos los [storymaps](http://storymaps.esri.com/)).
+
 
 * **Github projects**: aunque quizás sobra decirlo, pero también se puede reutilizar o extender cualquiera de los [proyectos publicados por Esri en Github](http://github.com/esri). Por ejemplo: [Koop](https://esri-es.github.io/awesome-arcgis/arcgis/developers/profiles/devops/technologies/koop/), [Esri-Leaflet](https://esri-es.github.io/awesome-arcgis/arcgis/developers/profiles/front-end/technologies/leaflet/), [gis-tools-for-hadoop](https://github.com/Esri/gis-tools-for-hadoop), [terraformer](https://github.com/Esri/terraformer), etc.
 
@@ -148,9 +139,7 @@ Concretamente incluye:
 |Explorer for ArcGIS|[Descargar](http://doc.arcgis.com/en/explorer/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/explorer-for-arcgis/)|Integrable usando [explorer-integration](https://github.com/Esri/explorer-integration).|
 |Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|ArcGIS Online con 50 créditos/mes gratuitos|
 
----
-
-#### Plan: Builder
+#### ** Plan Builder **
 
 **Precio aproximado:** $125/mes | [Contratar](https://developers.arcgis.com/account/billing)
 
@@ -164,9 +153,8 @@ Concretamente incluye:
 |Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos [usuarios creator y tres usuarios viewer](/produccion/README#tipos-y-capacidades-de-usuarios-nominales) + ArcGIS Online con 50 créditos/mes gratuitos|
 |ArcGIS Desktop Basic (ArcGIS Pro & ArcMap)|[Download ArcGIS Pro](http://links.esri.com/pro/download/current) & [ArcMap](http://desktop.arcgis.com/en/arcmap/latest/get-started/main/get-started-with-arcmap.htm#ESRI_SECTION1_1920CFA5E30C477B9BD943844531DE11)|[ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/))|Para preparar y trabajar tus datos, realizar análisis, etc|
 
----
 
-#### Plan: Professional
+#### ** Plan Professional **
 
 **Precio aproximado:** ~2.800€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-professional)
 
@@ -193,38 +181,40 @@ Este plan **además de lo descrito en el Plan Builder** incluye:
 > * O usar ArcMap
 > * O extender [ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/).
 
----
 
-#### Plan: Premium
+#### ** Plan Premium **
 
 **Precio aproximado:** ~5.200€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-premium)
 
-Este plan es como el *Plan Proffessional* pero para proyectos que requieran una gestión avanzada de datos a través de [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Standard.
+Este plan es como el *Plan Professional* pero para proyectos que requieran una gestión avanzada de datos a través de [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Standard.
 
 > [!NOTE]
-> Sólo se incluye una licencia de Desktop y es Standard en lugar de Basic.
+> Se incluye **una licencia** de Desktop de tipo "Standard" (en lugar de "Basic").
 
----
-
-#### Plan: Enterprise
+#### ** Plan Enterprise **
 
 **Precio aproximado:** ~6.800€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-enterprise)
 
-Este plan es como el *Plan Proffessional* pero en este caso incluye licencias de:
+Este plan es como el *Plan Professional* pero en este caso incluye licencias de:
 * [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Advanced.
 * ArcGIS Server roles: [GIS Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/gis-server/), [GeoEvent Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/geoevent-server/), [GeoAnalytics Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/geoanalytics-server/) and [Image Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/image-server/).
 * Entrada para cualquiera de los siguientes Developer Summits: [Palm Springs](http://esri.com/events/devsummit), [Europa](http://www.esri.com/events/devsummit-europe) (Berlin) o [Washington DC](http://www.esri.com/events/devsummit-dc).
 
 > [!NOTE]
-> Sólo se incluye una licencia de Desktop y es Advanced en lugar de Standard.
+> Se incluye **una licencia** de ArcGIS Desktop de tipo "Advanced" (en lugar de "Standard").
+
+<!-- tabs:end -->
+
 
 ### Programas
 
-Ahora que ya sabemos lo que incluyen los diferentes ADPs a los que puede acceder cualquier organización, vamos a ver qué otros programas existen para organizaciones.
+Ahora que ya sabemos lo que incluyen los diferentes ADPs a los que puede acceder cualquier organización, vamos a ver los **programas específicos para cada tipo de organización**.
 
-#### Programas de Partners (EPN)
+<!-- tabs:start -->
 
-Los programas de partners están **diseñados para empresas interesadas en alinear y desarrollar una estrategia de negocio junto a Esri**.
+#### ** Partners **
+
+Los programas de partners (EPN) están **diseñados para empresas interesadas en alinear y desarrollar una estrategia de negocio junto a Esri**.
 
 Existen niveles dentro del [programa de partners](https://www.esri.es/es-es/acerca-de/partners-colaboradores/partners-y-colaboradores) que incluyen diferentes paquetes de software que pueden ser usados con los siguientes fines: demostrativos, de formación y para el desarrollo de una solución propia.
 
@@ -241,7 +231,7 @@ Los niveles del programa están pensados para:
 
 Contacto: noemi.sanchidrian@esri.es | borja.solis@esri.es | informacion@esri.es
 
-#### Programa de Startups (EBP)
+#### ** Emerging Business Partners **
 
 El [Programa de Startups](https://docs.google.com/presentation/d/1v3y7cRC99Rfj34Gziyrxo-X3Y7DuPHhgGvVs5ivx4YQ/edit?usp=sharing) o "Emerging Business Partners" (EBP) es un programa de hasta tres años de duración (sin coste) pensado para empresas:
 
@@ -265,9 +255,9 @@ A diferencia del EPN, en este programa **sólo se incluyen tecnologías directam
 
 Para más información: developersstartups@esri.es
 
-#### Programa de Intercambio de Tecnologías Complementarias (CTE)
+#### ** Technology Exchange Partner **
 
-El Programa de Intercambio de Tecnologías Complementarias o "Complementary Technology Exchange Partner"(CTE) es un programa para proveedores de software que no tienen foco en la geolocalización, pero **referentes a nivel nacional o internacional e interesados en hacer un intercambio de tecnología**.
+El Programa de Intercambio de Tecnologías Complementarias o "Complementary Technology Exchange Partner"(CTE) es un programa para proveedores de software **que no tienen foco en la geolocalización**, pero **referentes a nivel nacional o internacional e interesados en hacer un intercambio de tecnología**.
 
 Algunos ejemplos de este tipo de empresas son: Garmin International, PubNub, VMware Inc, ... [ver más](https://www.esri.com/en-us/about/esri-partner-network/our-partners/complementary-technology).
 
@@ -278,21 +268,25 @@ El programa incluye entre otras cosas:
 
 Para más información: raul.jimenez@esri.es
 
-#### Otros programas
+#### ** Otros **
 
-##### Organizaciones sin ánimo de lucro (ONGs)
+**ORGANIZACIONES SIN ÁNIMO DE LUCRO (ONGs)**
 
 Existe un [programa para ONGs](https://www.esri.com/en-us/solutions/industries/sustainability/nonprofit-program/overview) con licencias anuales con grandes descuentos para: ArcGIS Online, ArcGIS Pro y ArcGIS Enterprise.
 
 Más información: informacion@esri.es
 
-##### Colegios y otras entidades educativas
+---
+
+**COLEGIOS Y OTRAS ENTIDADES EDUCATIVAS**
 
 Existe un **[Programa para Colegios](https://colegios.esri.es/)** que ofrece a estos la posibilidad de acceder gratuitamente a cuentas de ArcGIS Online con usuarios nominales sobre los que se pueden hacer desarrollos.
 
 También existen otro tipo de acuerdos especiales para otro tipo de entidades como pueden ser los **centros de investigación sin ánimo de lucro** que ofrecen programas de formación para estudiantes y programas de post-doctorado. En estos acuerdos las licencias proporcionadas se pueden usar para propósitos de investigación y gestión de los propios centros.
 
 Más información: informacion@esri.es
+
+<!-- tabs:end -->
 
 ### Preguntas frecuentes
 
@@ -317,7 +311,7 @@ Por ejemplo, una licencia de ArcGIS Pro del Plan Builder no se puede usar para v
 
 **PREGUNTA: ¿Para desarrollar una aplicación nativa (móvil o desktop) con capacidades offline necesito adquirir alguna licencia o plan concreto?**
 
-Para desarrollar no. Cuando descargas y empiezas a desarrollar con cualquiera de las SDKs tienes todas las capacidades de todos los niveles disponibles (pero aparece la marca de agua "[Licensed For Developer Use Only](https://github.com/esri-es/licenciamiento-developers/blob/master/license-for-developer-use-only.png?raw=true)"). Para quitar esta marca de agua es necesario licenciar la aplicación para producción, ya sea usando una *license key* o un usuario nominal (ver más sobre los [mecanismos de licenciamiento de las Runtime SDK](#mecanismos-de-licenciamiento)). En ese momento, cuando se licencia la aplicación, es cuando se definen/limitan las capacidades a las que podrá acceder la aplicación.
+Para desarrollar no. Cuando descargas y empiezas a desarrollar con cualquiera de las SDKs tienes todas las capacidades de todos los niveles disponibles (pero aparece la marca de agua "[Licensed For Developer Use Only](https://github.com/esri-es/licenciamiento-developers/blob/master/license-for-developer-use-only.png?raw=true)"). Para quitar esta marca de agua es necesario licenciar la aplicación para producción, ya sea usando una *license key* o un usuario nominal (ver más sobre los [mecanismos de licenciamiento de las Runtime SDK](/produccion/#mecanismos-de-licenciamiento)). En ese momento, cuando se licencia la aplicación, es cuando se definen/limitan las capacidades a las que podrá acceder la aplicación.
 
 Luego dependerá del mecanismo que quieras utilizar para preparar el mapa offline. Para más información ver: [\[DUDA\] Desarrollo de una aplicación con la Runtime que pueda cargar datos alojados en ArcGIS](https://github.com/esri-es/licenciamiento-developers/issues/11).
 
@@ -339,7 +333,7 @@ Los tipos de usuario limitan las capacidades que pueden tener. [Más info](https
 
 **PREGUNTA: ¿Qué licencia necesito para poder extender... ?:**
 
-* [ArcGIS Enterprise](http://doc.arcgis.com/en/operations-dashboard/windows-desktop/author/custom-addins.htm) (crear SOIs o SOEs): En desarrollo requiere al menos del *Proffesional Plan*, pero si dispones de licencias de producción puedes usar esas mismas.
+* [ArcGIS Enterprise](http://doc.arcgis.com/en/operations-dashboard/windows-desktop/author/custom-addins.htm) (crear SOIs o SOEs): En desarrollo requiere al menos del *Professional Plan*, pero si dispones de licencias de producción puedes usar esas mismas.
 
 * [GeoEvent Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/geoevent-server/) (crear conectores o procesadores): las propias licencias de ArcGIS Enterprise y las de GeoEvent Server. En desarrollo requiere del paquete Enterprise, pero si dispones de licencias de producción puedes usar esas mismas.
 
@@ -416,7 +410,11 @@ Veremos tres roles: "organizaciones GISeras", "compañías de producto" y "consu
 >
 > Por ejemplo, Telefónica desempeña el rol de "compañía de producto" cuando tratamos con el equipo que desarrolla su producto [SÉNECA](https://www.esri.com/partners/telefonica-solucione-a2T70000000TRDtEAO/s-neca-a2d70000000hrKmAAI), de "organización GISera" cuando hablamos con su equipo de analistas GIS que usan ArcGIS a diario, y de "consultora de servicios / integrador" cuando presenta en una oferta/pliego realizar un desarrollo para un tercero usando ArcGIS.
 
-### Organizaciones GISeras
+<!-- tabs:start -->
+
+### ** GISeros **
+
+**ORGANIZACIONES GISERAS**
 
 Cuando hablamos de organizaciones GISeras nos referimos a organizaciones (normalmente públicas o de servicios) que:
 
@@ -428,31 +426,38 @@ Cuando la organización cumple estos requisitos dispone de la siguientes formas 
 * A través de un [ArcGIS Developer Plan](#arcgis-developer-plans-adp)
 * A través de alguno de los programas específicos que se ajustan a las necesidades de pequeñas, medianas y grandes administraciones, empresas de "Utilities", Universidades, Centros de Tecnológicos o de Investigación, etc.
 * Mediante productos licenciados individualmente (por ejemplo: para entornos de producción)
-* A través del [programa para organizaciones sin ánimo de lucro](#programa-para-organizaciones-sin-%C3%A1nimo-de-lucro-ongs)
+* A través del programa para organizaciones sin ánimo de lucro ([ver "Otros" programas](#programas)
 
 Si por el contrario las licencias que necesitan:
 
-* Están incluídas en el [Plan Essentials](#plan-essentials) (gratuito)
+* Están incluídas en el [Plan Essentials](#arcgis-developer-plans-adp) (gratuito)
 * O disponen de ellas por alguna contratación previa: [ArcGIS Developer Program](#arcgis-developer-plans-adp), licencias para entornos de producción o algún otro acuerdo corporativo específico.
 
 No tendrán que adquirir nada.
+
+---
+
+**EJEMPLOS DE ORGANIZACIONES GISERAS**
 
 Para que se entienda mejor a lo que nos referimos con "organizaciones GISeras", listamos a continuación (agrupadas por sector) algunas que trabajan con nosotros: ayuntamientos (Madrid, Sevilla, Rivas VaciaMadrid, ...), ministerios (Fomento, INE, IGN, Agricultura y Pesca, Defensa ...), ingenierías (Ferrovial, FCC, Acciona, Valoriza, ...), universidades (facultades de geografía, topografía, ...), electricidad y GAS (Naturgy, Unión Fenosa, ...), seguros (Mapfre, Allianz, ...), infraestructuras y transportes (AENA, ADIF, Puertos del Estado, Puerto de Algeciras, EMT, aeropuertos, ...), aguas (canal de Isabel II, aguas de BCN, aguas de Málaga, ...), inmobiliarias (Idealista, CBRE, JLL, ...), Retail (Alcampo, Carrefour, Covira, Nivea, Nielsen, ...), emergencias y seguridad (Guardia Civil, bomberos, UME, DGT, ...), telcos (Telefónica, Vodaphone, ...), ONGs (Cruz Roja, Médicos Sin Fronteras, ...), etc.
 
 Más información: informacion@esri.es
 
-### Compañías de producto
+
+### ** Producto **
+
+**COMPAÑÍAS DE PRODUCTO**
 
 Cuando hablamos de compañías de producto nos referimos a **organizaciones que quieren usar las APIs, SDKs, ...** para crear, extender o integrar un **producto propio que comercializan a terceros**. Independientemente de que sean contenidos, software o hardware.
 
 Para este tipo de situaciones, **si además la organización está interesada en crear una estrategia win-win con Esri**, existen tres programas:
 
-* [Programa de Partners - EPN](#programas-de-partners-epn):
+* [Programa de Partners - EPN](#programas):
     * Empresas que producto(s) o solucion(es) (sofware + servicios de personalización) basados en ArcGIS
     * Empresas de producto maduras que quieran explorar la posibilidad de explorar la integración con usuarios nominales de ArcGIS.
     * Empresas líderes en su sector que quieran crear una alianza
-* [Programa de Intercambio de Tecnologías Complementarias](#programa-de-intercambio-de-tecnolog%C3%ADas-complementarias-cte): empresas de software líderes interesadas en crear estrategias de intercambio conocimiento y tecnología con el objetivo de hacer desarrollo de negocio.
-* [Programa de Startups](#programa-de-startups-ebp). Para empresas de producto de menos de tres años, que hayan recibido alguna ronda de inversión, y que deseen hacer una integración con ArcGIS.
+* [Programa de Intercambio de Tecnologías Complementarias](#programas): empresas de software líderes interesadas en crear estrategias de intercambio conocimiento y tecnología con el objetivo de hacer desarrollo de negocio.
+* [Programa de Startups](#programas). Para empresas de producto de menos de tres años, que hayan recibido alguna ronda de inversión, y que deseen hacer una integración con ArcGIS.
 
 Si por el contrario la organización sólo desea acceder a las licencias para desarrollar puede hacerlo:
 
@@ -461,16 +466,20 @@ Si por el contrario la organización sólo desea acceder a las licencias para de
 
 La otra posibilidad es que la organización no necesite adquirir nada porque:
 
-* Las licencias están incluídas en el [Plan Essentials](#plan-essentials) (gratuito)
+* Las licencias están incluídas en el [Plan Essentials](#arcgis-developer-plans-adp) (gratuito)
 * La organización **ya forme parte de algún programa o tenga un acuerdo con Esri** que incluya las licencias necesarias **con propósito de desarrollo**.
 * Por que tengan contratado un [ArcGIS Developer Plan](#arcgis-developer-plans-adp) de algún desarrollo previo.
 
+---
 
+**EJEMPLOS DE COMPAÑÍAS DE PRODUCTO**
 
 A continuación listamos algunos ejemplos de las compañías a las que nos referimos como "Compañías de producto" y que ya han desarrollado o adaptado tecnologías para ser más interoperables con ArcGIS: AutoCAD (Autodesk), PowerBI & Excel & Sharepoint (Microsoft), Waze (Google), Mapillary (Facebook), Garmin GPS data (Garmin), Tableau (Tableau LLC), E-Business Suite & Oracle DB (Oracle), Watson & DB2 (IBM), Hana (SAP), Trimble GPS Analyst Extension (Trimble), Séneca (Telefónica), Wildfire (Technosylva), ArcGIS Dev. Kit (Libelium), VMWare (VMWare Inc.), Safegraph (Safegraph Inc), vGIS (vGIS Inc.), AVUXI (AVUXI Ltd), ... Puedes consultar más compañías en: [Awesome ArcGIS - Third party integrations](https://esri-es.github.io/awesome-arcgis/arcgis/integrations/), [Partners Directory](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?solution-type=Data&solution-type=Hardware&solution-type=Software), [ArcGIS Marketplace](https://marketplace.arcgis.com/?start=1&view=grid&sortOrder=desc&sortField=uploaded&type=apps), etc.
 
 
-### Consultoras de servicios / Integradores
+### ** Consultoras **
+
+**CONSULTORAS DE SERVICIOS / INTEGRADORES**
 
 Nos referimos a **organizaciones que hacen proyectos llave en mano o venden servicios de desarrollo para terceros**, ya sean organizaciones GISeras, compañías de producto o cualquier otro tipo de organización.
 
@@ -480,22 +489,26 @@ Cuando una organización de este tipo no dispone de las licencias se pueden dar 
 
 * **Ninguna de las dos organizaciones disponga de todas las licencias**. En este caso la consultora tendría dos opciones:
    1. Adquirir las licencias a través de un [ADP](#arcgis-developer-plans-adp).
-   2. Unirse al [Programa de Partners de Esri](#programas-de-partners-epn). Esta opción es la más adecuada cuando se quiere definir una estrategia de negocio a largo plazo conjunta.
+   2. Unirse al [Programa de Partners de Esri](#programas). Esta opción es la más adecuada cuando se quiere definir una estrategia de negocio a largo plazo conjunta.
 
 La otra posibilidad es que la organización no necesite adquirir nada porque:
 
-* Las licencias estén incluidas en el [Plan Essentials](#plan-essentials)  (gratuito)
+* Las licencias estén incluidas en el [Plan Essentials](#arcgis-developer-plans-adp)  (gratuito)
 * La organización forme parte de algún programa de Esri que tenga incluidas las licencias **con propósito de desarrollo**.
 * Por que tengan contratando un [ArcGIS Developer Plan](#arcgis-developer-plans-adp) de algún proyecto anterior.
 
+---
+
+**EJEMPLOS DE CONSULTORAS DE SERVICIOS / INTEGRADORES**
+
 Para que se entienda mejor a lo que nos referimos con "Consultoras de servicios / Integradores" mostramos a continuación algunos ejemplos de las compañías de este tipo que trabajan con nosotros son: Telefónica, Indra, Everis, Ferrovial, EPTISA TI, Tracasa, Ayesa, Geograma, Nexus Gegrafics, Solusoft, Rossmiman, Idom,  etc. Puedes consultar más compañías en: [Directorio Partners de Servicio de Esri España](https://www.esri.com/en-us/about/esri-partner-network/find-partner/search?location=Spain&services=Application+Development&services=Business+Case+Development&services=Data+Conversion+Migration&services=Data+Model+Database+Design&services=GIS+Strategy+and+Planning&services=Hosting+Services&services=Implementation&services=Needs+and+Requirements&services=System+Architecture+and+Design&services=System+Integration&services=Training+Services)
 
-### Estudiantes y autónomos
+### ** Estudiantes y autónomos **
 
 En este caso nos referimos a **estudiantes de informática o profesionales independientes que quieran hacer algún desarrollo**.
 
 * En cualquier caso:
-    * Pueden usar el [ArcGIS Developer Plan - Plan Essentials](#plan-essentials) para desarrollo, pruebas y proyectos sin ánimo de lucro.
+    * Pueden usar el [ArcGIS Developer Plan - Plan Essentials](#arcgis-developer-plans-adp) para desarrollo, pruebas y proyectos sin ánimo de lucro.
 * Para uso personal y no comercial
     * Pueden adquirir [ArcGIS Desktop for Personal Use](https://www.esri.com/es-es/store/arcgis-personal-use/arcgis-for-personal-use) con licencia anual o perpetua.
     * Pueden adquirir [ArcGIS Desktop for Student Use](https://www.esri.com/es-es/store/arcgis-student-use/arcgis-for-student-use) si es con fines educativos con licencia anual o perpetua.
@@ -503,3 +516,5 @@ En este caso nos referimos a **estudiantes de informática o profesionales indep
     * Pueden optar por cualquiera de los [ArcGIS Developer Plans](#arcgis-developer-plans-adp), empezando por el Essentials que es gratuito.
 
 Más información: desarrolladores@esri.es
+
+<!-- tabs:end -->

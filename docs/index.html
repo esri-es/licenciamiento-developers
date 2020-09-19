@@ -1,93 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Licenciamiento para ArcGIS Developers</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <meta charset="UTF-8">
+  <title>Licenciamiento para ArcGIS Developers</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 </head>
 <body>
-    <nav>
-        <ul>
+  <nav>
+    <!-- <ul>
+    <li>
+    <small><a href="https://github.com/esri-es/licenciamiento-developers/issues">Dudas y sugerencias</a></small>
+  </li>
+  <li>|</li>
+  <li>
+  <small><a href="https://www.youtube.com/playlist?list=PLVfQL04Y8hoLIdS4A4zIAvFL_jKKxqiCK">Webinars</a></small>
+</li>
+</ul> -->
+</nav>
+<div id="app"></div>
+<script>
+window.$docsify = {
+  name: 'ArcGIS Developers',
+  repo: 'https://github.com/esri-es/licenciamiento-developers',
+  loadSidebar: true,
+  subMaxLevel: 4,
+  'flexible-alerts': {
+    note: {
+      label: "NOTA"
+    },
+    tip: {
+      label: "CONSEJO"
+    },
+    warning: {
+      label: "AVISO"
+    },
+    danger: {
+      label: "ATENCIÓN"
+    }
+  },
+  coverpage: true,
+  search: {
+    maxAge: 86400000, // Expiration time, the default one day
+    paths: 'auto',
+    placeholder: 'Escribe aquí lo que buscas...',
+    noData: 'No se encuentran resultados',
+    // Headline depth, 1 - 6
+    depth: 6,
+    hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+  },
+  count:{
+    localization: {
+      words: "palabras",
+      minute: "minutos"
+    }
+  },
+  formatUpdated: '{DD}/{MM}/{YYYY}',
+  pagination: {
+    previousText: 'Anterior',
+    nextText: 'Siguiente',
+    crossChapter: true,
+    crossChapterText: true,
+  },
+  ga: 'UA-163807400-3',
+  plugins: [
+    function(hook, vm) {
+      hook.beforeEach(function (html) {
+        var url = 'https://github.com/esri-es/licenciamiento-developers/blob/master/docs' + vm.router.getFile()
+        var editHtml = '> [!WARNING]\n**En caso de encontrar cualquier incoherencia** con la documentación oficial ([términos y condiciones](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), [FAQ](https://developers.arcgis.com/terms/faq/) o [documentación de licenciamiento de las Runtimes SDKs](https://developers.arcgis.com/pricing/licensing/)) siempre prevalecerá esa documentación. Si encuentras alguna errata o quieres hacer alguna mejora puedes [📝 editar este documento](' + url + '), y en caso de duda por favor [abre un *issue* en Github](https://github.com/esri-es/licenciamiento-developers/issues).\n'
 
-            <li>
-                <small><a href="https://github.com/esri-es/licenciamiento-developers/issues">Dudas y sugerencias</a></small>
-            </li>
-            <li>|</li>
-            <li>
-                <small><a href="https://www.youtube.com/playlist?list=PLVfQL04Y8hoLIdS4A4zIAvFL_jKKxqiCK">Webinars</a></small>
-            </li>
-            <li>
+          return editHtml
+          + html
+          + '\n----\n'
+          + 'ESRI ESPAÑA SOLUCIONES GEOESPACIALES, S.L. | Última actualización: {docsify-updated} '
 
-            </li>
-
-        </nav>
-    </nav>
-    <div id="app"></div>
-    <script>
-    window.$docsify = {
-        name: 'ArcGIS Developers',
-        repo: 'https://github.com/esri-es/licenciamiento-developers',
-        loadSidebar: true,
-        subMaxLevel: 4,
-        'flexible-alerts': {
-            note: {
-              label: "NOTA"
-            },
-            tip: {
-              label: "CONSEJO"
-            },
-            warning: {
-              label: "AVISO"
-            },
-            danger: {
-              label: "ATENCIÓN"
-            }
-        },
-
-        coverpage: true,
-        search: {
-            maxAge: 86400000, // Expiration time, the default one day
-            paths: 'auto',
-            placeholder: 'Escribe aquí lo que buscas...',
-            noData: 'No se encuentran resultados',
-            // Headline depth, 1 - 6
-            depth: 6,
-            hideOtherSidebarContent: false, // whether or not to hide other sidebar content
-        },
-        formatUpdated: '{DD}/{MM}/{YYYY}',
-        plugins: [
-            function(hook, vm) {
-              hook.beforeEach(function (html) {
-                var url = 'https://github.com/esri-es/licenciamiento-developers/blob/master/docs' + vm.router.getFile()
-                var editHtml = '> [!WARNING]\n**En caso de encontrar cualquier incoherencia** con la documentación oficial ([términos y condiciones](https://www.esri.com/en-us/legal/terms/full-master-agreement/mla-e204-e300-english), [FAQ](https://developers.arcgis.com/terms/faq/) o [documentación de licenciamiento de las Runtimes SDKs](https://developers.arcgis.com/pricing/licensing/)) siempre prevalecerá esa documentación. Si encuentras alguna errata o quieres hacer alguna mejora puedes [📝 editar este documento](' + url + '), y en caso de duda por favor [abre un *issue* en Github](https://github.com/esri-es/licenciamiento-developers/issues).\n'
-
-                return editHtml
-                  + html
-                  + '\n----\n'
-                  + 'ESRI ESPAÑA SOLUCIONES GEOESPACIALES, S.L. | [Dudas y sugerencias](https://github.com/esri-es/licenciamiento-developers/issues) | [desarrolladores@esri.es](mailto:desarrolladores@esri.es) | Última actualización: {docsify-updated} '
-
-              })
-            }
-          ]
+          })
+        }
+      ]
     }
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
     <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
     <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163807400-3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-163807400-3');
-    </script>
-    <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-</body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+
+  </body>
+  </html>
