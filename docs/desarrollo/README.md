@@ -51,9 +51,9 @@ De ahí que esta página expliquemos:
 
 * **Programas y planes disponibles**: para entender las diferentes formas de paquetizar y licenciar las tecnologías para que los desarrolladores puedan crear productos.
 
-* **Cómo acceder al software**: para entender a qué programas y planes podremos acceder en función del tipo de organización y rol que desempeñemos.
+* **Preguntas frecuentes**: que suelen surgir a los desarrolladores sobre los programas y los planes de desarrollo.
 
-* **Preguntas frecuentes**: que suelen surgir a los desarrolladores a la hora de decidir cómo afrontar los desarrollos.
+* **Cómo acceder al software**: para entender a qué programas y planes podremos acceder en función del tipo de organización y rol que desempeñemos.
 
 Una vez hayamos entendido el licenciamiento para entornos de desarrollo, trataremos el [licenciamiento para entornos de producción](/produccion/README?id=licenciar-desarrollos-con-arcgis-para-entornos-de-producción), para que podamos entender cuándo es necesario adquirir licencias adicionales antes de poner en producción de nuestro desarrollo.
 
