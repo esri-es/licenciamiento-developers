@@ -59,7 +59,7 @@ A continuación veremos los cinco "paquetes" de las licencias que se pueden adqu
 
 <!-- tabs:start -->
 
-#### ** Plan Essentials **
+#### ** Essentials **
 
 **Precio aproximado:** 0€ y por tiempo ilimitado
 
@@ -139,7 +139,7 @@ Concretamente incluye:
 |Explorer for ArcGIS|[Descargar](http://doc.arcgis.com/en/explorer/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/explorer-for-arcgis/)|Integrable usando [explorer-integration](https://github.com/Esri/explorer-integration).|
 |Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|ArcGIS Online con 50 créditos/mes gratuitos|
 
-#### ** Plan Builder **
+#### ** Builder **
 
 **Precio aproximado:** $125/mes | [Contratar](https://developers.arcgis.com/account/billing)
 
@@ -154,7 +154,7 @@ Concretamente incluye:
 |ArcGIS Desktop Basic (ArcGIS Pro & ArcMap)|[Download ArcGIS Pro](http://links.esri.com/pro/download/current) & [ArcMap](http://desktop.arcgis.com/en/arcmap/latest/get-started/main/get-started-with-arcmap.htm#ESRI_SECTION1_1920CFA5E30C477B9BD943844531DE11)|[ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/))|Para preparar y trabajar tus datos, realizar análisis, etc|
 
 
-#### ** Plan Professional **
+#### ** Professional **
 
 **Precio aproximado:** ~2.800€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-professional)
 
@@ -182,7 +182,7 @@ Este plan **además de lo descrito en el Plan Builder** incluye:
 > * O extender [ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/).
 
 
-#### ** Plan Premium **
+#### ** Premium **
 
 **Precio aproximado:** ~5.200€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-premium)
 
@@ -191,7 +191,7 @@ Este plan es como el *Plan Professional* pero para proyectos que requieran una g
 > [!NOTE]
 > Se incluye **una licencia** de Desktop de tipo "Standard" (en lugar de "Basic").
 
-#### ** Plan Enterprise **
+#### ** Enterprise **
 
 **Precio aproximado:** ~6.800€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-enterprise)
 
