@@ -3,8 +3,8 @@
 # Licenciamiento para ArcGIS Developers
 
 - APIs, SDKs e IDEs de Esri
-- Constructores de aplicaciones web y nativas
 - ArcGIS Online y Enterprise
+- Constructores de aplicaciones web y nativas
 - ArcGIS Desktop para crear tus apps
 - ...
 
