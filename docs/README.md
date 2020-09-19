@@ -10,11 +10,13 @@
 </div>
 
 
-Esta documentación se ha creado principalmente para ser usada como recurso adicional para entender el de coste (si lo hubiese) de:
+Esta documentación se ha creado para ayudar despejar dudas sobre cómo:
 
 * **[Obtener y licenciar tecnología ArcGIS para entornos de desarrollo](desarrollo/README?id=obtener-y-licenciar-tecnolog%c3%ada-arcgis-para-entornos-de-desarrollo)**
 
 * **[Licenciar desarrollos con ArcGIS para entornos de producción](produccion/README?id=licenciar-desarrollos-con-arcgis-para-entornos-de-producción)**
+
+A lo largo de la documentación aprenderemos a calcular el **coste asociado** a nuestros desarrollos y **qué podemos hacer sin ningún coste**.
 
 Además, los [issues del repositorio](https://github.com/esri-es/licenciamiento-developers/issues) se usarán a modo de foro de consulta.
 

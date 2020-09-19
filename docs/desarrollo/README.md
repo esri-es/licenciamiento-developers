@@ -34,7 +34,7 @@ Entender el licenciamiento conlleva un tiempo debido a dos razones principales:
 
 De ahí que esta página expliquemos:
 
-* **Programas y planes disponibles**: para entender las diferentes formas de paquetizar y licenciar las tecnologías para que los desarrolladores puedan crear productos.
+* **Planes y programas disponibles**: para entender las diferentes formas de paquetizar y licenciar las tecnologías para que los desarrolladores puedan crear productos.
 
 * **Preguntas frecuentes**: que suelen surgir a los desarrolladores sobre los programas y los planes de desarrollo.
 
