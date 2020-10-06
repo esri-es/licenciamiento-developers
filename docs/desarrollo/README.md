@@ -208,7 +208,15 @@ Este plan es como el *Plan Professional* pero en este caso incluye licencias de:
 
 ### Programas
 
-Ahora que ya sabemos lo que incluyen los diferentes ADPs a los que puede acceder cualquier organización, vamos a ver los **programas específicos para cada tipo de organización**.
+Ahora que ya sabemos lo que incluyen los diferentes ADPs a los que puede acceder cualquier organización. La siguiente imagen muestra un resumen de algunos de los programas específicos para diferentes tipos de organizaciones y sus diferencias:
+
+[![Formas de acceder a la tecnologia.png](../_media/Resumen_programas_arcgis.png)](../_media/Resumen_programas_arcgis.png)
+
+
+A continuación vamos a ver el detalle de algunos de ellos.
+
+Para información sobre otros programas: informacion@esri.es
+
 
 <!-- tabs:start -->
 
