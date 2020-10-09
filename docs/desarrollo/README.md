@@ -153,6 +153,8 @@ Concretamente incluye:
 |Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos [usuarios creator y tres usuarios viewer](/produccion/README#tipos-y-capacidades-de-usuarios-nominales) + ArcGIS Online con 50 créditos/mes gratuitos|
 |ArcGIS Desktop Basic (ArcGIS Pro & ArcMap)|[Download ArcGIS Pro](http://links.esri.com/pro/download/current) & [ArcMap](http://desktop.arcgis.com/en/arcmap/latest/get-started/main/get-started-with-arcmap.htm#ESRI_SECTION1_1920CFA5E30C477B9BD943844531DE11)|[ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/))|Para preparar y trabajar tus datos, realizar análisis, etc|
 
+> [!NOTE]
+> ¿No sabes qué incluye ArcGIS Desktop Basic? revisa la [matriz de funcionalidad](https://esri-es.github.io/arcgis-search/?amp%3Butm_source=opensearch&search=%22arcgis+desktop%22+functionality+matrix+filetype%3Apdf#gsc.tab=0&gsc.q=%22functionality%20matrix%22%20AND%20%22arcgis%20desktop%22%20filetype%3Apdf&gsc.sort=)
 
 #### ** Professional **
 
@@ -175,6 +177,9 @@ Este plan **además de lo descrito en el Plan Builder** incluye:
 |ArcObjects SDK for .NET|[my.esri.com](https://my.esri.com/#/downloads/Developer%20Tools)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm)|
 |ArcObjects SDK for Java|[my.esri.com](https://my.esri.com/#/downloads/Developer%20Tools)|[Documentación](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm)|
 
+> [!NOTE]
+> ¿No sabes qué incluye ArcGIS Enterprise Advanced? revisa la [matriz de funcionalidad](https://esri-es.github.io/arcgis-search/?amp%3Butm_source=opensearch&search=%22arcgis+desktop%22+functionality+matrix+filetype%3Apdf#gsc.tab=0&gsc.q=%22functionality%20matrix%22%20AND%20%22arcgis%20desktop%22%20filetype%3Apdf&gsc.sort=)
+
 > [!Note]
 > Se podría decir que este plan está pensando principalmente para aquellos que necesitan:
 > * [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) para sus desarrollos, ya sea porque quieren extenderlo mediante los SOIs/SOEs, porque necesiten usar [GeoDatabases](https://esri-es.github.io/awesome-arcgis/arcgis/content/data-storage/geodatabase/) o porque sus aplicaciones requieren de geoprocesos.
@@ -191,6 +196,9 @@ Este plan es como el *Plan Professional* pero para proyectos que requieran una g
 > [!NOTE]
 > Se incluye **una licencia** de Desktop de tipo "Standard" (en lugar de "Basic").
 
+> [!NOTE]
+> ¿No sabes qué incluye ArcGIS Desktop Standard? revisa la [matriz de funcionalidad](https://esri-es.github.io/arcgis-search/?amp%3Butm_source=opensearch&search=%22arcgis+desktop%22+functionality+matrix+filetype%3Apdf#gsc.tab=0&gsc.q=%22functionality%20matrix%22%20AND%20%22arcgis%20desktop%22%20filetype%3Apdf&gsc.sort=)
+
 #### ** Enterprise **
 
 **Precio aproximado:** ~6.800€/año + I.V.A. | [Ver precio actualizado](https://www.esri.com/es-es/store/arcgis-developers/arcgis-developers-subscription-enterprise)
@@ -203,6 +211,9 @@ Este plan es como el *Plan Professional* pero en este caso incluye licencias de:
 > [!NOTE]
 > Se incluye **una licencia** de ArcGIS Desktop de tipo "Advanced" (en lugar de "Standard").
 
+> [!NOTE]
+> ¿No sabes qué incluye ArcGIS Desktop Advanced? revisa la [matriz de funcionalidad](https://esri-es.github.io/arcgis-search/?amp%3Butm_source=opensearch&search=%22arcgis+desktop%22+functionality+matrix+filetype%3Apdf#gsc.tab=0&gsc.q=%22functionality%20matrix%22%20AND%20%22arcgis%20desktop%22%20filetype%3Apdf&gsc.sort=)
+
 <!-- tabs:end -->
 
 
@@ -210,7 +221,7 @@ Este plan es como el *Plan Professional* pero en este caso incluye licencias de:
 
 Ahora que ya sabemos lo que incluyen los diferentes ADPs a los que puede acceder cualquier organización. La siguiente imagen muestra un resumen de algunos de los programas específicos para diferentes tipos de organizaciones y sus diferencias:
 
-[![Formas de acceder a la tecnologia.png](../_media/Resumen_programas_arcgis.png)](../_media/Resumen_programas_arcgis.png)
+[![Formas de acceder a la tecnologia.png](../_media/Resumen_programas_arcgis.png)](https://raw.githubusercontent.com/esri-es/licenciamiento-developers/master/docs/_media/Resumen_programas_arcgis.png)
 
 
 A continuación vamos a ver el detalle de algunos de ellos.
