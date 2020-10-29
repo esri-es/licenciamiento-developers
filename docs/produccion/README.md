@@ -17,7 +17,7 @@
 - [Licenciar apps que usan ArcGIS Online](#licenciar-apps-que-usan-arcgis-online)
   - [Escenarios de ejemplo](#escenarios-de-ejemplo)
   - [Preguntas frecuentes](#preguntas-frecuentes)
-- [Adquirir usuarios nominales](#adquirir-usuarios-nominales)
+- [Adquirir usuarios](#adquirir-usuarios)
   - [Tipos y capacidades de usuarios nominales](#tipos-y-capacidades-de-usuarios-nominales)
   - [Preguntas frecuentes](#preguntas-frecuentes-1)
 - [Licenciar Runtime apps](#licenciar-runtime-apps)
@@ -110,9 +110,9 @@ Más información:
 
 **PREGUNTA: ¿Puedo mostrar datos geolocalizados que estén protegidos/privados y que no estén alojados en ArcGIS en mi aplicación?**
 
-Sí. Si quieres hacer una integración con otra base de datos o sistema de registro puedes hacerlo sin problema ya que las APIs y SDKs disponen de capas gráficas para pintar manualmente datos.
+Sí. Si quieres hacer una integración con otra base de datos o sistema de registro puedes hacerlo sin problema ya que las APIs y SDKs disponen de capas gráficas para pintar manualmente datos además de clases para cargar directamente datos en KML, GeoJSON y otros estándares que no tienen por qué estar alojados en ArcGIS.
 
-Una alternativa a usar las capas gráficas es usar [Koop](https://esri-es.github.io/awesome-arcgis/arcgis/developers/profiles/devops/technologies/koop/) para servir tus datos en el formativo nativo de ArcGIS, de este modo puedes beneficiarte de clases como las FeatureLayers para cargar tus datos y los Web Maps.
+Una alternativa a las capas gráficas y las clases anteriores es usar [Koop](https://esri-es.github.io/awesome-arcgis/arcgis/developers/profiles/devops/technologies/koop/) que permite servir los datos en el formativo nativo de ArcGIS, de este modo puedes beneficiarte de clases como las FeatureLayers para cargar tus datos, también en los Web Maps.
 
 Algunas situaciones en las que se puede considerar esta opción son:
 
@@ -128,19 +128,19 @@ Algunas situaciones en las que se puede considerar esta opción son:
 
 ---
 
-**PREGUNTA: Si quiero que mis usuarios puedan utilizar servicios de análisis, ¿tienen que tener un usuario nominal?**
+**PREGUNTA: Si quiero que mis usuarios puedan utilizar servicios de análisis, ¿tienen que tener un usuario de ArcGIS?**
 
 No, como desarrollador puedes hacer que los créditos consumidos por los análisis realizados por tus usuarios se carguen a tu cuenta, y tú si quieres puede cobrar a su vez un sobre-cargo y quedarte con un margen. Esto es igual de válido tanto para las aplicaciones nativas como para las web.
 
 ---
 
-**PREGUNTA: ¿Es posible adquirir organizaciones de ArcGIS Online programáticamente?**
+**PREGUNTA: ¿Hay alguna API para crear/comprar organizaciones de ArcGIS Online?**
 
 A fecha de hoy (16/09/2020) no existe una API para automatizar la adquisición de organizaciones. Sin embargo el proceso de creación de cuentas utilizado por el [e-commerce de Esri](https://www.esri.com/es-es/store/) está automatizado, por lo que en caso de ser necesario se podría automatizar el proceso de compra de organizaciones usando [puppeteer](https://github.com/puppeteer/puppeteer) o alguna tecnología similar.
 
 ---
 
-**PREGUNTA: ¿Qué pasa si me quedo sin créditos?**
+**PREGUNTA: ¿Qué pasa si me consumo los créditos de mi cuenta?**
 
 Si estás usando el plan gratuito de 50 créditos, tendrás esperar hasta el próximo mes (cuando se te vuelvan a asignar otros 50 créditos) o activar el pay as you go. Otra opción posible es [comprar un paquete de 1000 créditos](https://www.esri.com/es-es/store/arcgis-online/arcgis-online-credits?from=sso&CustomerNumber=3501). [Más información sobre el funcionamiento de los créditos](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/credits/)
 
@@ -163,7 +163,7 @@ En los siguentes enlaces puedes consultar los [recursos creados desde Esri Espa�
 Más información sobre el [Soporte de Esri España](http://www.esri.es/sobre-esri/soporte/).
 
 
-## Adquirir usuarios nominales
+## Adquirir usuarios
 
 > [!TIP]
 > **Si no sabes lo que son los usuarios nominales**, te recomendamos que antes de empezar leas el siguiente resumen: "[Qué son y como funcionan los usuarios nominales](https://esri-es.github.io/awesome-arcgis/arcgis/account-types/name-users/)".
@@ -188,10 +188,10 @@ A la hora de usar usuarios nominales en nuestros desarrollo podemos usar los usu
 
 |Tipo|Capacidades|Apps|
 |---|---|---|
-|**Viewer** (anteriormente usuarios de nivel 1)|Pueden ver elementos que otros usuarios de ArcGIS compartan con ellos. Viewers no pueden crear, editar, compartir ni realizar análisis en elementos ni datos|[Essential Apps Bundle](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)
-|**Editor**|Pueden ver y editar datos en mapas y aplicaciones de ArcGIS que otros usuarios de ArcGIS compartan con ellos. No pueden analizar, crear ni compartir elementos ni datos|[Essential Apps Bundle](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)
-|**Field Worker**|Pueden ver y editar datos que otros usuarios de ArcGIS hayan compartido con ellos. No pueden analizar, crear ni compartir elementos ni datos.|[Essential Apps y Field Apps bundles](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)
-|**Creator** (anteriormente usuarios de nivel 2)|Tienen todas las capacidades de los tipos de usuario Viewer, Editor y Field Worker, además de la capacidad de crear contenido, administrar la organización y compartir contenido.|[Essential Apps, Field Apps, and Office Apps bundles](https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/arcgis-online-subscriptions#apps)
+|**Viewer** (anteriormente usuarios de nivel 1)|Pueden ver elementos que otros usuarios de ArcGIS compartan con ellos. Viewers no pueden crear, editar, compartir ni realizar análisis en elementos ni datos|[Essential Apps Bundle](https://www.esri.com/en-us/arcgis/products/user-types/explore/viewer#apps)
+|**Editor**|Pueden ver y editar datos en mapas y aplicaciones de ArcGIS que otros usuarios de ArcGIS compartan con ellos. No pueden analizar, crear ni compartir elementos ni datos|[Essential Apps Bundle](https://www.esri.com/en-us/arcgis/products/user-types/explore/editor#apps)
+|**Field Worker**|Pueden ver y editar datos que otros usuarios de ArcGIS hayan compartido con ellos. No pueden analizar, crear ni compartir elementos ni datos.|[Essential Apps y Field Apps bundles](https://www.esri.com/en-us/arcgis/products/user-types/explore/field-worker#apps)
+|**Creator** (anteriormente usuarios de nivel 2)|Tienen todas las capacidades de los tipos de usuario Viewer, Editor y Field Worker, además de la capacidad de crear contenido, administrar la organización y compartir contenido.|[Essential Apps, Field Apps, and Office Apps bundles](https://www.esri.com/en-us/arcgis/products/user-types/explore/creator#apps)
 |...|...|...
 
 Los **precios** los puedes consultar en: [esri.com/es-es/store/arcgis-online/user-types](https://www.esri.com/es-es/store/arcgis-online/user-types#)
@@ -514,7 +514,7 @@ La *license key* tiene que establecerse para inicializar el Runtime antes de que
 
 ---
 
-**PREGUNTA: ¿Puedo usar la "Runtime Lite license key" que aparece en el [Developer Dashboard](https://developers.arcgis.com/dashboard) de cualquier ADS para un entorno de producción?**
+**PREGUNTA: ¿Puedo usar la "Runtime Lite license key" que aparece en el [Developer Dashboard](https://developers.arcgis.com/dashboard) de cualquier ADP para un entorno de producción?**
 
 Sí. **Todos** los ArcGIS Developer Plans incluyen esta licencia que se puede usar en producción bajo las condiciones descritas en [Nivel: Lite](#nivel-lite).
 
@@ -522,7 +522,7 @@ Sí. **Todos** los ArcGIS Developer Plans incluyen esta licencia que se puede us
 
 **PREGUNTA: ¿Las *license key* de ArcGIS Runtime "Lite" son únicas?**
 
-Sí, cada ADS genera una única "Runtime Lite license key". Esta cadena puede ser compartida por todas las aplicaciones Runtime asociadas a la cuenta de ArcGIS for Developers desde la que fue creada. Proteja su clave de licencia - es única para su cuenta de ArcGIS for Developers.
+Sí, cada ADP genera una única "Runtime Lite license key". Esta cadena puede ser compartida por todas las aplicaciones Runtime asociadas a la cuenta de ArcGIS for Developers desde la que fue creada. Proteja su clave de licencia - es única para su cuenta de ArcGIS for Developers.
 
 ---
 

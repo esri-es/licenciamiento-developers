@@ -151,7 +151,9 @@ Concretamente incluye:
 |AppStudio for ArcGIS Developer Edition|[Descargar](https://doc.arcgis.com/en/appstudio/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/appstudio/)|Con más de [60 ejemplos de código](https://github.com/Esri/arcgis-appstudio-samples) para acelerar la creación de aplicaciones multiplataforma.|
 |Survey123 for ArcGIS source code|[Descargar](https://doc.arcgis.com/en/survey123/download/)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/survey123/)|n.a.|
 |Organización  de ArcGIS Online|[arcgis.com](https://www.arcgis.com)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/)|Con dos [usuarios creator y tres usuarios viewer](/produccion/README#tipos-y-capacidades-de-usuarios-nominales) + ArcGIS Online con 50 créditos/mes gratuitos|
-|ArcGIS Desktop Basic (ArcGIS Pro & ArcMap)|[Download ArcGIS Pro](http://links.esri.com/pro/download/current) & [ArcMap](http://desktop.arcgis.com/en/arcmap/latest/get-started/main/get-started-with-arcmap.htm#ESRI_SECTION1_1920CFA5E30C477B9BD943844531DE11)|[ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/) & [ArcMap](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcmap-arccatalog/))|Para preparar y trabajar tus datos, realizar análisis, etc|
+|ArcGIS Desktop Basic (ArcGIS Pro & ArcMap)|[Download ArcGIS Pro](http://links.esri.com/pro/download/current)|[ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) Basic ([ArcGIS Pro](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/))|Para preparar y trabajar tus datos, realizar análisis, etc. Al instalar ArcGIS Desktop también se instala **[ArcPy](https://esri-es.github.io/awesome-arcgis/arcgis/developers/profiles/back-end/technologies/python/#arcpy)**|
+|Navigator for ArcGIS|[Descargar](https://www.esri.com/en-us/arcgis/products/arcgis-navigator/resources)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/navigator-for-arcgis/)|Aplicación de navegación capaz de consumir rutas personalizadas y funcionar en modo offline. Puedes integrarlo en tus flujos gracias a [su esquema de URLs](https://github.com/Esri/navigator-integration).
+|Tracker for ArcGIS|[Descargar](https://www.esri.com/en-us/arcgis/products/arcgis-tracker/resources)|[Documentación](https://esri-es.github.io/awesome-arcgis/arcgis/products/tracker-for-arcgis/)|Trackea información de tus usuarios en tiempo real.
 
 > [!NOTE]
 > ¿No sabes qué incluye ArcGIS Desktop Basic? revisa la [matriz de funcionalidad](https://esri-es.github.io/arcgis-search/?amp%3Butm_source=opensearch&search=%22arcgis+desktop%22+functionality+matrix+filetype%3Apdf#gsc.tab=0&gsc.q=%22functionality%20matrix%22%20AND%20%22arcgis%20desktop%22%20filetype%3Apdf&gsc.sort=)
@@ -164,7 +166,6 @@ Este plan **además de lo descrito en el Plan Builder** incluye:
 * [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) (Advanced).
 * [ArcGIS Pro SDK for .NET](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/), [ArcObjects SDK for .NET](http://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#f7237f0b-128f-4d39-b2a5-9904818c5e0d.htm) y [ArcObjects SDK for Java](http://desktop.arcgis.com/en/arcobjects/latest/java/#80146cac-6b50-4c82-a9f5-7a5be3406c5b.htm) para extender [ArcGIS Desktop](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/) y [ArcGIS Enterprise](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/) con herramientas personalizadas.
 * [ArcGIS Engine](http://www.esri.com/software/arcgis/arcgisengine).
-* [Navigator for ArcGIS](http://www.esri.com/products/navigator), puedes usarlo para calcular rutas gracias a [su esquema de URLs](https://github.com/Esri/navigator-integration).
 * Capabilities for [ArcGIS Server](https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/): 3D Analyst for Server, [Network Analyst](https://esri-es.github.io/awesome-arcgis/arcgis/products/extensions/network-analyst/) for Server, Spatial Analyst for Server, etc.
 * [ArcGIS Utility Network Management](https://www.esri.com/en-us/arcgis/products/arcgis-utility-network-management/overview) extension para ArcGIS Enterprise
 * ArcGIS Desktop Extensions: Advanced 3D, [Network Analyst](https://esri-es.github.io/awesome-arcgis/arcgis/products/extensions/network-analyst/) y Spatial Analysis
@@ -270,7 +271,7 @@ En este programa se incorporan licencias no sólo con propósito de demostració
 A diferencia del EPN, en este programa **sólo se incluyen tecnologías directamente vinculadas al desarrollo**.
 
 > [!WARNING]
-> A fecha del 15/09/2020 no se pueden acceder a través de este programa tecnologías como: Tacker for ArcGIS, Analytics for IoT, ArcGIS Indoors, ArcGIS Urban, etc.
+> A fecha del 29/10/2020 no se pueden acceder a través de este programa a: ArcGIS Velocity, ArcGIS Indoors, ArcGIS Urban.
 
 Para más información: developersstartups@esri.es
 
@@ -314,7 +315,7 @@ Más información: informacion@esri.es
 
 ---
 
-**PREGUNTA: Ya tengo licencias de ArcGIS Pro, ArcGIS Enterprise, ... ¿necesito adquirir un ADS para poder extenderlo?**
+**PREGUNTA: Ya tengo ArcGIS Pro, ArcGIS Enterprise, ... ¿necesito adquirir un ADP para poder extenderlo?**
 
 No, si ya tienes las licencias, aunque sean para entornos de producción, puedes acceder a las tecnologías necesarias para poder extenderlos.
 
@@ -370,13 +371,13 @@ Una vez creados el AppID y el AppSecret el resto del equipo puede construir las 
 
 **PREGUNTA: ¿Cómo activo mis licencias?**
 
-A continuación te dejamos un vídeo donde podrás ver los **[pasos de activación de un ADS](https://www.youtube.com/watch?v=9LFJXEEc6zA)**.
+A continuación te dejamos un vídeo donde podrás ver los **[pasos de activación de un ADP](https://www.youtube.com/watch?v=9LFJXEEc6zA)**.
 
 Para más información consulta la siguiente página: [www.esri.es/activacion-licencias](http://www.esri.es/activacion-licencias/)
 
 ---
 
-**PREGUNTA: ¿Desde donde se descargan las licencias del software asociado a mi ADS?**
+**PREGUNTA: ¿Desde donde se descargan las licencias del software asociado a mi ADP?**
 
 A continuación de tejamos otro vídeo: **[Download software licences from my.esri.com](https://www.youtube.com/watch?v=MzpuoXtZUU8)**.
 
@@ -394,7 +395,7 @@ No, el software licenciado mediante el EDN no se ve afectado, se aplican los mis
 
 ---
 
-**PREGUNTA: ¿Incluyen soporte al desarrollo los ADS?**
+**PREGUNTA: ¿Incluyen soporte al desarrollo los ADP?**
 
 Todos los planes salvo el *Essentials* incluyen soporte técnico de Esri España, aunque este está principalmente dirigido para ayudar a clientes con problemas en el uso de los productos de la Plataforma ArcGIS, más que en dudas concretas de desarrollo.
 

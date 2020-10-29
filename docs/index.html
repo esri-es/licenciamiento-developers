@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Licenciamiento para ArcGIS Developers</title>
+    <title>ArcGIS Developers Pricing</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -82,6 +82,10 @@ window.$docsify = {
     }
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+    <!-- Hack to 'fix' problem with scroolTo anchor -->
+    <script src="https://cdn.jsdelivr.net/gh/rizdaprasetya/docsify-fix-pageload-scroll@master/index.js"></script>
+
     <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
     <!-- <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
@@ -91,18 +95,18 @@ window.$docsify = {
     <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
     <script>
-    function jump(h){
-        var url = location.href;               //Save down the URL without hash.
-        location.href = "#"+h;                 //Go to the target element.
-        history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
-    }
-    var hasLink = window.location.hash.split("?id=")[1]
-    if(hasLink){
-        setTimeout(function(){
-            console.log(hasLink)
-            jump(hasLink)
-        },1000)
-    }
+    // function jump(h){
+    //     var url = location.href;               //Save down the URL without hash.
+    //     location.href = "#"+h;                 //Go to the target element.
+    //     history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
+    // }
+    // var hasLink = window.location.hash.split("?id=")[1]
+    // if(hasLink){
+    //     setTimeout(function(){
+    //         console.log(hasLink)
+    //         jump(hasLink)
+    //     },1000)
+    // }
     </script>
 </body>
 </html>
